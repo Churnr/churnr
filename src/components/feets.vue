@@ -1,7 +1,12 @@
 <template>
     <footer>
         <div class="footer-column">
-            <h3>Produkter</h3>
+            <h3>LOGO</h3>
+        </div>
+        <div class="footer-column">
+            <h3>Produkt</h3>
+            <p>Privat person</p>
+            <p>Erhvers person</p>
             <p>Privat person</p>
             <p>Erhvers person</p>
         </div>
@@ -13,28 +18,23 @@
             <p>Erhvers person</p>
         </div>
         <div class="footer-column">
-            <h3>Spørgsmål</h3>
-            <p>Privat person</p>
-            <p>Erhvers person</p>
-            <p>Privat person</p>
-            <p>Erhvers person</p>
+            <h3>Resourcer</h3>
+            <p>Betingelser</p>
+            <p>Privatlivspolitik</p>
+            <p>Presse</p>
+            <p>Job</p>
         </div>
         <div class="footer-column">
             <h3>Kontakt</h3>
-            <p>Presse</p>
-            <p>Privat person</p>
-            <p>Erhvers person</p>
-            <p>Privat person</p>
-            <p>Erhvers person</p>
+            <p>hej@mundane.dk</p>
+            <p>+45 42 74 12 42</p>
+            <p>CVR-NR: 12345678</p>
+            <p>Rutevejledning</p>
         </div>
     </footer>
     <section class="footer-bottom">
           <span>
-            <p>Status</p>
-            <p>Privatlivspolitik</p>
-            <p>Betingelser</p>
-            <p>Cookie indstillinger</p>
-            <p>Kontakt os</p>
+            <p>LOGO</p>
           </span>
           <span>
             <i class="fab fa-twitter"></i>
@@ -55,33 +55,32 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 footer {
     height: auto;
-    width: 1440px;
+    width: 1350px;
     margin: 0 auto;
     padding: 75px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 footer h3 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
 footer p {
   font-weight: 400;
   font-size: 16px;
-  margin: 25px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 0;
 }
 .footer-bottom {
   border-top: 1px solid #C0C0C0;
   box-sizing: border-box;
-  width: 1440px;
+  width: 1350px;
   margin: 0 auto;
   padding: 25px 0;
   display: flex;

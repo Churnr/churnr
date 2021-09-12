@@ -6,10 +6,9 @@
 <template>
   <section class="productOverview">
     <div class="productOverview-content">
-      <h2>Lorem ipsum dolor sit amet.</h2>
+      <h2>Et kraftfuldt værktøj, når du har brug for det</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-        repellat molestiae quasi molestias, voluptatibus cumque.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur placeat natus est accusamus laborum nisi cumque doloribus veritatis! Saepe aspernatur soluta nostrum quo sit!
       </p>
       <img src="../assets/productMockup.png" alt="">
     </div>
@@ -35,22 +34,28 @@ export default {
 }
 .productOverview-content {
   height: inherit;
-  width: 1440px;
+  width: 1350px;
   padding: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .productOverview-content h2{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 .productOverview-content p{
     font-size: 20px;
+    line-height: 30px;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 0;
 }
 .productOverview-content img{
-    padding: 100px 0 0 0;
-    height: 400px;
+    margin: 75px 0 0 0;
+    height: 600px;
     width: auto;
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.15);
 }
 </style>

@@ -33,7 +33,7 @@ export default {
 }
 .productOverview-content {
   height: inherit;
-  width: 1440px;
+  width: 1350px;
   padding: 100px 0;
   display: flex;
   flex-direction: row;
@@ -58,7 +58,7 @@ export default {
 }
 .productOverview-content img {
   width: 45%;
-  box-shadow: 0px 0px 25px 10px rgba(0, 162, 255, 0.25);
+  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.15);
 }
 .productOverview-content span {
   width: 55%;

@@ -24,8 +24,10 @@ export default {
 }
 .hero-text {
   height: inherit;
-  width: 1440px;
+  width: 1350px;
   background: url(../assets/oldman.png);
+  background-position: center center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;

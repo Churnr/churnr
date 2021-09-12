@@ -1,7 +1,7 @@
 <template>
   <section class="FAQ">
     <div class="FAQ-content">
-      <h3>Gode råd er dyre, bare ikke hos os</h3>
+      <h2>Ofte stillede spørgsmål</h2>
       <p>
         Her kan du finde svar på nogle af de oftest stillede spørgsmål vi
         modtager
@@ -178,14 +178,17 @@ export default {
     width: 1440px;
   
 }
-.FAQ h3 {
+.FAQ h2 {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
 }
 .FAQ p {
   font-size: 20px;
-  margin: 25px 0 85px 0;
+  margin: 15px 0 85px 0;
   text-align: center;
+}
+button.accordion-button.collapsed, .accordion-item {
+  background: transparent;
 }
 </style>

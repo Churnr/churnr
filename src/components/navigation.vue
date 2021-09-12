@@ -79,7 +79,7 @@ li a {
   align-items: center;
 }
 .container-fluid {
-  width: 1440px;
+  width: 1350px;
   padding: 0;
 }
 </style>
