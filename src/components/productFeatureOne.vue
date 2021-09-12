@@ -14,7 +14,7 @@
           repellat molestiae quasi molestias, voluptatibus cumque.
         </p>
       </span>
-      <img src="../assets/productMockup.png" alt="" />
+      <img src="../assets/productMockup.png" alt="" draggable="false"/>
     </div>
   </section>
 </template>
@@ -52,7 +52,7 @@ export default {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
-  padding: 10px 0 7.5px 0;
+  padding: 10px 0 5px 0;
 }
 .productOverview-content p,
 .benefit {

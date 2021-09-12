@@ -1,7 +1,7 @@
 <template>
   <section class="productOverview">
     <div class="productOverview-content">
-      <img src="../assets/productMockup.png" alt="" />
+      <img src="../assets/productMockup.png" alt="" draggable="false"/>
       <span>
         <p class="benefit">Nemt at følge med i processen</p>
         <h2>Følg status på dine sager undervejs i hele forløbet</h2>
@@ -43,7 +43,7 @@ export default {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
-  padding: 10px 0 7.5px 0;
+  padding: 10px 0 5px 0;
   width: 63.8%;
 }
 .productOverview-content p,

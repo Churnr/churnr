@@ -1,8 +1,5 @@
 <template>
-  <nav
-    class="navbar navbar-expand-lg"
-    :class="{ change_color: scrollPosition > 700 }"
-  >
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">mundane</a>
       <button
@@ -35,7 +32,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nyheder</a>
+            <router-link to="/news">Nyheder</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/contact">Kontakt</router-link>
@@ -59,6 +56,7 @@ nav {
   height: 72px;
   background: transparent;
   z-index: 9999;
+  border-bottom: 1px solid #e4e5e7;
 }
 li a {
   padding: 0;

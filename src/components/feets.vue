@@ -5,17 +5,16 @@
         </div>
         <div class="footer-column">
             <h3>Produkt</h3>
-            <p>Privat person</p>
-            <p>Erhvers person</p>
+            <p>Hvordan fungerer det?</p>
             <p>Privat person</p>
             <p>Erhvers person</p>
         </div>
         <div class="footer-column">
             <h3>Nyheder</h3>
-            <p>Privat person</p>
-            <p>Erhvers person</p>
-            <p>Privat person</p>
-            <p>Erhvers person</p>
+            <p>Nyheds historie 1</p>
+            <p>Nyheds historie 2</p>
+            <p>Nyheds historie 3</p>
+            <p>Nyheds historie 4</p>
         </div>
         <div class="footer-column">
             <h3>Resourcer</h3>

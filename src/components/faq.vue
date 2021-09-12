@@ -175,7 +175,7 @@ export default {
   justify-content: center;
 }
 .FAQ-content {
-    width: 1440px;
+    width: 1350px;
   
 }
 .FAQ h2 {
