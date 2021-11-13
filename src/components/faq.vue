@@ -166,16 +166,11 @@ export default {
 .FAQ {
   padding: 100px 0;
   margin: 0 auto;
-  background: linear-gradient(
-    180deg,
-    #f5f6f8 0%,
-    rgba(245, 246, 248, 0) 67.54%
-  );
   display: flex;
   justify-content: center;
 }
 .FAQ-content {
-    width: 1350px;
+    width: 1200px;
   
 }
 .FAQ h2 {

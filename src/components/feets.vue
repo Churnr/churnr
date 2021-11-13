@@ -57,7 +57,7 @@ export default {
 <style scoped>
 footer {
     height: auto;
-    width: 1350px;
+    width: 1200px;
     margin: 0 auto;
     padding: 75px 0;
     display: flex;
@@ -69,17 +69,19 @@ footer h3 {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  color: #454f63;
 }
 footer p {
   font-weight: 400;
   font-size: 16px;
   margin: 20px 0 0 0;
   padding: 0;
+  color: #454f63;
 }
 .footer-bottom {
   border-top: 1px solid #C0C0C0;
   box-sizing: border-box;
-  width: 1350px;
+  width: 1200px;
   margin: 0 auto;
   padding: 25px 0;
   display: flex;
@@ -96,6 +98,7 @@ footer p {
   padding-right: 0px;
   padding-left: 20px;
   font-size: 20px;
+  color: #454f63;
 }
 .footer-bottom span {
   display: flex;

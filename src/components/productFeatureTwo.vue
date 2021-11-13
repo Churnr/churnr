@@ -1,10 +1,10 @@
 <template>
   <section class="productOverview">
     <div class="productOverview-content">
-      <img src="../assets/productMockup.png" alt="" draggable="false"/>
-      <span>
-        <p class="benefit">Nemt at følge med i processen</p>
-        <h2>Følg status på dine sager undervejs i hele forløbet</h2>
+      <img src="../assets/productMockup.png" alt="" draggable="false" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true"/>
+      <span data-aos="fade-left" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true">
+        <p class="benefit">Vi er specialister i kundeoplevelser</p>
+        <h2>Vores fokus er din kundefastholdelse</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat molestiae quasi molestias, voluptatibus cumque.</p>
       </span>
     </div>
@@ -25,15 +25,10 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: linear-gradient(
-    180deg,
-    #f5f6f8 0%,
-    rgba(245, 246, 248, 0) 67.54%
-  );
 }
 .productOverview-content {
   height: inherit;
-  width: 1350px;
+  width: 1200px;
   padding: 100px 0;
   display: flex;
   flex-direction: row;
@@ -45,6 +40,7 @@ export default {
   line-height: 50px;
   padding: 10px 0 5px 0;
   width: 63.8%;
+  color: #454f63;
 }
 .productOverview-content p,
 .benefit {
@@ -52,16 +48,18 @@ export default {
   line-height: 30px;
   margin-bottom: 0;
   width: 63.8%;
+  padding: 0;
+  color: #454f63;
 }
 .benefit {
-  color: rgb(0, 162, 255);
+  color: #0d6efd !important;
 }
 .productOverview-content img {
   width: 45%;
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.15);
 }
 .productOverview-content span {
-  width: 55%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

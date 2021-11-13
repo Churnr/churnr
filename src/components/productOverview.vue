@@ -1,73 +1,24 @@
-<!--<template>
-  <section class="productOverview">
-    <Carousel :itemsToShow="3.95" :wrapAround="true">
-      <Slide v-for="(image) in images" :key="image.id">
-        <img :src="image.url" />
-      </Slide>
-    </Carousel>
-  </section>
-</template>
-
-<script>
-import { defineComponent } from "vue";
-import { Carousel, Slide } from "vue3-carousel";
-import "vue3-carousel/dist/carousel.css";
-
-export default defineComponent({
-  name: "Autoplay",
-  components: {
-    Carousel,
-    Slide,
-  },
-  data() {
-    return {
-      images: [
-        { id: 1, url: require('@/assets/red.jpg')},
-        { id: 1, url: require('@/assets/green.jpg')},
-        { id: 1, url: require('@/assets/blue.jpg')},
-      ],
-    };
-  },
-});
-</script>
-
-<style scoped>
-.carousel__slide > .carousel__item {
-  transform: scale(1);
-  opacity: 0.5;
-  transition: 0.5s;
-}
-.carousel__slide--visible > .carousel__item {
-  opacity: 1;
-  transform: rotateY(0);
-}
-.carousel__slide--next > .carousel__item {
-  transform: scale(0.8) translate(-10px);
-}
-.carousel__slide--prev > .carousel__item {
-  transform: scale(0.5) translate(10px);
-}
-.carousel__slide--active > .carousel__item {
-  transform: scale(2);
-}
-.carousel__slide img {
-  height: auto;
-  z-index: 9999;
-}
-
-.productOverview {
-  padding: 100px 0;
-  width: 1350px;
-  margin: 0 auto;
-}
-</style>-->
-
 <template>
   <section class="productOverviewMaster">
-    <div class="productOverview-content">
-      <h2>Et kraftfuldt værktøj, når du har brug for det</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptate voluptates molestias,<br>dignissimos quaerat laboriosam! Fuga, architecto officiis! Odio, illo?</p>
-      <img src="../assets/productOverviewMockup.png" alt="" draggable="false"/>
+    <div data-aos="fade-in" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true">
+    <p class="benefit">Heldigvis har vi løsningen</p>
+    <h2>Simpel process fra start til slut</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque obcaecati.</p>
+    </div>
+    <div class="productOverview-content"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true">
+      <div class="step">
+        <img src="../assets/churnr1.png" alt="" draggable="false"/>
+        <h3>Integrer dine data med Churnr</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae ipsa commodi facilis saepe nobis?</p>
+      </div>
+      <div class="step">
+        <h3>Lad os forstå dig og dine behov</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae ipsa commodi facilis saepe nobis?</p>
+      </div>
+      <div class="step">
+        <h3>Fasthold dine kunder igen og igen</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae ipsa commodi facilis saepe nobis?</p>
+      </div>
     </div>
   </section>
 </template>
@@ -80,20 +31,59 @@ export default {
 
 <style>
 .productOverviewMaster {
-  display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 .productOverviewMaster h2 {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin: 15px 0;
+  color: #454f63;
 }
 .productOverviewMaster p {
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 75px;
+}
+
+.productOverviewMaster .benefit {
+  font-size: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  color: #0D6EFD;
+}
+
+.productOverview-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.productOverview-content h3{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0;
+  color: #454f63;
+}
+
+.productOverview-content h5{
+  font-size: 70px;
+  font-weight: 700;
+  color: #454f63;
+}
+
+.productOverview-content p{
+  padding: 0 50px;
+  font-size: 20px;
+  color: #454f63;
+}
+
+.productOverview-content .step img{
+  width: 400px;
+  height: auto;
+  margin: 75px 0;
 }
 </style>

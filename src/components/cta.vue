@@ -15,15 +15,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .jumbotron {
-    height: 385px;
-    margin: 0;
+    height: 450px;
+    margin: 100px 0 0 0;
     padding: 0;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #6a86e2;
+    background-color: #0d6efd;
 }
 .jumbotron h1 {
     font-weight: 700;
