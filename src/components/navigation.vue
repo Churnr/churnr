@@ -44,6 +44,7 @@ nav {
   background: transparent;
   z-index: 9999;
   border-bottom: 1px solid #e4e5e7;
+  box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
 }
 li a {
   padding: 0;
@@ -51,7 +52,7 @@ li a {
   text-decoration: none;
   font-size: 16px;
   color: black;
-  font-weight: 700;
+  font-weight: 500;
 }
 .btn {
   color: white;

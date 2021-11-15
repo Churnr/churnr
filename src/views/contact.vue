@@ -1,12 +1,10 @@
 <template>
   <div class="home">
     <navigation />
-    <!-- PLACEHOLDER CONTENT -->
-    <div class="placeholder-content">
-      <h1>Kontakt side</h1>
-      <p>vi lader os inspirere af mymonii.com</p>
-    </div>
-    <!-- PLACEHOLDER CONTENT -->
+    <about />
+    <mission />
+    <team />
+    <mission />
     <cta />
     <feets />
   </div>
@@ -14,6 +12,9 @@
 
 <script>
 import navigation from "@/components/navigation.vue";
+import about from "@/components/about.vue";
+import team from "@/components/team.vue";
+import mission from "@/components/mission.vue";
 import cta from "@/components/cta.vue";
 import feets from "@/components/feets.vue";
 
@@ -21,19 +22,14 @@ export default {
   name: "contact",
   components: {
     navigation,
+    about,
+    team,
+    mission,
     cta,
     feets,
   },
 };
 </script>
 
-<!-- PLACEHOLDER CONTENT -->
 <style scoped>
-.placeholder-content {
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 </style>
-<!-- PLACEHOLDER CONTENT -->

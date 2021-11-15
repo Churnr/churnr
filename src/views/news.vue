@@ -59,7 +59,7 @@ export default {
 <style scoped>
 .placeholder-content {
   height: auto;
-  width: 1350px;
+  width: 1200px;
   padding: 100px 0;
   margin: 0 auto;
   display: grid;

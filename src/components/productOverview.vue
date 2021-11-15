@@ -6,19 +6,7 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque obcaecati.</p>
     </div>
     <div class="productOverview-content"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true">
-      <div class="step">
-        <img src="../assets/churnr1.png" alt="" draggable="false"/>
-        <h3>Integrer dine data med Churnr</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae ipsa commodi facilis saepe nobis?</p>
-      </div>
-      <div class="step">
-        <h3>Lad os forstå dig og dine behov</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae ipsa commodi facilis saepe nobis?</p>
-      </div>
-      <div class="step">
-        <h3>Fasthold dine kunder igen og igen</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae ipsa commodi facilis saepe nobis?</p>
-      </div>
+      <iframe width="1200" height="600" src="https://www.youtube.com/embed/ZZ5LpwO-An4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </section>
 </template>
@@ -34,7 +22,7 @@ export default {
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding: 200px 0;
+  padding: 200px 0 150px 0;
 }
 .productOverviewMaster h2 {
   font-size: 40px;
@@ -45,6 +33,7 @@ export default {
 .productOverviewMaster p {
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 100px;
 }
 
 .productOverviewMaster .benefit {
@@ -52,6 +41,7 @@ export default {
   margin-bottom: 0;
   padding: 0;
   color: #3BD67F;
+  font-weight: 700;
 }
 
 .productOverview-content {
