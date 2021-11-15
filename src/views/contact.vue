@@ -4,6 +4,7 @@
     <!-- PLACEHOLDER CONTENT -->
     <div class="placeholder-content">
       <h1>Kontakt side</h1>
+      <p>vi lader os inspirere af mymonii.com</p>
     </div>
     <!-- PLACEHOLDER CONTENT -->
     <cta />

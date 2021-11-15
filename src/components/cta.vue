@@ -23,7 +23,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0d6efd;
+    background-color: #3BD67F;
 }
 .jumbotron h1 {
     font-weight: 700;

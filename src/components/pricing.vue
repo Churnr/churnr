@@ -34,7 +34,7 @@
                   <a href="#">Kontakt os</a>
               </div>
               <div class="boxes">
-                  <h3>Midt i mellem?</h3>
+                  <h3>Selvstændige</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quae.</p>
                   <li>positiv ting</li>
                   <li>positiv ting</li>
@@ -81,7 +81,8 @@ export default {
     padding-bottom: 150px;
 }
 .pricing-content .benefit {
-    color: #0D6EFD;
+    color: #3BD67F;
+    font-weight: 700;
 }
 .pricing-content h2 {
     font-size: 50px;
@@ -115,7 +116,7 @@ li:before {
   margin-right: 15px;
 }
 .boxes a {
-    background: #0D6EFD;
+    background: #3BD67F;
     color: white;
     text-decoration: none;
     text-align: center;

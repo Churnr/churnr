@@ -36,11 +36,11 @@
             <p>LOGO</p>
           </span>
           <span>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-instagram"></i>
+            <a href="https://twitter.com/hellochurnr" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/churnr-107508725081442" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://linkedin.com/company/churnr" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/hellochurnr/" target="_blank"><i class="fab fa-instagram"></i></a>
           </span>
         </section>
 </template>

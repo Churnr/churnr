@@ -5,7 +5,7 @@
       <p>Vi leverer et enkelt produkt, hvor du slipper for beurukratiet og alle kan være med</p>
       <span>
         <button type="button" class="btn btn-outline-dark">Hvordan det virker</button>
-        <button type="button" class="btn btn-primary">     Udregn besparelser</button>
+        <button type="button" class="btn btn-success">     Udregn besparelser</button>
       </span>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">churnr</a>
+      <a class="navbar-brand" href="/"><img class="logo" src="../assets/churnr-logo.png" alt=""></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -24,7 +24,7 @@
           <li class="nav-item">
             <router-link to="/contact">Kontakt</router-link>
           </li>
-          <button type="button" class="btn btn-primary">Book et møde</button>
+          <button type="button" class="btn btn-success">Book et møde</button>
         </ul>
       </div>
     </div>
@@ -51,10 +51,10 @@ li a {
   text-decoration: none;
   font-size: 16px;
   color: black;
+  font-weight: 700;
 }
 .btn {
   color: white;
-  background: #0d6efd;
   margin: 0 0 0 10px;
   font-size: 16px;
 }
@@ -67,7 +67,7 @@ li a {
   width: 1200px;
   padding: 0;
 }
-.navbar-brand {
-  font-weight: 700;
+.logo {
+  height: 38px;
 }
 </style>

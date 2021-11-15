@@ -60,7 +60,7 @@ export default {
   color: #454f63;
 }
 .benefit {
-  color: #0d6efd !important;
+  color: #3BD67F !important;
 }
 .productOverview-content img {
   width: 45%;

@@ -51,7 +51,7 @@ export default {
   font-size: 20px;
   margin-bottom: 0;
   padding: 0;
-  color: #0D6EFD;
+  color: #3BD67F;
 }
 
 .productOverview-content {

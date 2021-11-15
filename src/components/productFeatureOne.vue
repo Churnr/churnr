@@ -66,7 +66,7 @@ export default {
   margin-bottom: 0;
   width: 63.8%;
   padding: 0;
-  color: #0D6EFD;
+  color: #3BD67F;
 }
 .productOverview-content img {
   width: 45%;
