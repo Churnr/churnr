@@ -70,7 +70,7 @@ export default {
 }
 .pricing-content {
     padding: 150px 0;
-    width: 1200px;
+    width: 1150px;
 }
 .pricing-content span {
     display: flex;

@@ -4,17 +4,40 @@
 -->
 
 <template>
-  <section class="productOverview">
-    <div class="productOverview-content">
-      <span data-aos="fade-right" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true">
-        <p class="benefit">Vi ved der er forskel på behovet</p>
-        <h2>Skræddersyede priser<br>som passer dit behov</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-          repellat molestiae quasi molestias, voluptatibus cumque.
-        </p>
-      </span>
-      <img src="../assets/productMockup.png" alt="" draggable="false" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true"/>
+  <section class="comparison">
+    <h2>En løsning bedre end mange andre</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illum?</p>
+    <div class="comparison-boxes">
+      <div class="box">
+        <h3>Automatiserede e-mails</h3>
+        <ul>
+          <li>Ineffektive</li>
+          <li>Upersonlige</li>
+          <li>Irriterende</li>
+          <li>Bad</li>
+          <li>Bad</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Personaliseret kundekontakt</h3>
+        <ul>
+          <li>Plus</li>
+          <li>Plus</li>
+          <li>Plus</li>
+          <li>Plus</li>
+          <li>Plus</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Retention medarbejdere</h3>
+        <ul>
+          <li>Bad</li>
+          <li>Bad</li>
+          <li>Bad</li>
+          <li>Bad</li>
+          <li>Bad</li>
+        </ul>
+      </div>
     </div>
   </section>
 </template>
@@ -29,47 +52,55 @@ export default {
 </style>
 
 <style scoped>
-.productOverview {
-  height: 700px;
-  width: 100%;
+.comparison {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-}
-.productOverview-content {
-  height: inherit;
-  width: 1200px;
-  padding: 100px 0;
-  display: flex;
-  flex-direction: row;
   align-items: center;
+  padding: 100px 0 125px 0;
+  background: #F4F7FE;
 }
-.productOverview-content h2 {
+.comparison h2 {
   font-size: 40px;
-  font-weight: 700;
-  line-height: 50px;
-  padding: 10px 0 5px 0;
-  color: #454f63;
+  line-height: 1.5;
 }
-.productOverview-content p,
-.benefit {
+.comparison p {
   font-size: 20px;
-  line-height: 30px;
-  width: 75%;
-  margin-bottom: 0;
-  padding: 0;
-  color: #454f63;
+  line-height: 1.5;
 }
-.productOverview-content 
-.benefit {
+.comparison-boxes {
+  display: flex;
+  margin-top: 100px;
+}
+.box {
+  padding: 35px;
+  box-shadow: 0 6px 20px 0 rgb(183 183 183 / 25%) !important;
+  background: white;
+  border-radius: 5px;
+}
+.box:nth-child(2) {
+  transform: scale(1.1);
+  margin: 0 5px;
+}
+.box h3 {
   font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 0;
-  width: 63.8%;
-  padding: 0;
+  padding: 0 0 25px 0;
+}
+.box ul li {
+  line-height: 3;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: 'X ';
+  color: red;
+}
+.box:nth-child(2) ul li:before {
+  content: '✓ ';
   color: #3BD67F;
-}
-.productOverview-content img {
-  width: 45%;
-  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
 }
 </style>

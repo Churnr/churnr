@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <navigation />
-    <p>TING SKAL LAVES HER</p>
     <about />
     <mission />
     <team />
@@ -20,7 +19,7 @@ import cta from "@/components/cta.vue";
 import feets from "@/components/feets.vue";
 
 export default {
-  name: "contact",
+  name: "about",
   components: {
     navigation,
     about,

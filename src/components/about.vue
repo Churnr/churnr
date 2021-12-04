@@ -12,7 +12,7 @@ export default {};
 
 <style>
 .about {
-  width: 1200px;
+  width: 1150px;
   margin: 0 auto;
   padding: 150px 0 100px 0;
   display: flex;

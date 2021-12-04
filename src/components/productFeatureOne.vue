@@ -1,20 +1,15 @@
-<!--
-    background: linear-gradient(
-180deg, #F5F6F8 0%, rgba(245, 246, 248, 0) 67.54%);
--->
-
 <template>
   <section class="productOverview">
     <div class="productOverview-content">
-      <span data-aos="fade-right" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true">
+      <span>
         <p class="benefit">Vi ved der er forskel på behovet</p>
-        <h2>Skræddersyede priser<br>som passer dit behov</h2>
+        <h2>Forøg dine kundernes<br>samlede livstidsværdi</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
           repellat molestiae quasi molestias, voluptatibus cumque.
         </p>
       </span>
-      <img src="../assets/productMockup.png" alt="" draggable="false" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true"/>
+      <img src="../assets/hihi.gif" alt="" draggable="false"/>
     </div>
   </section>
 </template>
@@ -37,7 +32,7 @@ export default {
 }
 .productOverview-content {
   height: inherit;
-  width: 1200px;
+  width: 1150px;
   padding: 100px 0;
   display: flex;
   flex-direction: row;
@@ -45,8 +40,7 @@ export default {
 }
 .productOverview-content h2 {
   font-size: 40px;
-  font-weight: 700;
-  line-height: 50px;
+  line-height: 1.5;
   padding: 10px 0 5px 0;
   color: #454f63;
 }
@@ -70,6 +64,5 @@ export default {
 }
 .productOverview-content img {
   width: 45%;
-  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.15);
 }
 </style>

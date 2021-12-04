@@ -1,20 +1,10 @@
-<!--
-    background: linear-gradient(
-180deg, #F5F6F8 0%, rgba(245, 246, 248, 0) 67.54%);
--->
-
 <template>
   <section class="productOverview">
     <div class="productOverview-content">
-      <span  data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500" data-aos-once="true">
-        <p class="benefit">Kundefastholdelse kan være svært</p>
-        <h2>50% af churn skyldes<br>betalings problemer</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-          repellat molestiae quasi molestias, voluptatibus cumque.
-        </p>
+      <span>
+        <h2>Indtil videre har vi fastholdt</h2>
+        <h3 class="money-result">13,440 DKK</h3>
       </span>
-      <img src="../assets/dankort.png" alt="" draggable="false" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1500" data-aos-once="true" />
     </div>
   </section>
 </template>
@@ -30,14 +20,16 @@ export default {
 
 <style scoped>
 .productOverview {
-  height: 700px;
+  height: 500px;
   width: 100%;
   display: flex;
   justify-content: center;
+  text-align: center;
+  background: #F4F7FE;
 }
 .productOverview-content {
   height: inherit;
-  width: 1200px;
+  width: 1150px;
   padding: 100px 0;
   display: flex;
   flex-direction: row;
@@ -45,13 +37,11 @@ export default {
 }
 .productOverview-content h2 {
   font-size: 40px;
-  font-weight: 700;
   line-height: 50px;
   padding: 10px 0 5px 0;
   color: #454f63;
 }
-.productOverview-content p,
-.benefit {
+.productOverview-content p {
   font-size: 20px;
   line-height: 30px;
   width: 75%;
@@ -59,10 +49,8 @@ export default {
   padding: 0;
   color: #454f63;
 }
-.benefit {
-  color: #3BD67F !important;
-}
-.productOverview-content img {
-  width: 45%;
+.productOverview-content .money-result {
+  color: #3BD67F;
+  font-size: 75px;
 }
 </style>

@@ -14,18 +14,22 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav m-auto">
           <li class="nav-item">
             <router-link to="/pricing">Priser</router-link>
           </li>
           <li class="nav-item">
+            <router-link to="/about">Om os</router-link>
+          </li>
+          <li class="nav-item">
             <router-link to="/news">Nyheder</router-link>
           </li>
+          
           <li class="nav-item">
             <router-link to="/contact">Kontakt</router-link>
           </li>
-          <button type="button" class="btn btn-success">Book et møde</button>
         </ul>
+        <button type="button" class="btn btn-success">Book et møde</button>
       </div>
     </div>
   </nav>
@@ -40,11 +44,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 nav {
-  height: 72px;
+  height: 80px;
   background: transparent;
   z-index: 9999;
   border-bottom: 1px solid #e4e5e7;
-  box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
 }
 li a {
   padding: 0;
@@ -65,7 +68,7 @@ li a {
   align-items: center;
 }
 .container-fluid {
-  width: 1200px;
+  width: 1150px;
   padding: 0;
 }
 .logo {

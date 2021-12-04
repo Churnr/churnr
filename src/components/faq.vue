@@ -3,7 +3,7 @@
     <div class="FAQ-content">
       <h2>Ofte stillede spørgsmål</h2>
       <p>
-        Her kan du finde svar på nogle af de oftest stillede spørgsmål vi
+        Her finder du svar på nogle af de spørgsmål vi
         modtager
       </p>
       <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -17,7 +17,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseOne"
             >
-              Hvad er Mundane?
+              Hvad er Churnr?
             </button>
           </h2>
           <div
@@ -43,7 +43,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              Hvorfor skal jeg bruge Mundane?
+              Hvorfor skal jeg bruge Churnr?
             </button>
           </h2>
           <div
@@ -70,7 +70,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseThree"
             >
-              Kan man bruge Mundane som privat person?
+              Kan man bruge Churnr som privat person?
             </button>
           </h2>
           <div
@@ -99,7 +99,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseFour"
             >
-              Kan man bruge Mundane som erhvervs person?
+              Kan man bruge Churnr som erhvervs person?
             </button>
           </h2>
           <div
@@ -128,7 +128,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseFive"
             >
-              Er det sikkert at bruge Mundane?
+              Er det sikkert at bruge Churnr?
             </button>
           </h2>
           <div
@@ -170,16 +170,17 @@ export default {
   justify-content: center;
 }
 .FAQ-content {
-    width: 1200px;
+    width: 1150px;
   
 }
 .FAQ h2 {
-  font-weight: 700;
   font-size: 40px;
   text-align: center;
+  color: #454f63;
 }
 .FAQ p {
   font-size: 20px;
+  line-height: 1.5;
   margin: 15px 0 85px 0;
   text-align: center;
 }

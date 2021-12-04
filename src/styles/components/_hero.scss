@@ -1,0 +1,35 @@
+.hero {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    height: inherit;
+    width: 1150px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #454f63;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.18;
+}
+
+.hero-text p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 0 7.5px !important;
+}

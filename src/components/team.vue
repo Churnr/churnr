@@ -29,7 +29,7 @@ export default {
 
 <style>
     .team {
-        width: 1200px;
+        width: 1150px;
         padding: 150px;
         display: flex;
         justify-content: center;
@@ -44,7 +44,7 @@ export default {
     }
     .members {
         display: grid;
-        width: 1200px;
+        width: 1150px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 25px;
     }

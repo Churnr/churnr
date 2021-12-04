@@ -1,12 +1,12 @@
 <template>
   <section class="productOverviewMaster">
-    <div data-aos="fade-in" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true">
-    <p class="benefit">Heldigvis har vi løsningen</p>
-    <h2>Simpel process fra start til slut</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque obcaecati.</p>
+    <div>
+    <p class="benefit">Heldigvis har vi en løsning på problemet</p>
+    <h2>Lad os snakke med kunderne —<br>fokuser på hvad der er vigtigt for dig</h2>
+    <p>Vi faciliterer dialogen med dine abonnementskunder - fra den indledende kontakt til kunden er fastholdt.</p>
     </div>
-    <div class="productOverview-content"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true">
-      <iframe width="1200" height="600" src="https://www.youtube.com/embed/ZZ5LpwO-An4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="productOverview-content">
+      <img src="../assets/overview.png" alt="">
     </div>
   </section>
 </template>
@@ -18,22 +18,24 @@ export default {
 </script>
 
 <style>
+
+
 .productOverviewMaster {
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding: 200px 0 150px 0;
+  padding: 100px 0;
 }
 .productOverviewMaster h2 {
   font-size: 40px;
-  font-weight: 700;
   margin: 15px 0;
   color: #454f63;
+  line-height: 1.5;
 }
 .productOverviewMaster p {
   font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 100px;
+  line-height: 1.5;
+  margin-bottom: 150px;
 }
 
 .productOverviewMaster .benefit {
@@ -41,7 +43,6 @@ export default {
   margin-bottom: 0;
   padding: 0;
   color: #3BD67F;
-  font-weight: 700;
 }
 
 .productOverview-content {
@@ -49,7 +50,7 @@ export default {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 1200px;
+  width: 1150px;
 }
 
 .productOverview-content h3{
@@ -71,9 +72,8 @@ export default {
   color: #454f63;
 }
 
-.productOverview-content .step img{
-  width: 400px;
+.productOverview-content img{
+  width: inherit;
   height: auto;
-  margin: 75px 0;
 }
 </style>

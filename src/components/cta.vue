@@ -1,8 +1,8 @@
 <template>
     <div class="jumbotron">
-        <h1>Kom i gang hurtigt og enkelt</h1>
+        <h1>Kan vi hjælpe din virksomhed?</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <button class="btn" type="submit">Opret sag</button>
+        <button class="btn" type="submit">Book et møde</button>
     </div>
 </template>
 
@@ -26,7 +26,6 @@ export default {
     background-color: #3BD67F;
 }
 .jumbotron h1 {
-    font-weight: 700;
     font-size: 40px;
     margin: 0;
 }
