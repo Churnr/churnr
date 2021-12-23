@@ -18,12 +18,12 @@ export default {
     height: 450px;
     margin: 100px 0 0 0;
     padding: 0;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #3BD67F;
+    background: #F4F7FE;
 }
 .jumbotron h1 {
     font-size: 40px;

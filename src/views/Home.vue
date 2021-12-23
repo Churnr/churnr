@@ -6,8 +6,6 @@
     <productFeatureTwo />
     <productOverview />
     <productFeatureOne />
-    <mission />
-    <faq />
     <cta />
     <feets />
   </div>
@@ -20,8 +18,6 @@ import theProblem from "@/components/theProblem.vue";
 import productOverview from "@/components/productOverview.vue";
 import productFeatureOne from "@/components/productFeatureOne.vue";
 import productFeatureTwo from "@/components/productFeatureTwo.vue";
-import mission from "@/components/mission.vue";
-import faq from "@/components/faq.vue";
 import cta from "@/components/cta.vue";
 import feets from "@/components/feets.vue";
 
@@ -33,9 +29,7 @@ export default {
     theProblem,
     productFeatureOne,
     productOverview,
-    mission,
     productFeatureTwo,
-    faq,
     cta,
     feets,
   },

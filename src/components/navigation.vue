@@ -16,9 +16,6 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav m-auto">
           <li class="nav-item">
-            <router-link to="/pricing">Priser</router-link>
-          </li>
-          <li class="nav-item">
             <router-link to="/about">Om os</router-link>
           </li>
           <li class="nav-item">

@@ -1,13 +1,16 @@
 <template>
   <div class="hero">
     <div class="hero-text">
-      <h1>Fasthold dine<br>abonnementskunder</h1>
-      <p>Driver du en abonnementsvirksomhed?<br>Fokuser på at vækste, så sørger vi for, at dine kunder bliver.</p>
+      <h1>Fasthold dine<br />abonnementskunder</h1>
+      <p>
+        Driver du en abonnementsvirksomhed?<br />Fokuser på at vækste, så sørger
+        vi for, at dine kunder bliver.
+      </p>
       <span>
         <button type="button" class="btn btn-success">Book et møde</button>
       </span>
     </div>
-    <img src="../assets/iphone.png" alt="">
+    <img src="../assets/001.png" alt="" />
   </div>
 </template>
 
@@ -37,8 +40,8 @@ export default {
 }
 .hero-text h1 {
   font-size: 45px;
-  font-weight: 500;
-  line-height: 1.5;
+  font-weight: 600;
+  line-height: 1.25;
 }
 .hero-text p {
   font-size: 20px;
@@ -46,8 +49,10 @@ export default {
 }
 .btn {
   padding: 10px 15px;
-  margin: 0 15px 0 0!important;
+  margin: 0 15px 0 0 !important;
 }
-.hero img{
-  height: 500px;}
+.hero img {
+  height: 600px;
+  transform: rotate(5deg);
+}
 </style>

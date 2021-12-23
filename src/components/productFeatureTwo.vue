@@ -61,6 +61,7 @@ export default {
   width: 63.8%;
   padding: 0;
   color: #3BD67F;
+  font-weight: 600;
 }
 .productOverview-content img {
   width: 45%;
