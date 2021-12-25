@@ -1,22 +1,21 @@
 <template>
   <section class="productOverview">
-    <div class="productOverview-content">
+    <div class="productOverview-content second-feature">
       <span>
-        <p class="benefit">Kender du det også?</p>
-        <h2>Betalingsfejl kan få<br>bundlinjen til at brænde</h2>
+        <p class="benefit">Lad ikke betalingsfejl stoppe dig</p>
+        <h2>Hold fast i dine kunder</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-          repellat molestiae quasi molestias, voluptatibus cumque.
+          Når kunderne oplever betalngsfejl, skal de hjælpes igennem processen og føle sig værdsat.
         </p>
       </span>
-      <img src="../assets/moneyburn.png" alt="" draggable="false"/>
+      <img src="../assets/pf1.png" alt="" draggable="false"/>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: "productFeatureTwo",
+  name: "productFeatureOne",
 };
 </script>
 
@@ -43,12 +42,13 @@ export default {
   line-height: 1.5;
   padding: 10px 0 5px 0;
   color: #454f63;
+  font-weight: 600;
 }
 .productOverview-content p,
 .benefit {
   font-size: 20px;
   line-height: 30px;
-  width: 80%;
+  width: 75%;
   margin-bottom: 0;
   padding: 0;
   color: #454f63;
@@ -64,7 +64,17 @@ export default {
   font-weight: 600;
 }
 .productOverview-content img {
-  width: 45%;
-  transform: rotate(-10deg);
+  width: 37.5%;
 }
+
+
+
+
+/* .productOverview-content .second-feature{
+  flex-direction: row-reverse !important;
+}
+
+.second-feature span {
+  width: 55%;
+} */
 </style>

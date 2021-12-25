@@ -10,7 +10,7 @@
         <button type="button" class="btn btn-success">Book et møde</button>
       </span>
     </div>
-    <img src="../assets/001.png" alt="" />
+    <img src="../assets/hero-image-placeholder.png" alt="" />
   </div>
 </template>
 
@@ -22,12 +22,13 @@ export default {
 
 <style lang="css">
 .hero {
-  height: 700px;
+  height: 750px;
   width: 1150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding-top: 80px;
 }
 .hero-text {
   height: inherit;

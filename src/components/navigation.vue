@@ -14,14 +14,29 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item">
-            <router-link to="/about">Om os</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/news">Nyheder</router-link>
-          </li>
-          
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Features
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Om os
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
           <li class="nav-item">
             <router-link to="/contact">Kontakt</router-link>
           </li>
@@ -45,6 +60,9 @@ nav {
   background: transparent;
   z-index: 9999;
   border-bottom: 1px solid #e4e5e7;
+  position: fixed;
+  width: 100%;
+  background: white;
 }
 li a {
   padding: 0;
@@ -53,6 +71,9 @@ li a {
   font-size: 16px;
   color: black;
   font-weight: 500;
+}
+#navbarDropdown {
+  padding: 0;
 }
 .btn {
   color: white;

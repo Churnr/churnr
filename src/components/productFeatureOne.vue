@@ -2,21 +2,20 @@
   <section class="productOverview">
     <div class="productOverview-content">
       <span>
-        <p class="benefit">Vi ved der er forskel på behovet</p>
-        <h2>Forøg dine kundernes<br>samlede livstidsværdi</h2>
+        <p class="benefit">Vink farvel til autogenererede e-mails</p>
+        <h2>Gør dialogen menneskelig</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-          repellat molestiae quasi molestias, voluptatibus cumque.
+          Dine abonnementskunder skal snakke med mennesker — ikke med robotter.
         </p>
       </span>
-      <img src="../assets/hihi.gif" alt="" draggable="false"/>
+      <img src="../assets/pf1.png" alt="" draggable="false"/>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: "productFeatureOne",
+  name: "productFeatureTwo",
 };
 </script>
 
@@ -25,7 +24,6 @@ export default {
 
 <style scoped>
 .productOverview {
-  height: 700px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -43,12 +41,13 @@ export default {
   line-height: 1.5;
   padding: 10px 0 5px 0;
   color: #454f63;
+  font-weight: 600;
 }
 .productOverview-content p,
 .benefit {
   font-size: 20px;
-  line-height: 30px;
-  width: 75%;
+  line-height: 1.5;
+  width: 80%;
   margin-bottom: 0;
   padding: 0;
   color: #454f63;
@@ -64,6 +63,6 @@ export default {
   font-weight: 600;
 }
 .productOverview-content img {
-  width: 45%;
+  width: 37.5%;
 }
 </style>

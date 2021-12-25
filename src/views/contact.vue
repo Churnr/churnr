@@ -1,35 +1,54 @@
 <template>
-  <div class="home">
-    <navigation />
-    <p>TING SKAL LAVES HER</p>
-    <about />
-    <mission />
-    <team />
-    <mission />
-    <cta />
-    <feets />
+  <navigation />
+  <div class="contact">
+    <p class="benefit">Lad os endelig høre fra dig</p>
+    <h1>Kontakt os i dag</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, aut.
+    </p>
   </div>
+  <message />
+  <cta />
+  <feets />
 </template>
+
+<style scoped>
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+}
+.contact h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  color: #454f63;
+}
+.contact p {
+  font-size: 20px;
+}
+</style>
 
 <script>
 import navigation from "@/components/navigation.vue";
-import about from "@/components/about.vue";
-import team from "@/components/team.vue";
-import mission from "@/components/mission.vue";
+import message from "@/components/message.vue";
 import cta from "@/components/cta.vue";
 import feets from "@/components/feets.vue";
+import Message from "../components/message.vue";
 
 export default {
   name: "contact",
   components: {
     navigation,
-    about,
-    team,
-    mission,
+    message,
     cta,
     feets,
   },
 };
+
+Message;
 </script>
 
 <style scoped>

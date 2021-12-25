@@ -1,65 +1,68 @@
 <template>
-  <section class="team">
-      <h1>Mød holdet der for tingene til at ske</h1>
-      <div class="members">
-          <div class="member">
-              <img src="../assets/Mike-hover.jpg" alt="">
-              <h3>Anders Laurentiussen</h3>
-              <p>Co-founder & Sales Executive</p>
-          </div>
-          <div class="member">
-              <img src="../assets/Scott-hover.jpg" alt="">
-              <h3>Benjamin Treadwell</h3>
-              <p>Co-founder & CTO</p>
-          </div>
-          <div class="member">
-              <img src="../assets/Joff-hover.jpg" alt="">
-              <h3>Jacob Stentoft-Nielsen</h3>
-              <p>Co-founder & CCO</p>
-          </div>
-      </div>
+  <section class="productOverview">
+    <div class="productOverview-content">
+      <span>
+        <p class="benefit">Mød holdet der får tingene til at ske</p>
+        <h2>Holdet der får tingene til at ske</h2>
+        <p>
+          Dine abonnementskunder skal snakke med mennesker — ikke med robotter.
+        </p>
+      </span>
+      <img src="../assets/meettheteam.gif" alt="" draggable="false"/>
+    </div>
   </section>
 </template>
 
 <script>
 export default {
-
-}
+  name: "productFeatureTwo",
+};
 </script>
 
 <style>
-    .team {
-        width: 1150px;
-        padding: 150px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
-    }
-    .team h1 {
-        font-size: 40px;
-        padding-bottom: 150px;
-        font-weight: 700;
-    }
-    .members {
-        display: grid;
-        width: 1150px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 25px;
-    }
-    .member {
-        height: 500px;
-    }
-    .member h3 {
-        font-size: 20px;
-        font-weight: 700;
-        margin-top: 25px;
-    }
-    .member p {
-        font-size: 20px;
-    }
-    .member img {
-        height: 500px;
-    }
+</style>
+
+<style scoped>
+.productOverview {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.productOverview-content {
+  height: inherit;
+  width: 1150px;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.productOverview-content h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  padding: 10px 0 5px 0;
+  color: #454f63;
+  font-weight: 600;
+}
+.productOverview-content p,
+.benefit {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 80%;
+  margin-bottom: 0;
+  padding: 0;
+  color: #454f63;
+}
+.productOverview-content 
+.benefit {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0;
+  width: 63.8%;
+  padding: 0;
+  color: #3BD67F;
+  font-weight: 600;
+}
+.productOverview-content img {
+  width: 37.5%;
+}
 </style>

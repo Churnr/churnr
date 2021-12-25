@@ -2,10 +2,11 @@
   <div class="home">
     <navigation />
     <hero />
-    <theProblem />
-    <productFeatureTwo />
-    <productOverview />
+    <moneyRecovery />
     <productFeatureOne />
+    <productFeatureTwo />
+    <productFeatureThree />
+    <team />
     <cta />
     <feets />
   </div>
@@ -14,10 +15,11 @@
 <script>
 import navigation from "@/components/navigation.vue";
 import hero from "@/components/hero.vue";
-import theProblem from "@/components/theProblem.vue";
-import productOverview from "@/components/productOverview.vue";
+import moneyRecovery from "@/components/moneyRecovery.vue";
 import productFeatureOne from "@/components/productFeatureOne.vue";
 import productFeatureTwo from "@/components/productFeatureTwo.vue";
+import productFeatureThree from "@/components/productFeatureThree.vue";
+import team from "@/components/team.vue";
 import cta from "@/components/cta.vue";
 import feets from "@/components/feets.vue";
 
@@ -26,10 +28,11 @@ export default {
   components: {
     navigation,
     hero,
-    theProblem,
+    moneyRecovery,
     productFeatureOne,
-    productOverview,
     productFeatureTwo,
+    productFeatureThree,
+    team,
     cta,
     feets,
   },

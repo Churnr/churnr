@@ -18,7 +18,7 @@ export default {
     height: 450px;
     margin: 100px 0 0 0;
     padding: 0;
-    color: black;
+     color: #454f63;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +28,7 @@ export default {
 .jumbotron h1 {
     font-size: 40px;
     margin: 0;
+    font-weight: 600;
 }
 .jumbotron p {
     font-weight: 300;
