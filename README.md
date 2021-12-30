@@ -1,4 +1,6 @@
-# mundane
+# Churnr Website [![Updated Badge](https://badges.pufler.dev/updated/puf17640/git-badges)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/puf17640)](https://badges.pufler.dev)
+
+Company repository for www.churnr.dk, and related web content.
 
 ## Project setup
 ```
