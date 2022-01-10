@@ -1,59 +1,61 @@
 <template>
-  <div class="hero">
-    <div class="hero-text">
-      <h1>Fasthold dine<br />abonnementskunder</h1>
-      <p>
-        Driver du en abonnementsvirksomhed?<br />Fokuser på at vækste, så sørger
-        vi for, at dine kunder bliver.
-      </p>
-      <span>
-        <button type="button" class="btn btn-success">Book et møde</button>
-      </span>
-    </div>
-    <img src="../assets/hero-image-placeholder.png" alt="" />
-  </div>
+<div class="hero">
+    <span>
+        <h1>Fasthold dine abonnementskunder med pesonlig outreach</h1>
+        <p>Har du også oplevet betalingsfejl? Hvordan du håndterer disse, har direkte indflydelse på din kundefastholdelse.</p>
+        <b-button>Se hvordan</b-button><router-link to="/contact">Book møde</router-link>
+    </span>
+    <img src="../assets/twest.png" alt="">
+</div>
 </template>
 
 <script>
 export default {
   name: "hero",
+  props: {
+    msg: String,
+  },
 };
 </script>
 
-<style lang="css">
+<style scoped>
 .hero {
-  height: 750px;
-  width: 1150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  padding-top: 80px;
+    padding: 75px 0 125px 0;
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.hero-text {
-  height: inherit;
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #454f63;
+.hero h1 {
+    font-size: 45px;
+    line-height: 1.15;
+    font-weight: 600;
 }
-.hero-text h1 {
-  font-size: 45px;
-  font-weight: 600;
-  line-height: 1.25;
+.hero p {
+    font-size: 18px;
+    line-height: 1.75;
+    padding: 15px 0;
 }
-.hero-text p {
-  font-size: 20px;
-  padding: 20px 0;
+.hero button {
+    background: #26C280;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 0;
 }
-.btn {
-  padding: 10px 15px;
-  margin: 0 15px 0 0 !important;
+a {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border-radius: 0;
+    text-decoration: none;
 }
 .hero img {
-  height: 600px;
-  transform: rotate(5deg);
+    width: 42.5%;
+}
+.hero span {
+    width: 50%;
 }
 </style>

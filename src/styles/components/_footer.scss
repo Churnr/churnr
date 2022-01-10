@@ -1,0 +1,33 @@
+footer {
+    padding: 100px 0;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+footer img {
+    height: 50px;
+    width: auto;
+    margin-bottom: 75px;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-menu-column {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h6 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer a {
+    line-height: 2.5;
+    opacity: .75;
+    color: black;
+    text-decoration: none;
+}

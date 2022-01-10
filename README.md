@@ -1,4 +1,4 @@
-# mundane
+# churnr2
 
 ## Project setup
 ```
