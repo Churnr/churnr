@@ -35,9 +35,13 @@ export default {
  }
  .callToAction-content p {
    padding: 25px 0;
+   font-size: 20px;
+   line-height: 24px;
  }
  .callToAction-content .btn {
-    background: #26C280;
+    background: white;
+    color: black;
+    font-size: 20px;
     border: none;
     padding: 10px 30px;
 }

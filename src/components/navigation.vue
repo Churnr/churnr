@@ -2,7 +2,7 @@
   <nav class="sticky-top">
     <b-navbar>
       <b-navbar-brand href="/"
-        ><img src="../assets/newnewnewlogo.png" alt=""
+        ><img src="../assets/churnr-logo.png" alt=""
       /></b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -37,9 +37,7 @@ export default {
 <style scoped>
 nav {
   background: white;
-  border-style: none none solid;
-    border-width: 1px;
-    border-color: transparent transparent #f2f2f2;
+  box-shadow: 0px 18px 30px rgb(0 0 0 / 2%);
 }
 .navbar {
   max-width: 1150px;
@@ -59,11 +57,12 @@ nav {
   text-decoration: none;
 }
 .navbar-brand img {
-  height: 40px;
+  height: 25px;
 }
 .btn {
-  background: #26C280;
+  background: #0768f8;
   border: none;
+  padding: 10px 20px;
 }
 .btn:hover {
     background: #41f890;

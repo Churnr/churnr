@@ -6,7 +6,7 @@
          <a href="mailto:hello@churnr.dk">hello@churnr.dk</a>
          <a href="tel:+4542741242">+45 42 74 12 42</a>
          <a href="https://goo.gl/maps/6pZed9zQDxgYZiAT6" target="_blank">Nørgaardsvej 30,<br>2800 Kongens Lyngby</a> -->
-         <img src="../assets/newlogo.png" alt="">
+         <img src="../assets/churnr-logo.png" alt="">
        </div>
        <div class="footer-menu-column">
          <h6>Oversigt</h6>
@@ -49,8 +49,7 @@ footer {
   margin: 0 auto;
 }
 footer img {
-  height: 50px;
-  width: auto;
+  width: 125px;
   margin-bottom: 75px;
 }
 .footer-menu {

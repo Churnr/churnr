@@ -28,5 +28,6 @@ export default {
  .benefit {
    color: #26C280;
    font-weight: 600;
+   font-size: 20px;
  }
 </style>

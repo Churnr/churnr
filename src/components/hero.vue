@@ -2,10 +2,10 @@
 <div class="hero">
     <span>
         <h1>Fasthold dine abonnementskunder med pesonlig outreach</h1>
-        <p>Har du også oplevet betalingsfejl? Hvordan du håndterer disse, har direkte indflydelse på din kundefastholdelse.</p>
+        <p>Har I også oplevet betalingsfejl? Lad os hjælpe, med at maksimere jeres kundefastholdelse.</p>
         <b-button>Se hvordan</b-button><router-link to="/contact">Book møde</router-link>
     </span>
-    <img src="../assets/twest.png" alt="">
+    <img src="../assets/retention.png" alt="">
 </div>
 </template>
 
@@ -38,7 +38,7 @@ export default {
     padding: 15px 0;
 }
 .hero button {
-    background: #26C280;
+    background: #0768f8;
     border: none;
     padding: 10px 30px;
     border-radius: 0;
