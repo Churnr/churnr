@@ -37,13 +37,13 @@
     </div>
 
     <div class="feature">
-      <img src="../assets/contact.jpg" alt="" />
+      <img src="../assets/payment-methods.png" alt="" />
       <span>
         <p class="benefit">
           En nem, enkel og automatiseret løsning
         </p>
         
-        <h2>Problemfri dataintegration med jeres betalingssystem</h2>
+        <h2>Problemfri data integregring med jeres betalingssystem</h2>
         <p>
           Vi tager kontakten til jeres kunder på vegne af jer og genvinder fejlede abonnementsbetalinger, måned efter måned.
         </p>
@@ -53,12 +53,12 @@
     <div class="feature">
       <span>
         <p class="benefit">Uddeleger de rigtige opgaver til de rigtige personer</p>
-        <h2>En personlig løsning til jer og jeres kunder</h2>
+        <h2>En personlig løsning, der sparer tid og ressourcer</h2>
         <p>
           Vi sørger for at jeres kunder får en personlig service oplevelse, der vil øge kundeloyalitet og tilfredshed.
         </p>
       </span>
-      <img src="../assets/twest.png" alt="" />
+      <img src="../assets/grahps.png" alt="" />
     </div>
 
     <moneyRetained />

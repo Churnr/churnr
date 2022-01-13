@@ -1,6 +1,6 @@
 <template>
   <div class="moneyRetained">
-      <h2>10,420.69 DKK</h2>
+      <h2>10.420,69 DKK</h2>
       <p>har vi fastholdt for vores kunder indtil videre</p>
   </div>
 </template>
