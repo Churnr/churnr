@@ -21,7 +21,7 @@ export default {
 .callToAction {
   padding: 150px 0;
   color: white;
-  background: #24292e;
+  background: #0ABF53;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -31,12 +31,14 @@ export default {
     text-align: center;
 }
 .callToAction-content h1 {
-   font-weight: 600;
+   font-weight: 700;
+   margin: 0;
  }
  .callToAction-content p {
-   padding: 25px 0;
+   padding: 25px 0 35px 0;
    font-size: 20px;
    line-height: 24px;
+   margin: 0;
  }
  .callToAction-content .btn {
     background: white;

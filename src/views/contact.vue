@@ -84,7 +84,7 @@ export default {
   flex-direction: column;
 }
 .contact h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 45px;
   padding: 15px 0;
   margin: 0;

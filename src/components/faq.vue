@@ -6,7 +6,7 @@
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-0" role="tab">
           <b-button block v-b-toggle.accordion-1 variant="info"
-            >Accordion 1</b-button
+            >Hvem henvender Churnr sig til?</b-button
           >
         </b-card-header>
         <b-collapse
@@ -28,7 +28,7 @@
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-2 variant="info"
-            >Accordion 2</b-button
+            >Hvor meget koster Churnrs ydelser?</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
@@ -79,7 +79,7 @@ export default {
 
 <style scoped>
 .faq {
-  padding: 150px 0;
+  padding: 0 0 150px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -88,10 +88,28 @@ export default {
   flex-direction: column;
 }
 .faq h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 45px;
 }
 .faq .accordion {
   margin-top: 100px;
+}
+.card-header {
+  width: 1150px;
+}
+.card-header .btn-info {
+  width: 100%;
+  text-align: left;
+  background: white;
+  border-color: transparent;
+  padding: 30px !important;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-header .btn:focus,.card-header .btn:active {
+   outline: none !important;
+   box-shadow: none;
 }
 </style>

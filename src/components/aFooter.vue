@@ -62,7 +62,7 @@ footer img {
   flex-direction: column;
 }
 footer h6 {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 footer a {

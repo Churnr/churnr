@@ -2,27 +2,7 @@
   <div class="home">
     <hero />
 
-    <div class="solution-stat">
-      <div class="solution-content">
-
-        <div class="stat">
-          <h3>15%</h3>
-          <p>af kunder fastholdes af autogenererede mails</p>
-        </div>
-
-        <div class="stat">
-          <h3>+80%</h3>
-          <p>af kunder reagerer på Churnrs outreach</p>
-        </div>
-
-        <div class="stat">
-          <h3>63%</h3>
-          <p>af kunder har Churnr indtil videre fastholdt</p>
-        </div>
-        
-        
-      </div>
-    </div>
+    <moneyRetained/>
 
     <div class="feature">
       <span>
@@ -61,7 +41,27 @@
       <img src="../assets/grahps.png" alt="" />
     </div>
 
-    <moneyRetained />
+    <div class="solution-stat">
+      <div class="solution-content">
+
+        <div class="stat">
+          <h3>15%</h3>
+          <p>af kunder fastholdes af autogenererede mails</p>
+        </div>
+
+        <div class="stat">
+          <h3>+80%</h3>
+          <p>af kunder reagerer på Churnrs outreach</p>
+        </div>
+
+        <div class="stat">
+          <h3>63%</h3>
+          <p>af kunder har Churnr indtil videre fastholdt</p>
+        </div>
+        
+        
+      </div>
+    </div>
 
     <div class="feature">
       <img src="../assets/twest.png" alt="" />
@@ -105,7 +105,7 @@ export default {
 }
 .money-stat h2 {
   font-size: 75px;
-  font-weight: 600;
+  font-weight: 700;
   color: #41f890;
 }
 
@@ -133,7 +133,7 @@ export default {
 
 .solution-content h3 {
   font-size: 75px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .solution-content p {
@@ -164,7 +164,7 @@ export default {
   width: 50%;
 }
 .feature h2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 45px;
   padding: 0px 0 15px 0;
 }

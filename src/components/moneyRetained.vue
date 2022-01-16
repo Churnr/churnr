@@ -28,7 +28,7 @@ export default {
 
     .moneyRetained h2 {
         font-size: 75px;
-        font-weight: 600;
+        font-weight: 700;
         line-height: 100px;
         margin: 0;
     }

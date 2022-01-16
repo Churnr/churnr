@@ -19,15 +19,17 @@ export default {
 
 <style>
  * {
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Urbanist', sans-serif;
+   margin: 0;
+   padding: 0;
  }
  p {
    font-size: 18px;
    line-height: 1.5;
  }
  .benefit {
-   color: #26C280;
-   font-weight: 600;
+   color: #0ABF53;
+   font-weight: 700;
    font-size: 20px;
  }
 </style>

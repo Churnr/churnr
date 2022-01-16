@@ -11,7 +11,6 @@ Vue.use(BootstrapVue)
 // All of my different page views.
 
 import home from './views/home.vue';
-import faq from './views/faq.vue';
 import contact from './views/contact.vue';
 import team from './views/team.vue';
 import features from './views/features.vue';
@@ -20,10 +19,6 @@ const router = new VueRouter({
     routes: [{
             path: '/',
             component: home
-        },
-        {
-            path: '/faq',
-            component: faq
         },
         {
             path: '/contact',

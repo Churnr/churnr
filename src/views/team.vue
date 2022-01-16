@@ -67,7 +67,7 @@ export default {
   flex-direction: column;
 }
 .team h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 45px;
   margin-bottom: 100px;
 }
@@ -95,7 +95,7 @@ export default {
   line-height: 1;
 }
 b {
-  font-weight: 600;
+  font-weight: 700;
 }
 .vision,
 .mission {
@@ -108,7 +108,7 @@ b {
 .vision h2,
 .mission h2 {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
   padding: 10px 0 20px 0;
 }
 .vision img,
