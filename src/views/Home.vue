@@ -35,7 +35,7 @@
         <p class="benefit">Uddeleger de rigtige opgaver til de rigtige personer</p>
         <h2>En personlig løsning, der sparer tid og ressourcer</h2>
         <p>
-          Vi sørger for at jeres kunder får en personlig service oplevelse, der vil øge kundeloyalitet og tilfredshed.
+          Læn jer tilbage, og se til imens vi sørger for en personlig serviceoplevelse til jeres kunder, der samtidig vil øge den LTV.
         </p>
       </span>
       <img src="../assets/grahps.png" alt="" />

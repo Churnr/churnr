@@ -4,7 +4,7 @@
     <section class="features-hero">
       <div class="features-hero-content">
         <p class="benefit">Den enkle løsning til at optimere jeres omsætning</p>
-        <h1>Lad os sætte fokus på jeres dunning</h1>
+        <h1>Lad os sætte fokus<br>på jeres dunning</h1>
         <p>Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige churn, der sker på grund af betalingsfejl. Vores løsning er skræddersyet til dit behov.</p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
       </div>
@@ -18,26 +18,22 @@
           <div class="journey-step">
             <p class="number">1</p>
             <h3>Analysering af behov</h3>
-            <p>Get in touch with sales to identify the best set-up for your business and receive a custom proposal
-            </p>
+            <p>Vi leverer en løsning, skræddersyet til jeres behov og jeres kunder.</p>
           </div>
           <div class="journey-step">
             <p class="number">2</p>
             <h3>Problemfri data integrering</h3>
-            <p>Get in touch with sales to identify the best set-up for your business and receive a custom proposal
-            </p>
+            <p>Vi integrerer og henter data, direkte fra jeres betalingsplatform</p>
           </div>
           <div class="journey-step">
             <p class="number">3</p>
             <h3>Vedvarende kommunikation</h3>
-            <p>Get in touch with sales to identify the best set-up for your business and receive a custom proposal
-            </p>
+            <p>Vi opretholder kontakten med jer, for et konstant tilfredsstillende produkt</p>
           </div>
           <div class="journey-step">
             <p class="number">4</p>
             <h3>Målbare resultater</h3>
-            <p>Get in touch with sales to identify the best set-up for your business and receive a custom proposal
-            </p>
+            <p>Vi rapporterer om vores arbejde og resultater i intervaller, der passer jer</p>
           </div>
         </div>
       </div>
@@ -50,7 +46,7 @@
     <div class="features-scripts">
       <div class="features-scripts-content">
         <p class="benefit">Skræddersyet til jeres brand</p>
-        <h2>Manuskript udarbejdet i fællesskab</h2>
+        <h2>Manuskript udarbejdet i fællesskab med jer</h2>
         <p>I samarbejde med jer udarbejder vi et manuskript, der bedst muligt afspejler jeres identitet. Manuskriptet er vores hellige bog, og fungerer som rettesnor i kontakten med jeres kunder.</p>
       </div>
       <img src="../assets/twest.png" alt="">

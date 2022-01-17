@@ -1,10 +1,10 @@
 <template>
   <section class="contact">
     <div class="contact-content">
-      <p class="benefit">Lad os endelig høre fra dig</p>
+      <p class="benefit">Interesseret i at høre mere?</p>
       <h1>Kontakt os i dag</h1>
       <p><b>E-mail:</b> hello@churnr.dk</p>
-      <p class="smaller">Vi svarer inden for 48 timer i hverdagene.</p>
+      <p class="smaller">Vi bestræber os på at svare inden for 48 timer på hverdage</p>
       <p><b>Telefon:</b> +45 42 74 12 42</p>
       <p class="smaller">10:00 - 16:00 alle hverdage.</p>
     </div>
@@ -21,13 +21,6 @@
         <input type="submit" value="Send" />
       </form>
     </div>
-    <!-- <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.321753226!2d12.509533651028352!3d55.77028349801634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e6d8370b339%3A0x73ade7f3ab69bfac!2sN%C3%B8rgaardsvej%2030%2C%202800%20Kongens%20Lyngby!5e0!3m2!1sen!2sdk!4v1641330786041!5m2!1sen!2sdk"
-      width="1150"
-      height="450"
-      style="border: 0"
-      loading="lazy"
-    ></iframe> -->
   </section>
 </template>
 

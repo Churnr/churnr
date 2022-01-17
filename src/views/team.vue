@@ -1,6 +1,6 @@
 <template>
   <section class="team">
-    <p>Mød holdet der for tingene til at ske</p>
+    <p class="benefit">Mød holdet der for tingene til at ske</p>
     <h1>Teamet bag Churnr</h1>
     <img class="team-image" src="../assets/leteam.jpg" alt="">
     
@@ -8,13 +8,12 @@
       <span>
         <p class="benefit">Vores vision</p>
         <h2>En verden fuld af abonnementer</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit ab repudiandae autem? Cupiditate, voluptates natus! Nihil corporis facilis maxime!</p>
+        <p>Churnrs vision for fremtiden er at kunne hjælpe enhver abonnementsvirksomhed, med at mindske deres churn rate.</p>
       </span>
       <img src="../assets/twest.png" alt="" />
     </div>
 
     <div class="team-members-intro">
-      <p>Teamet bag Churnr</p>
       <h1>Mød holdet der får tingene til at ske</h1>
     </div>
 
@@ -40,8 +39,8 @@
       <img src="../assets/twest.png" alt="" />
       <span>
         <p class="benefit">Vores mission</p>
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit ab repudiandae autem? Cupiditate, voluptates natus! Nihil corporis facilis maxime!</p>
+        <h2>Rejsen mod 1.000.000 kr.</h2>
+        <p>Churnrs mission er at fastholde abonnementer til en værdi af 1.000.000 kr. inden for 3 år.</p>
       </span>
     </div>
   </section>
@@ -110,6 +109,10 @@ b {
   font-size: 40px;
   font-weight: 700;
   padding: 10px 0 20px 0;
+}
+.vision p,
+.mission p {
+  font-size: 20px;
 }
 .vision img,
 .mission img {
