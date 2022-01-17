@@ -46,6 +46,7 @@ export default {
     font-size: 20px;
     border: none;
     padding: 10px 30px;
+    font-weight: 600;
 }
 .callToAction-content .btn:hover {
     background: #3acf91;

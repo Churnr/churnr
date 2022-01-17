@@ -1,6 +1,6 @@
 <template>
   <section class="faq">
-    <p>Her finder du svarende på næsten alt om Churnr</p>
+    <p class="benefit">Er der stadig noget du er i tvivl om?</p>
     <h1>Oftest stillede spørgsmål</h1>
     <div class="accordion" role="tablist">
       <b-card no-body class="mb-1">
@@ -11,7 +11,6 @@
         </b-card-header>
         <b-collapse
           id="accordion-1"
-          visible
           accordion="my-accordion"
           role="tabpanel"
         >

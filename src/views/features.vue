@@ -3,9 +3,9 @@
 
     <section class="features-hero">
       <div class="features-hero-content">
-        <p class="benefit">Simpelthen en genial idé</p>
-        <h1>Udliciter din customer outreach ved betalingsfejl</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae quae est minus dicta cupiditate dolorem harum aperiam nemo placeat aspernatur perferendis eius tenetur, magnam praesentium quisquam quod.</p>
+        <p class="benefit">Den enkle løsning til at optimere jeres omsætning</p>
+        <h1>Lad os sætte fokus på jeres dunning</h1>
+        <p>Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige churn, der sker på grund af betalingsfejl. Vores løsning er skræddersyet til dit behov.</p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
       </div>
       <img src="../assets/twest.png" alt="">
@@ -13,29 +13,29 @@
 
     <section class="features-journey">
       <div class="features-journey-content">
-        <h2>Steps to get started with an online payment service</h2>
+        <h2>En nem opskrift til kundefastholdelse</h2>
         <div class="features-journey-steps">
           <div class="journey-step">
             <p class="number">1</p>
-            <h3>Speak to our team</h3>
+            <h3>Analysering af behov</h3>
             <p>Get in touch with sales to identify the best set-up for your business and receive a custom proposal
             </p>
           </div>
           <div class="journey-step">
             <p class="number">2</p>
-            <h3>Speak to our team</h3>
+            <h3>Problemfri data integrering</h3>
             <p>Get in touch with sales to identify the best set-up for your business and receive a custom proposal
             </p>
           </div>
           <div class="journey-step">
             <p class="number">3</p>
-            <h3>Speak to our team</h3>
+            <h3>Vedvarende kommunikation</h3>
             <p>Get in touch with sales to identify the best set-up for your business and receive a custom proposal
             </p>
           </div>
           <div class="journey-step">
             <p class="number">4</p>
-            <h3>Speak to our team</h3>
+            <h3>Målbare resultater</h3>
             <p>Get in touch with sales to identify the best set-up for your business and receive a custom proposal
             </p>
           </div>
@@ -49,28 +49,27 @@
 
     <div class="features-scripts">
       <div class="features-scripts-content">
-        <p class="benefit">Simpelthen en genial idé</p>
-        <h2>Vi udarbejder et sammen med jer et manuskript til dialogen med dine kunder
-        </h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae quae est minus dicta cupiditate dolorem harum aperiam nemo placeat aspernatur perferendis eius tenetur, magnam praesentium quisquam quod.</p>
+        <p class="benefit">Skræddersyet til jeres brand</p>
+        <h2>Manuskript udarbejdet i fællesskab</h2>
+        <p>I samarbejde med jer udarbejder vi et manuskript, der bedst muligt afspejler jeres identitet. Manuskriptet er vores hellige bog, og fungerer som rettesnor i kontakten med jeres kunder.</p>
       </div>
       <img src="../assets/twest.png" alt="">
     </div>
 
     <div class="features-dashboard">
       <div class="features-dashboard-content">
-        <p class="benefit">Simpelthen en genial idé</p>
-        <h2>Løbende overblik over hvem og hvor mange<br />af dine kunder vi fastholder</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae quae est minus dicta cupiditate dolorem harum aperiam nemo placeat aspernatur perferendis eius tenetur, magnam praesentium quisquam quod.</p>
+        <p class="benefit">Løbende overblik</p>
+        <h2>Følg med i vores resultater</h2>
+        <p>Med vores lækre dashboard vil I dag-til-dag kunne følge med i de resultater vi skaber. Dashboardet leveres skræddersyet til jer, i lige præcis det format I foretrækker.</p>
         <div class="features-dashboard-image"></div>
       </div>
     </div>
 
     <section class="features-communication">
       <div class="features-communication-content">
-        <p class="benefit">Simpelthen en genial idé</p>
-        <h2>Som din samarbejdspartner<br />skal vi kunne kommunikere<br />nemt og enkelt</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae quae est minus dicta cupiditate dolorem harum aperiam nemo placeat aspernatur perferendis eius tenetur, magnam praesentium quisquam quod.</p>
+        <p class="benefit">Let's stay in touch</p>
+        <h2>Nem og hurtig kommunikation</h2>
+        <p>For at skabe en løbende dialog, vil vi i onboarding processen få sat en kommunikationskanal op, i jeres foretrukne kommunikations system.</p>
       </div>
       <img src="../assets/twest.png" alt="">
     </section>
@@ -102,7 +101,7 @@ export default {
   align-items: center;
 }
 .features-hero-content {
-  width: 50%;
+  width: 45%;
 }
 .features-hero-content h1 {
   font-weight: 700;
@@ -136,9 +135,9 @@ export default {
   background: #f3f6f9;
 }
 .features-journey h2 {
-  font-size: 32px;
+  font-size: 45px;
   font-weight: 700;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
   text-align: center;
 }
 .features-journey-content {
@@ -148,7 +147,7 @@ export default {
 .features-journey-steps {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 15px;
+  column-gap: 20px;
 }
 .journey-step .number {
   background: #0abf53;
@@ -197,7 +196,7 @@ export default {
   align-items: center;
 }
 .features-scripts-content {
-  width: 50%;
+  width: 45%;
 }
 
 .features-scripts-content h2 {
@@ -238,6 +237,8 @@ export default {
 .features-dashboard-content p {
   font-size: 20px;
   line-height: 1.5;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .features-dashboard-image {
@@ -258,7 +259,7 @@ export default {
   align-items: center;
 }
 .features-communication-content {
-  width: 50%;
+  width: 45%;
 }
 .features-communication-content h2 {
   font-size: 45px;
