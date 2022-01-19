@@ -16,19 +16,7 @@
       <img src="../assets/humanize.jpg" alt="" />
     </div>
 
-    <div class="feature">
-      <img src="../assets/payment-methods.png" alt="" />
-      <span>
-        <p class="benefit">
-          En nem, enkel og automatiseret løsning
-        </p>
-        
-        <h2>Problemfri data integregring med jeres betalingssystem</h2>
-        <p>
-          Vi tager kontakten til jeres kunder på vegne af jer og genvinder fejlede abonnementsbetalinger, måned efter måned.
-        </p>
-      </span>
-    </div>
+    <featureIntegration/>
 
     <div class="feature">
       <span>
@@ -75,14 +63,17 @@
         <a href="#">Mød teamet</a>
       </span>
     </div>
+    <test/>
   </div>
 </template>
 
 <script>
+import featureIntegration from '../components/featureIntegration.vue';
 import hero from "../components/hero.vue";
 import moneyRetained from "../components/moneyRetained.vue"
+import test from "../components/test.vue"
 export default {
-  components: { hero, moneyRetained },
+  components: { hero, moneyRetained, featureIntegration, test },
   name: "home",
   props: {
     msg: String,
@@ -91,23 +82,6 @@ export default {
 </script>
 
 <style scoped>
-
-/* This div needs to be made into it's own component, and injected back into this site. */
-
-.money-stat {
-  padding: 150px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #508991;
-  color: white;
-}
-.money-stat h2 {
-  font-size: 75px;
-  font-weight: 700;
-  color: #41f890;
-}
 
 /* This div needs to be made into it's own component, and injected back into this site. */
 
@@ -158,10 +132,10 @@ export default {
   align-items: center;
 }
 .feature img {
-  width: 42.55%;
+  width: 45%;
 }
 .feature span {
-  width: 50%;
+  width: 45%;
 }
 .feature h2 {
   font-weight: 700;
@@ -169,9 +143,7 @@ export default {
   padding: 0px 0 15px 0;
 }
 .feature p {
-  line-height: 1.75;
-}
-.feature:nth-of-type(2) {
-  background: red;
+  line-height: 1.5;
+  font-size: 20px;
 }
 </style>

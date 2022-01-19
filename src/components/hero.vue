@@ -28,7 +28,7 @@ export default {
     align-items: center;
 }
 .hero h1 {
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1.15;
     font-weight: 700;
 }

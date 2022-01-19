@@ -19,7 +19,7 @@ export default {
 
 <style>
  * {
-   font-family: 'Urbanist', sans-serif;
+   font-family: 'Cabin', sans-serif;
    margin: 0;
    padding: 0;
  }

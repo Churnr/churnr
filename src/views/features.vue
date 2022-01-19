@@ -67,7 +67,7 @@
         <h2>Nem og hurtig kommunikation</h2>
         <p>For at skabe en løbende dialog, vil vi i onboarding processen få sat en kommunikationskanal op, i jeres foretrukne kommunikations system.</p>
       </div>
-      <img src="../assets/twest.png" alt="">
+      <img src="../assets/communication.jpg" alt="">
     </section>
 
     <faq/>
