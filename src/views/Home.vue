@@ -23,7 +23,7 @@
         <p class="benefit">Uddeleger de rigtige opgaver til de rigtige personer</p>
         <h2>En personlig løsning, der sparer tid og ressourcer</h2>
         <p>
-          Læn jer tilbage, og se til imens vi sørger for en personlig serviceoplevelse til jeres kunder, der samtidig vil øge den LTV.
+          Læn jer tilbage, og se til imens vi sørger for en personlig serviceoplevelse til jeres kunder, der samtidig vil øge deres LTV.
         </p>
       </span>
       <img src="../assets/grahps.png" alt="" />
@@ -60,10 +60,9 @@
           Vi er en gruppe passionerede iværksættere med en plan om at optimere
           churn og innovere customer outreach.
         </p>
-        <a href="#">Mød teamet</a>
+        <a class="btn" href="#">Mød teamet</a>
       </span>
     </div>
-    <test/>
   </div>
 </template>
 
@@ -71,9 +70,8 @@
 import featureIntegration from '../components/featureIntegration.vue';
 import hero from "../components/hero.vue";
 import moneyRetained from "../components/moneyRetained.vue"
-import test from "../components/test.vue"
 export default {
-  components: { hero, moneyRetained, featureIntegration, test },
+  components: { hero, moneyRetained, featureIntegration },
   name: "home",
   props: {
     msg: String,
@@ -145,5 +143,10 @@ export default {
 .feature p {
   line-height: 1.5;
   font-size: 20px;
+}
+.feature .btn {
+  outline: 1px solid black;
+  padding: 15px 30px;
+  margin-top: 20px;
 }
 </style>

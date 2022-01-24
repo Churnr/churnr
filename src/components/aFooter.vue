@@ -10,24 +10,24 @@
        </div>
        <div class="footer-menu-column">
          <h6>Oversigt</h6>
-         <a href="/">Forside</a>
-         <a href="#/features">Features</a>
-         <a href="#/team">Team</a>
+         <a href="#/features">Vores løsning</a>
+         <a href="#/team">Om os</a>
          <a href="#/contact">Kontakt</a>
        </div>
        <div class="footer-menu-column">
          <h6>Virksomhed</h6>
-         <a href="#">Presse</a>
-         <a href="#">Privatlivsvilkår</a>
-         <a href="#">Cookiepolitik</a>
-         <a href="#">Praktik</a>
+
+<!-- Fiks den her fucking forbandede PDF link asap -->
+
+         <a href="#">Hvad er Churnr?</a>
+         <a href="#/privacyPolicy">Privatlivsvilkår</a>
+         <a href="#/cookies">Cookiepolitik</a>
        </div>
        <div class="footer-menu-column">
          <h6>Følg os</h6>
-         <a href="#">Facebook</a>
-         <a href="#">Twitter</a>
-         <a href="#">LinkedIn</a>
-         <a href="#">Instagram</a>
+         <a href="https://www.facebook.com/churnr-107508725081442" target="_blank">Facebook</a>
+         <a href="https://twitter.com/hellochurnr" target="_blank">Twitter</a>
+         <a href="https://www.linkedin.com/company/77019295/">LinkedIn</a>
        </div>
      </div>
   </footer>

@@ -56,7 +56,7 @@
       <div class="features-dashboard-content">
         <p class="benefit">Løbende overblik</p>
         <h2>Følg med i vores resultater</h2>
-        <p>Med vores lækre dashboard vil I dag-til-dag kunne følge med i de resultater vi skaber. Dashboardet leveres skræddersyet til jer, i lige præcis det format I foretrækker.</p>
+        <p>Med vores dashboard vil I kunne følge med i de resultater vi skaber. Dashboardet leveres skræddersyet til jer, i lige præcis det format I foretrækker.</p>
         <div class="features-dashboard-image"></div>
       </div>
     </div>
@@ -103,6 +103,7 @@ export default {
   font-weight: 700;
   margin: 0;
   padding: 5px 0 15px 0;
+  font-family: "Calibre", Helvetica, Arial;
 }
 
 .features-hero-content p {
@@ -233,7 +234,7 @@ export default {
 .features-dashboard-content p {
   font-size: 20px;
   line-height: 1.5;
-  width: 75%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -241,7 +242,14 @@ export default {
   margin-top: 75px;
   width: 1150px;
   height: 600px;
-  background: #0abf53;
+  background: url(../assets/dashboard.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
+    border-radius: 6px;
 }
 
 /* Feature communication */

@@ -1,7 +1,9 @@
 <template>
   <section class="faq">
-    <p class="benefit">Stadig i tvivl? Find svar på det meste her</p>
+
+    <!-- <p class="benefit">Stadig i tvivl? Find svar på det meste her</p>
     <h1>Oftest stillede spørgsmål</h1>
+
     <div class="accordion" role="tablist">
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-0" role="tab">
@@ -47,7 +49,9 @@
           </b-card-body>
         </b-collapse>
       </b-card>
+
     </div>
+     -->
   </section>
 </template>
 

@@ -4,7 +4,7 @@
     <span>
       <p class="benefit">En nem, enkel og automatiseret løsning</p>
 
-      <h2>Problemfri data integregring med jeres betalingssystem</h2>
+      <h2>Problemfri data integrering med jeres betalingssystem</h2>
       <p>
         Vi tager kontakten til jeres kunder på vegne af jer og genvinder fejlede
         abonnementsbetalinger, måned efter måned.

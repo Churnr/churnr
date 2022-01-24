@@ -1,7 +1,7 @@
 <template>
 <div class="hero">
     <span>
-        <h1>Fasthold dine abonnementskunder med pesonlig outreach</h1>
+        <h1>Fasthold dine abonnementskunder med personlig outreach</h1>
         <p>Har I også oplevet betalingsfejl? Lad os hjælpe, med at maksimere jeres kundefastholdelse.</p>
         <router-link to="/features" class="btn">Se hvordan</router-link><router-link to="/contact">Book møde</router-link>
     </span>

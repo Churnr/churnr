@@ -14,6 +14,8 @@ import home from './views/home.vue';
 import contact from './views/contact.vue';
 import team from './views/team.vue';
 import features from './views/features.vue';
+import cookies from './views/cookies.vue';
+import privacyPolicy from './views/privacyPolicy.vue'
 
 const router = new VueRouter({
     routes: [{
@@ -31,6 +33,14 @@ const router = new VueRouter({
         {
             path: '/features',
             component: features
+        },
+        {
+            path: '/cookies',
+            component: cookies
+        },
+        {
+            path: '/privacyPolicy',
+            component: privacyPolicy
         },
     ]
 });
