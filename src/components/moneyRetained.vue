@@ -21,7 +21,7 @@ export default {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: #1A3866;
+        background: #324574;
         color: white;
         padding: 150px 0;
     }

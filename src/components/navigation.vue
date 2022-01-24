@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav :class="scrolled ? 'scroll' : ''">
     <b-navbar>
       <b-navbar-brand href="/"
         ><img src="../assets/churnr-logo.png" alt=""
@@ -9,7 +9,6 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ms-auto">
-          
           <router-link to="/features">Vores løsning</router-link>
 
           <router-link to="/team">Om os</router-link>
@@ -29,11 +28,29 @@ export default {
   props: {
     msg: String,
   },
+  data() {
+    return {
+      scrolled: false,
+    };
+  },
+  methods: {
+    handleScroll() {
+      this.scrolled = window.scrollY > 0;
+    },
+  },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
 };
 </script>
 
 <style scoped>
 nav {
+  
+  width: 100%;
   background: white;
   /* box-shadow: 0px 18px 30px rgb(0 0 0 / 2%); */
 }
@@ -59,10 +76,17 @@ nav {
   height: 25px;
 }
 .btn {
-  background: #0ABF53;
+  background: #0abf53;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 600;
+}
+.scroll {
+      box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  transition: .25s all ease-in;
 }
 </style>

@@ -91,7 +91,7 @@ export default {
   flex-direction: column;
   color: black;
   border: 1px solid #f2f2f2;
-  background: #2B2C5D;
+  background: #6D7698;
         color: white;
 }
 

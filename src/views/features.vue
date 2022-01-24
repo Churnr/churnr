@@ -129,7 +129,7 @@ export default {
 .features-journey {
   width: 100%;
   padding: 150px 0;
-  background: #f3f6f9;
+  background: #E7EFFF;
 }
 .features-journey h2 {
   font-size: 45px;
@@ -168,7 +168,7 @@ export default {
 
 .features-employee-image-box {
   height: 300px;
-  background: #f3f6f9;
+  background: #E7EFFF;
   display: flex;
   justify-content: center;
   margin-bottom: 300px;

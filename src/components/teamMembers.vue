@@ -40,7 +40,7 @@ export default {
 .team-members {
   width: 100%;
   padding: 150px 0;
-  background: #FBF7F5;
+  background: #F6EDD9;
   display: flex;
   justify-content: center;
   margin-top: 150px;
