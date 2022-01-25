@@ -8,7 +8,7 @@
         <p>Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige churn, der sker på grund af betalingsfejl. Vores løsning er skræddersyet til dit behov.</p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
       </div>
-      <img src="../assets/twest.png" alt="">
+      <img src="../assets/dunning.jpg" alt="">
     </section>
 
     <section class="features-journey">
@@ -49,7 +49,7 @@
         <h2>Manuskript udarbejdet i fællesskab med jer</h2>
         <p>I samarbejde med jer udarbejder vi et manuskript, der bedst muligt afspejler jeres identitet. Manuskriptet er vores hellige bog, og fungerer som rettesnor i kontakten med jeres kunder.</p>
       </div>
-      <img src="../assets/twest.png" alt="">
+      <img src="../assets/script.png" alt="">
     </div>
 
     <div class="features-dashboard">
