@@ -2,7 +2,7 @@
   <div class="home">
     <hero />
 
-    <moneyRetained/>
+    <moneyRetained />
 
     <div class="feature">
       <span>
@@ -16,22 +16,24 @@
       <img src="../assets/humanize.jpg" alt="" />
     </div>
 
-    <featureIntegration/>
+    <featureIntegration />
 
     <div class="feature">
       <span>
-        <p class="benefit">Uddeleger de rigtige opgaver til de rigtige personer</p>
+        <p class="benefit">
+          Uddeleger de rigtige opgaver til de rigtige personer
+        </p>
         <h2>En personlig løsning, der sparer tid og ressourcer</h2>
         <p>
-          Læn jer tilbage, og se til imens vi sørger for en personlig serviceoplevelse til jeres kunder, der samtidig vil øge deres LTV.
+          Læn jer tilbage, og se til imens vi sørger for en personlig
+          serviceoplevelse til jeres kunder, der samtidig vil øge deres LTV.
         </p>
       </span>
-      <img src="../assets/grahps.png" alt="" />
+      <img src="../assets/graphs.jpg" alt="" />
     </div>
 
     <div class="solution-stat">
       <div class="solution-content">
-
         <div class="stat">
           <h3>15%</h3>
           <p>af kunder fastholdes af autogenererede mails</p>
@@ -46,8 +48,6 @@
           <h3>63%</h3>
           <p>af kunder har Churnr indtil videre fastholdt</p>
         </div>
-        
-        
       </div>
     </div>
 
@@ -67,9 +67,9 @@
 </template>
 
 <script>
-import featureIntegration from '../components/featureIntegration.vue';
+import featureIntegration from "../components/featureIntegration.vue";
 import hero from "../components/hero.vue";
-import moneyRetained from "../components/moneyRetained.vue"
+import moneyRetained from "../components/moneyRetained.vue";
 export default {
   components: { hero, moneyRetained, featureIntegration },
   name: "home",
@@ -80,7 +80,6 @@ export default {
 </script>
 
 <style scoped>
-
 /* This div needs to be made into it's own component, and injected back into this site. */
 
 .solution-stat {
@@ -91,8 +90,8 @@ export default {
   flex-direction: column;
   color: black;
   border: 1px solid #f2f2f2;
-  background: #6D7698;
-        color: white;
+  background: #6d7698;
+  color: white;
 }
 
 .solution-content {
@@ -130,19 +129,24 @@ export default {
   align-items: center;
 }
 .feature img {
-  width: 45%;
+  width: 35%;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 .feature span {
-  width: 45%;
+  width: 50%;
 }
 .feature h2 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   padding: 0px 0 15px 0;
 }
 .feature p {
-  line-height: 1.5;
-  font-size: 20px;
+  line-height: 1.75;
+  font-size: 18px;
+  width: 80%;
 }
 .feature .btn {
   outline: 1px solid black;

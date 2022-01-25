@@ -24,27 +24,34 @@ export default {
 
 <style scoped>
 .feature {
-  padding:0 !important;
   width: 1150px;
+  padding: 150px 0;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
 }
 .feature img {
-  width: 45%;
+  width: 35%;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 .feature span {
-  width: 45%;
+  width: 50%;
 }
 .feature h2 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   padding: 0px 0 15px 0;
 }
 .feature p {
-  line-height: 1.5;
-  font-size: 20px;
+  line-height: 1.75;
+  font-size: 18px;
+  width: 80%;
 }
 </style>

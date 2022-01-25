@@ -1,7 +1,6 @@
 <template>
   <section class="faq">
-
-    <!-- <p class="benefit">Stadig i tvivl? Find svar på det meste her</p>
+    <p class="benefit">Stadig i tvivl? Find svar på det meste her</p>
     <h1>Oftest stillede spørgsmål</h1>
 
     <div class="accordion" role="tablist">
@@ -19,67 +18,66 @@
               ved, at række personligt ud til hver enkelt kunde, og møde dem i
               øjenhøjde.
             </b-card-text>
-            <b-card-text>{{ text }}</b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>
 
       <b-card no-body class="mb-1">
-        <b-card-header header-tag="header" class="p-1" role="tab">
+        <b-card-header header-tag="header" class="p-0" role="tab">
           <b-button block v-b-toggle.accordion-2 variant="info"
             >Hvem henvender Churnr sig til?</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text>Churnr henvender sig på nuværende tidspunkt udelukkende til abonnementsvirksomheder.</b-card-text>
+            <b-card-text
+              >Churnr henvender sig på nuværende tidspunkt udelukkende til
+              abonnementsvirksomheder.</b-card-text
+            >
           </b-card-body>
         </b-collapse>
       </b-card>
 
       <b-card no-body class="mb-1">
-        <b-card-header header-tag="header" class="p-1" role="tab">
+        <b-card-header header-tag="header" class="p-0" role="tab">
           <b-button block v-b-toggle.accordion-3 variant="info"
             >Hvor meget koster Churnrs ydelser?</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text>Prisen for Churnrs ydelser er individuel for alle virksomheder. Det varierer på baggrund af antal kunder, churn rate, interne behov mm.</b-card-text>
+            <b-card-text
+              >Prisen for Churnrs ydelser er individuel for alle virksomheder.
+              Det varierer på baggrund af antal kunder, churn rate, interne
+              behov mm.</b-card-text
+            >
           </b-card-body>
         </b-collapse>
       </b-card>
-
     </div>
-     -->
   </section>
 </template>
 
 <script>
 export default {
   name: "faq",
-  props: {
-    msg: String,
-  },
-  data() {
-    return {};
-  },
 };
 </script>
 
 <style scoped>
 .faq {
-  padding: 0 0 150px 0;
+  padding: 150px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-top: 1px solid #dcdcdc;
 }
 .faq h1 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
 }
 .faq .accordion {
   margin-top: 100px;
@@ -94,7 +92,7 @@ export default {
   border-color: transparent;
   padding: 30px !important;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -103,10 +101,9 @@ export default {
   outline: none !important;
   box-shadow: none;
 }
-
 .card-text {
-  font-size: 20px;
-  line-height: 1.5;
-  padding: 30px 30px 0px 30px;
+  font-size: 16px;
+  line-height: 1.75;
+  padding: 30px;
 }
 </style>

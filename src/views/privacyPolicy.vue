@@ -60,9 +60,9 @@
     <h2>Dine rettigheder</h2>
     <p>
       Som den registrerede har du en række rettigheder, som vi til enhver tid
-      skal sikre opfyldelse af. Du har ret til at anmode os om følgende: <br><br>• At få
-      adgang til og få rettet/ændret dine persondata <br>• At få slettet persondata
-      <br><br>
+      skal sikre opfyldelse af. Du har ret til at anmode os om følgende:
+      <br /><br />• At få adgang til og få rettet/ændret dine persondata <br />•
+      At få slettet persondata <br /><br />
       Du har derudover ret til at protestere over behandlingen af dine
       personlige data, og du har ret til at indgive klage til en
       databeskyttelsesmyndighed. Ønsker du ikke længere, at vi skal behandle

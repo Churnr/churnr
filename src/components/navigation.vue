@@ -49,9 +49,9 @@ export default {
 
 <style scoped>
 nav {
-  
   width: 100%;
   background: white;
+  z-index: 999;
   /* box-shadow: 0px 18px 30px rgb(0 0 0 / 2%); */
 }
 .navbar {
@@ -69,7 +69,7 @@ nav {
 .navbar a {
   margin-right: 40px;
   padding: 0;
-  color: black;
+  color: #656565;
   text-decoration: none;
 }
 .navbar-brand img {
@@ -83,10 +83,10 @@ nav {
   font-weight: 600;
 }
 .scroll {
-      box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
+  box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
   position: fixed;
   box-sizing: border-box;
   width: 100%;
-  transition: .25s all ease-in;
+  transition: 0.25s all ease-in;
 }
 </style>

@@ -6,13 +6,23 @@
     <div class="visionAndMission-text-content">
       <div class="vision">
         <h2>Vision</h2>
-        <hr>
-        <p>Vores vision er at sætte mennesket i fokus, ved at minimere brugen af autogenererede e-mails og gøre kundeoplevelsen mere menneskelig for forbrugeren, i en verden der bliver mere automatiseret for hver dag der går.</p>
+        <hr />
+        <p>
+          Vores vision er at sætte mennesket i fokus, ved at minimere brugen af
+          autogenererede e-mails og gøre kundeoplevelsen mere menneskelig for
+          forbrugeren, i en verden der bliver mere automatiseret for hver dag
+          der går.
+        </p>
       </div>
       <div class="mission">
         <h2>Mission</h2>
-        <hr>
-        <p>Churnrs mission er at redde abonnenter der går tabt, når en betaling fejler, gennem personaliseret outreach. I sidste ende vil det føre til en minimeret churn rate, en højere LTV og en styrket bundlinje for virksomhederne.</p>
+        <hr />
+        <p>
+          Churnrs mission er at redde abonnenter der går tabt, når en betaling
+          fejler, gennem personaliseret outreach. I sidste ende vil det føre til
+          en minimeret churn rate, en højere LTV og en styrket bundlinje for
+          virksomhederne.
+        </p>
       </div>
     </div>
   </section>
@@ -40,7 +50,7 @@ export default {
   text-align: center;
 }
 .visionAndMission-header-content h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   padding-bottom: 100px;
 }
@@ -52,7 +62,7 @@ export default {
 .visionAndMission-text-content hr {
   width: 25%;
   height: 7.5px;
-  color: #0ABF53;
+  color: #0abf53;
 }
 .visionAndMission-text-content p {
   width: 80%;

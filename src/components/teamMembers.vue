@@ -40,7 +40,7 @@ export default {
 .team-members {
   width: 100%;
   padding: 150px 0;
-  background: #F6EDD9;
+  background: #f6edd9;
   display: flex;
   justify-content: center;
   margin-top: 150px;
@@ -49,7 +49,7 @@ export default {
 }
 .team-members h1 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 75px;
 }
 .team-members-content {

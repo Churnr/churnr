@@ -67,19 +67,19 @@ export default {
   width: 1150px;
 }
 .culture-header-content h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   padding-bottom: 50px;
 }
 
 .culture-text-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr; 
-  gap: 0px 25px; 
-  grid-template-areas: 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 25px;
+  grid-template-areas:
     ". ."
-    ". ."; 
+    ". .";
 }
 
 .culture-text-content h2 {
@@ -99,8 +99,10 @@ export default {
   padding: 0;
 }
 
-
-.human-centric, .innovation, .responsibility, .inclusion {
+.human-centric,
+.innovation,
+.responsibility,
+.inclusion {
   padding: 40px;
   box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
 }

@@ -1,14 +1,17 @@
 <template>
   <div class="features">
-
     <section class="features-hero">
       <div class="features-hero-content">
         <p class="benefit">Den enkle løsning til at optimere jeres omsætning</p>
-        <h1>Lad os sætte fokus<br>på jeres dunning</h1>
-        <p>Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige churn, der sker på grund af betalingsfejl. Vores løsning er skræddersyet til dit behov.</p>
+        <h1>Lad os sætte fokus<br />på jeres dunning</h1>
+        <p>
+          Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige
+          churn, der sker på grund af betalingsfejl. Vores løsning er
+          skræddersyet til dit behov.
+        </p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
       </div>
-      <img src="../assets/dunning.jpg" alt="">
+      <img src="../assets/dunning.jpg" alt="" />
     </section>
 
     <section class="features-journey">
@@ -18,22 +21,33 @@
           <div class="journey-step">
             <p class="number">1</p>
             <h3>Analysering af behov</h3>
-            <p>Vi leverer en løsning, skræddersyet til jeres behov og jeres kunder.</p>
+            <p>
+              Vi leverer en løsning, skræddersyet til jeres behov og jeres
+              kunder.
+            </p>
           </div>
           <div class="journey-step">
             <p class="number">2</p>
             <h3>Problemfri data integrering</h3>
-            <p>Vi integrerer og henter data, direkte fra jeres betalingsplatform</p>
+            <p>
+              Vi integrerer og henter data, direkte fra jeres betalingsplatform
+            </p>
           </div>
           <div class="journey-step">
             <p class="number">3</p>
             <h3>Vedvarende kommunikation</h3>
-            <p>Vi opretholder kontakten med jer, for et konstant tilfredsstillende produkt</p>
+            <p>
+              Vi opretholder kontakten med jer, for et konstant
+              tilfredsstillende produkt
+            </p>
           </div>
           <div class="journey-step">
             <p class="number">4</p>
             <h3>Målbare resultater</h3>
-            <p>Vi rapporterer om vores arbejde og resultater i intervaller, der passer jer</p>
+            <p>
+              Vi rapporterer om vores arbejde og resultater i intervaller, der
+              passer jer
+            </p>
           </div>
         </div>
       </div>
@@ -47,16 +61,24 @@
       <div class="features-scripts-content">
         <p class="benefit">Skræddersyet til jeres brand</p>
         <h2>Manuskript udarbejdet i fællesskab med jer</h2>
-        <p>I samarbejde med jer udarbejder vi et manuskript, der bedst muligt afspejler jeres identitet. Manuskriptet er vores hellige bog, og fungerer som rettesnor i kontakten med jeres kunder.</p>
+        <p>
+          I samarbejde med jer udarbejder vi et manuskript, der bedst muligt
+          afspejler jeres identitet. Manuskriptet er vores hellige bog, og
+          fungerer som rettesnor i kontakten med jeres kunder.
+        </p>
       </div>
-      <img src="../assets/script.png" alt="">
+      <img src="../assets/script.png" alt="" />
     </div>
 
     <div class="features-dashboard">
       <div class="features-dashboard-content">
         <p class="benefit">Løbende overblik</p>
         <h2>Følg med i vores resultater</h2>
-        <p>Med vores dashboard vil I kunne følge med i de resultater vi skaber. Dashboardet leveres skræddersyet til jer, i lige præcis det format I foretrækker.</p>
+        <p>
+          Med vores dashboard vil I kunne følge med i de resultater vi skaber.
+          Dashboardet leveres skræddersyet til jer, i lige præcis det format I
+          foretrækker.
+        </p>
         <div class="features-dashboard-image"></div>
       </div>
     </div>
@@ -65,13 +87,15 @@
       <div class="features-communication-content">
         <p class="benefit">Let's stay in touch</p>
         <h2>Nem og hurtig kommunikation</h2>
-        <p>For at skabe en løbende dialog, vil vi i onboarding processen få sat en kommunikationskanal op, i jeres foretrukne kommunikations system.</p>
+        <p>
+          For at skabe en løbende dialog, vil vi i onboarding processen få sat
+          en kommunikationskanal op, i jeres foretrukne kommunikations system.
+        </p>
       </div>
-      <img src="../assets/communication.jpg" alt="">
+      <img src="../assets/communication.jpg" alt="" />
     </section>
 
-    <faq/>
-
+    <faq />
   </div>
 </template>
 
@@ -97,7 +121,7 @@ export default {
   align-items: center;
 }
 .features-hero-content {
-  width: 45%;
+  width: 50%;
 }
 .features-hero-content h1 {
   font-weight: 700;
@@ -107,13 +131,14 @@ export default {
 }
 
 .features-hero-content p {
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.75;
+  width: 80%;
 }
 
 .features-hero-content .btn {
   margin-top: 15px;
-  background: #0ABF53;
+  background: #0abf53;
   color: white;
   padding: 10px 20px;
   font-weight: 600;
@@ -121,7 +146,7 @@ export default {
 }
 
 .features-hero img {
-  width: 45%;
+  width: 35%;
 }
 
 /* Feature journey */
@@ -129,10 +154,10 @@ export default {
 .features-journey {
   width: 100%;
   padding: 150px 0;
-  background: #E7EFFF;
+  background: #f3f6f9;
 }
 .features-journey h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 100px;
   text-align: center;
@@ -168,7 +193,7 @@ export default {
 
 .features-employee-image-box {
   height: 300px;
-  background: #E7EFFF;
+  background: #f3f6f9;
   display: flex;
   justify-content: center;
   margin-bottom: 300px;
@@ -193,89 +218,99 @@ export default {
   align-items: center;
 }
 .features-scripts-content {
-  width: 45%;
+  width: 50%;
 }
 
 .features-scripts-content h2 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   margin: 0;
   padding: 5px 0 20px 0;
 }
 
 .features-scripts-content p {
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.75;
+  width: 90%;
+  color: #323338;
 }
 
 .features-scripts img {
-  width: 45%;
+  width: 35%;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 
 /* Feature dashboard */
 
 .features-dashboard {
-  padding: 0 0 150px 0;
+  padding: 150px 0;
+  border-top: 1px solid #dcdcdc;
+  width: 1150px;
+  margin: 0 auto;
 }
 
 .features-dashboard-content {
   width: 1150px;
-  margin: 0 auto;
   text-align: center;
 }
 
 .features-dashboard-content h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   margin: 0;
   padding: 5px 0 20px 0;
 }
 
 .features-dashboard-content p {
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.75;
   width: 65%;
   margin: 0 auto;
 }
 
 .features-dashboard-image {
-  margin-top: 75px;
+  margin-top: 100px;
   width: 1150px;
   height: 600px;
   background: url(../assets/dashboard.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
--webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
--moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
-    border-radius: 6px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 
 /* Feature communication */
 
 .features-communication {
-  padding: 0 0 150px 0;
+  padding: 150px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #dcdcdc;
 }
 .features-communication-content {
-  width: 45%;
+  width: 50%;
 }
 .features-communication-content h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   margin: 0;
   padding: 5px 0 20px 0;
 }
 .features-communication-content p {
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.75;
+  width: 75%;
 }
 .features-communication img {
-  width: 45%;
+  width: 35%;
 }
 </style>

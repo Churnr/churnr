@@ -4,7 +4,9 @@
       <p class="benefit">Interesseret i at høre mere?</p>
       <h1>Kontakt os i dag</h1>
       <p><b>E-mail:</b> hello@churnr.dk</p>
-      <p class="smaller">Vi bestræber os på at svare inden for 48 timer på hverdage</p>
+      <p class="smaller">
+        Vi bestræber os på at svare inden for 48 timer på hverdage
+      </p>
       <p><b>Telefon:</b> +45 42 74 12 42</p>
       <p class="smaller">10:00 - 16:00 alle hverdage.</p>
     </div>
@@ -78,7 +80,7 @@ export default {
 }
 .contact h1 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   padding: 15px 0;
   margin: 0;
 }

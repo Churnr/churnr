@@ -2,25 +2,24 @@
   <section class="team">
     <p class="benefit">Mød holdet der for tingene til at ske</p>
     <h1>Teamet bag Churnr</h1>
-    <img class="team-image" src="../assets/leteam1.jpg" alt="">
+    <img class="team-image" src="../assets/leteam1.jpg" alt="" />
 
-    <visionAndMission/>
+    <visionAndMission />
 
-    <teamMembers/>
+    <teamMembers />
 
-  <culture />
-
+    <culture />
   </section>
 </template>
 
 <script>
-import visionAndMission from "../components/visionAndMission.vue"
-import teamMembers from "../components/teamMembers.vue"
-import culture from "../components/culture.vue"
+import visionAndMission from "../components/visionAndMission.vue";
+import teamMembers from "../components/teamMembers.vue";
+import culture from "../components/culture.vue";
 
 export default {
   name: "team",
-  components: {teamMembers, visionAndMission, culture},
+  components: { teamMembers, visionAndMission, culture },
   props: {
     msg: String,
   },
@@ -38,7 +37,7 @@ export default {
 }
 .team h1 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 100px;
 }
 .team-image {

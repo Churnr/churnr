@@ -1,32 +1,20 @@
 <template>
-
   <div class="test">
-    
     <div class="text-content">
       <h1>Hej</h1>
     </div>
 
     <div class="parallax-wrapper">
-      <div class="parallax_group intro_screen" id="intro">
-        Benjamin er gud
-      </div>
+      <div class="parallax_group intro_screen" id="intro">Benjamin er gud</div>
 
       <div class="parallax_group" id="group-1">
-        <div class="parallax-layer base_layer">
-          Base Layer
-        </div>
-        <div class="parallax-layer mid_layer">
-          Mid Layer
-        </div>
+        <div class="parallax-layer base_layer">Base Layer</div>
+        <div class="parallax-layer mid_layer">Mid Layer</div>
       </div>
 
-      <div class="parallax_group outro_screen" id="outro">
-        The End
-      </div>
+      <div class="parallax_group outro_screen" id="outro">The End</div>
     </div>
-
   </div>
-
 </template>
 
 <script>
@@ -39,7 +27,6 @@ export default {
 </script>
 
 <style scoped>
-
 .test {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -96,6 +83,4 @@ export default {
 #group-1 > .base_layer {
   background-color: crimson;
 }
-
-
 </style>

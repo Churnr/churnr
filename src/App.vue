@@ -19,7 +19,7 @@ export default {
 
 <style>
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -28,7 +28,7 @@ p {
   line-height: 1.5;
 }
 .benefit {
-  color: #0abf53;
+  color: #0abf53 !important;
   font-weight: 700;
   font-size: 20px;
 }

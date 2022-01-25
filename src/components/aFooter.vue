@@ -1,35 +1,39 @@
 <template>
   <footer>
-     <div class="footer-menu">
-       <div class="footer-menu-column">
-         <!-- <h6>Kontakt</h6>
+    <div class="footer-menu">
+      <div class="footer-menu-column">
+        <!-- <h6>Kontakt</h6>
          <a href="mailto:hello@churnr.dk">hello@churnr.dk</a>
          <a href="tel:+4542741242">+45 42 74 12 42</a>
          <a href="https://goo.gl/maps/6pZed9zQDxgYZiAT6" target="_blank">Nørgaardsvej 30,<br>2800 Kongens Lyngby</a> -->
-         <img src="../assets/churnr-logo.png" alt="">
-       </div>
-       <div class="footer-menu-column">
-         <h6>Oversigt</h6>
-         <a href="#/features">Vores løsning</a>
-         <a href="#/team">Om os</a>
-         <a href="#/contact">Kontakt</a>
-       </div>
-       <div class="footer-menu-column">
-         <h6>Virksomhed</h6>
+        <img src="../assets/churnr-logo.png" alt="" />
+      </div>
+      <div class="footer-menu-column">
+        <h6>Oversigt</h6>
+        <a href="#/features">Vores løsning</a>
+        <a href="#/team">Om os</a>
+        <a href="#/contact">Kontakt</a>
+      </div>
+      <div class="footer-menu-column">
+        <h6>Virksomhed</h6>
 
-<!-- Fiks den her fucking forbandede PDF link asap -->
+        <!-- Fiks den her fucking forbandede PDF link asap -->
 
-         <a href="#">Hvad er Churnr?</a>
-         <a href="#/privacyPolicy">Privatlivsvilkår</a>
-         <a href="#/cookies">Cookiepolitik</a>
-       </div>
-       <div class="footer-menu-column">
-         <h6>Følg os</h6>
-         <a href="https://www.facebook.com/churnr-107508725081442" target="_blank">Facebook</a>
-         <a href="https://twitter.com/hellochurnr" target="_blank">Twitter</a>
-         <a href="https://www.linkedin.com/company/77019295/">LinkedIn</a>
-       </div>
-     </div>
+        <a href="#">Hvad er Churnr?</a>
+        <a href="#/privacyPolicy">Privatlivsvilkår</a>
+        <a href="#/cookies">Cookiepolitik</a>
+      </div>
+      <div class="footer-menu-column">
+        <h6>Følg os</h6>
+        <a
+          href="https://www.facebook.com/churnr-107508725081442"
+          target="_blank"
+          >Facebook</a
+        >
+        <a href="https://twitter.com/hellochurnr" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/company/77019295/">LinkedIn</a>
+      </div>
+    </div>
   </footer>
 </template>
 
@@ -67,7 +71,7 @@ footer h6 {
 }
 footer a {
   line-height: 2.5;
-  opacity: .75;
+  opacity: 0.75;
   color: black;
   text-decoration: none;
 }
