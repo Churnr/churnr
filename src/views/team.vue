@@ -8,18 +8,16 @@
 
     <teamMembers />
 
-    <culture />
   </section>
 </template>
 
 <script>
 import visionAndMission from "../components/visionAndMission.vue";
 import teamMembers from "../components/teamMembers.vue";
-import culture from "../components/culture.vue";
 
 export default {
   name: "team",
-  components: { teamMembers, visionAndMission, culture },
+  components: { teamMembers, visionAndMission },
   props: {
     msg: String,
   },
@@ -42,5 +40,6 @@ export default {
 }
 .team-image {
   width: 1150px;
+  padding-bottom: 150px;
 }
 </style>

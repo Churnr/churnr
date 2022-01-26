@@ -1,12 +1,14 @@
 <template>
   <div class="team-members">
     <h1>Meet the team</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, at?</p>
     <div class="team-members-content">
       <div class="member">
         <img src="../assets/team/anders.png" alt="" />
         <div class="member-content">
           <p class="employee-name">Anders Laurentiussen</p>
           <p class="title">CEO & Co-founder</p>
+          <i class="fab fa-linkedin"></i>
         </div>
       </div>
       <div class="member">
@@ -14,13 +16,15 @@
         <div class="member-content">
           <p class="employee-name">Benjamin Treadwell</p>
           <p class="title">CPO & Co-founder</p>
+          <i class="fab fa-github-square"></i>
         </div>
       </div>
       <div class="member">
         <img src="../assets/team/jacob.png" alt="" />
         <div class="member-content">
           <p class="employee-name">Jacob Stentoft-Nielsen</p>
-          <p class="title">CCO & Co-founder</p>
+          <p class="title">CMO & Co-founder</p>
+            <i class="fab fa-linkedin"></i>
         </div>
       </div>
     </div>
@@ -39,23 +43,30 @@ export default {
 <style scoped>
 .team-members {
   width: 100%;
-  padding: 150px 0;
-  background: #f6edd9;
+  padding: 150px 0 0 0;
   display: flex;
   justify-content: center;
-  margin-top: 150px;
   flex-direction: column;
   align-items: center;
 }
 .team-members h1 {
   font-weight: 700;
   font-size: 40px;
+}
+.team-members p {
+  
   margin-bottom: 75px;
+  font-size: 18px;
 }
 .team-members-content {
-  display: grid;
   width: 1150px;
+    display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 40px;
+  grid-template-areas:
+    ". ."
+    ". .";
 }
 .employee-name {
   font-size: 20px;
@@ -66,27 +77,26 @@ export default {
   font-size: 20px;
   font-weight: 400;
 }
-.employee-social-media {
-  font-size: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 15px;
-}
 .member {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 60px 30px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 .member-content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 .member img {
-  height: 60px;
-  width: 60px;
-  margin-right: 15px;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 25px;
 }
 .member p {
   line-height: 1;
@@ -94,5 +104,9 @@ export default {
   line-height: 30px;
   margin: 0;
   padding: 0;
+}
+.member i {
+  margin-top: 25px;
+  font-size: 30px;
 }
 </style>

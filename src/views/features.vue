@@ -3,11 +3,11 @@
     <section class="features-hero">
       <div class="features-hero-content">
         <p class="benefit">Den enkle løsning til at optimere jeres omsætning</p>
-        <h1>Lad os sætte fokus<br />på jeres dunning</h1>
+        <h1>I got 99 problems<br>- but churn aint one</h1>
         <p>
           Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige
           churn, der sker på grund af betalingsfejl. Vores løsning er
-          skræddersyet til dit behov.
+          skræddersyet til jeres behov.
         </p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
       </div>
@@ -23,7 +23,7 @@
             <h3>Analysering af behov</h3>
             <p>
               Vi leverer en løsning, skræddersyet til jeres behov og jeres
-              kunder.
+              kunder
             </p>
           </div>
           <div class="journey-step">
@@ -126,8 +126,8 @@ export default {
 .features-hero-content h1 {
   font-weight: 700;
   margin: 0;
+  line-height: 1.5;
   padding: 5px 0 15px 0;
-  font-family: "Calibre", Helvetica, Arial;
 }
 
 .features-hero-content p {
@@ -226,6 +226,7 @@ export default {
   font-size: 40px;
   margin: 0;
   padding: 5px 0 20px 0;
+  line-height: 1.5;
 }
 
 .features-scripts-content p {
@@ -237,10 +238,10 @@ export default {
 
 .features-scripts img {
   width: 35%;
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba( 173, 216, 230, .5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  border-radius: 5px;
 }
 
 /* Feature dashboard */
@@ -279,10 +280,10 @@ export default {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
+  box-shadow: 1px 0px 30px 1px rgba(173, 216, 230, .5);
+  -webkit-box-shadow: 1px 0px 30px 1px rgba( 173, 216, 230, .5);
+  -moz-box-shadow: 1px 0px 30px 1px rgba(173, 216, 230, .5);
+  border-radius: 5px;
 }
 
 /* Feature communication */
