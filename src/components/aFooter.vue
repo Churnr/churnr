@@ -2,24 +2,20 @@
   <footer>
     <div class="footer-menu">
       <div class="footer-menu-column">
-        <!-- <h6>Kontakt</h6>
-         <a href="mailto:hello@churnr.dk">hello@churnr.dk</a>
-         <a href="tel:+4542741242">+45 42 74 12 42</a>
-         <a href="https://goo.gl/maps/6pZed9zQDxgYZiAT6" target="_blank">Nørgaardsvej 30,<br>2800 Kongens Lyngby</a> -->
         <img src="../assets/churnr-logo.png" alt="" />
       </div>
       <div class="footer-menu-column">
         <h6>Oversigt</h6>
-        <a href="#/features">Vores løsning</a>
-        <a href="#/team">Om os</a>
-        <a href="#/contact">Kontakt</a>
+        <router-link to="/features">Vores løsning</router-link>
+        <router-link to="/team">Om os</router-link>
+        <router-link to="/contact">Kontakt</router-link>
       </div>
       <div class="footer-menu-column">
         <h6>Virksomhed</h6>
 
         <!-- Fiks den her fucking forbandede PDF link asap -->
 
-        <a href="#">Hvad er Churnr?</a>
+        <a href="./brochure.pdf" target="_blank">Hvad er Churnr?</a>
         <a href="#/privacyPolicy">Privatlivsvilkår</a>
         <a href="#/cookies">Cookiepolitik</a>
       </div>

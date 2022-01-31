@@ -26,6 +26,15 @@
           <p class="title">CMO & Co-founder</p>
             <i class="fab fa-linkedin"></i>
         </div>
+        
+      </div>
+      <div class="member">
+        <img src="../assets/team/jacob.png" alt="" />
+        <div class="member-content">
+          <p class="employee-name">Jens Ohlendorff Brønd</p>
+          <p class="title">Datamatiker praktikant</p>
+            <i class="fab fa-linkedin"></i>
+        </div>
       </div>
     </div>
   </div>
@@ -43,11 +52,13 @@ export default {
 <style scoped>
 .team-members {
   width: 100%;
-  padding: 150px 0 0 0;
+  padding: 150px 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  /* background: #6C6CFF;
+  color: white; */
 }
 .team-members h1 {
   font-weight: 700;
@@ -61,7 +72,7 @@ export default {
 .team-members-content {
   width: 1150px;
     display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 40px;
   grid-template-areas:
@@ -82,11 +93,12 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 60px 30px;
+  padding: 50px 30px;
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
+  background: white;
 }
 .member-content {
   display: flex;

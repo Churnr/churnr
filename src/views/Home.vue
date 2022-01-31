@@ -140,8 +140,9 @@ export default {
 }
 .feature h2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 45px;
   padding: 0px 0 15px 0;
+  line-height: 1.5;
 }
 .feature p {
   line-height: 1.75;

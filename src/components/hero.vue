@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <span>
-      <h1>Fasthold dine abonnementskunder med personlig outreach</h1>
+      <h1>Fasthold dine kunder med personlig outreach</h1>
       <p>
         Har I også oplevet betalingsfejl? Lad os hjælpe, med at maksimere jeres
         kundefastholdelse.
@@ -32,7 +32,7 @@ export default {
   align-items: center;
 }
 .hero h1 {
-  font-size: 50px;
+  font-size: 45px;
   line-height: 1.15;
   font-weight: 700;
 }

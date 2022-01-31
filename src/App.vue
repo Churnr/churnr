@@ -23,6 +23,9 @@ export default {
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: auto !important;
+}
 p {
   font-size: 18px;
   line-height: 1.5;

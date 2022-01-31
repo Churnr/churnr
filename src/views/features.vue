@@ -66,6 +66,11 @@
           afspejler jeres identitet. Manuskriptet er vores hellige bog, og
           fungerer som rettesnor i kontakten med jeres kunder.
         </p>
+        <ul>
+          <li> Uarbejdet i fællesskab</li>
+          <li> Tilpasset din eksisterende branding</li>
+          <li> Menneskecentreret kommunikation</li>
+        </ul>
       </div>
       <img src="../assets/script.png" alt="" />
     </div>
@@ -233,7 +238,22 @@ export default {
   font-size: 18px;
   line-height: 1.75;
   width: 90%;
-  color: #323338;
+  color: #333333;
+}
+
+.features-scripts-content ul {
+  list-style: none;
+  line-height: 36px;
+  padding-left: 0;
+  padding-top: 15px;
+  font-size: 18px;
+  color: #333333;
+}
+
+.features-scripts-content ul li:before {
+  content: '✓';
+  color: #0abf53;
+  font-weight: 700;
 }
 
 .features-scripts img {
