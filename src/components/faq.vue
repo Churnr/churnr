@@ -106,4 +106,49 @@ export default {
   line-height: 1.75;
   padding: 30px;
 }
+
+@media only screen and (max-width: 728px) {
+  .faq {
+    padding: 150px 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #dcdcdc;
+    text-align: center;
+  }
+  .faq h1 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .faq .accordion {
+    margin-top: 100px;
+  }
+  .card-header {
+    width: 100%;
+  }
+  .card-header .btn-info {
+    width: 100%;
+    text-align: left;
+    background: white;
+    border-color: transparent;
+    padding: 30px !important;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .card-header .btn:focus,
+  .card-header .btn:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+  .card-text {
+    font-size: 16px;
+    line-height: 1.75;
+    padding: 30px;
+  }
+}
 </style>

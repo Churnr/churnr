@@ -7,17 +7,18 @@
     <visionAndMission />
 
     <teamMembers />
-
+    <culture/>
   </section>
 </template>
 
 <script>
 import visionAndMission from "../components/visionAndMission.vue";
 import teamMembers from "../components/teamMembers.vue";
+import culture from "../components/culture.vue"
 
 export default {
   name: "team",
-  components: { teamMembers, visionAndMission },
+  components: { teamMembers, visionAndMission, culture },
   props: {
     msg: String,
   },

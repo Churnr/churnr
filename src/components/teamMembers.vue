@@ -94,10 +94,9 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 50px 30px;
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   background: white;
 }
 .member-content {

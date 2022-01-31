@@ -38,19 +38,16 @@ export default {
 }
 .callToAction-content p {
   padding: 25px 0 35px 0;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   margin: 0;
 }
 .callToAction-content .btn {
   background: white;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
   padding: 10px 30px;
-  font-weight: 600;
-}
-.callToAction-content .btn:hover {
-  background: #3acf91;
+  font-weight: 500;
 }
 </style>

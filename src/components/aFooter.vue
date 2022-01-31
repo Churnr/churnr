@@ -71,4 +71,36 @@ footer a {
   color: black;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 728px) {
+  footer {
+    padding: 100px 25px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer img {
+    width: 125px;
+    margin-bottom: 25px;
+  }
+  .footer-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    justify-content: space-between;
+  }
+  .footer-menu-column {
+    display: flex;
+    flex-direction: column;
+  }
+  footer h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  footer a {
+    line-height: 2.5;
+    opacity: 0.75;
+    color: black;
+    text-decoration: none;
+  }
+}
 </style>

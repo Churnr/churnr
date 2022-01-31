@@ -1,15 +1,20 @@
 <template>
   <section class="visionAndMission">
+    <div class="visionAndMission-header-content">
+      <h2>Vores vision & mission</h2>
+    </div>
     <div class="visionAndMission-text-content">
       <div class="vision">
-        <h2>Vores vision & mission</h2>
+        Vores drøm er, at sætte mennesket i fokus, ved at minimere brugen af
+        autogenererede e-mails og gøre kundeoplevelsen mere menneskelig for
+        forbrugeren, i en verden der bliver mere automatiseret for hver dag der
+        går.
       </div>
       <div class="mission">
         <p>
-          Vores drøm er, at sætte mennesket i fokus, ved at minimere brugen af
-          autogenererede e-mails og gøre kundeoplevelsen mere menneskelig for
-          forbrugeren, i en verden der bliver mere automatiseret for hver dag
-          der går.
+          Missionen er, at redde abonnenter der går tabt, når en betaling
+          fejler. Det gør vi ved at lave personligt outrach som er med til at
+          minimere churn raten og giver en styrket bundlinje for virksomhederne.
         </p>
       </div>
     </div>
@@ -31,10 +36,19 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   padding: 150px 0;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
+}
+.visionAndMission-header-content {
+  text-align: left;
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+.visionAndMission-header-content h2 {
+  font-size: 40px;
+  font-weight: 700;
 }
 .visionAndMission-text-content {
   width: 1150px;
@@ -43,19 +57,16 @@ export default {
   justify-content: space-between;
 }
 .vision {
-  width: 40%;
+  width: 45%;
 }
 .mission {
   width: 45%;
 }
-.visionAndMission-text-content h2 {
-  font-size: 45px;
-  line-height: 1.5;
-}
-.visionAndMission-text-content p {
+.visionAndMission-text-content,
+.vision p,
+.mission p {
   font-size: 18px;
-  line-height: 1.5;
-  width: 80%;
+  line-height: 1.75;
+  width: 100%;
 }
-
 </style>
