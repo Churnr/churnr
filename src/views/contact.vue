@@ -65,7 +65,7 @@ export default {
 
 <style scoped>
 .contact {
-  padding: 150px 0;
+  padding: 175px 0 150px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -80,7 +80,7 @@ export default {
 }
 .contact h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
   padding: 15px 0;
   margin: 0;
 }

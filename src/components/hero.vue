@@ -1,15 +1,14 @@
 <template>
   <div class="hero">
     <span>
-      <h1>Fasthold dine kunder med personlig outreach</h1>
+      <h1>Kundefastholdelse vha. personlig outreach</h1>
       <p>
         Har I også oplevet betalingsfejl? Lad os hjælpe, med at maksimere jeres
         kundefastholdelse.
       </p>
-      <router-link to="/features" class="btn">Se hvordan</router-link
-      ><router-link to="/contact">Book møde</router-link>
+      <router-link to="/features" class="btn">Se hvordan</router-link>
     </span>
-    <img src="../assets/retention.png" alt="" />
+    <img src="../assets/retention.jpg" alt="" />
   </div>
 </template>
 
@@ -24,7 +23,7 @@ export default {
 
 <style scoped>
 .hero {
-  padding: 75px 0 125px 0;
+  padding: 175px 0 150px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -32,14 +31,18 @@ export default {
   align-items: center;
 }
 .hero h1 {
-  font-size: 45px;
+  font-size: 65px;
   line-height: 1.15;
   font-weight: 700;
+  color: #2E3540;
+  letter-spacing: -3px;
+  margin: 0;
 }
 .hero p {
   font-size: 20px;
   line-height: 1.75;
-  padding: 15px 0;
+  padding: 15px 0 30px 0;
+  margin: 0;
 }
 .hero .btn {
   background: #0abf53;
@@ -48,7 +51,7 @@ export default {
   border-radius: 0;
   margin: 0;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
 }
 a {
   background: transparent;
@@ -58,10 +61,10 @@ a {
   margin-left: 15px;
   border-radius: 0;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 .hero img {
-  width: 42.5%;
+  width: 35%;
 }
 .hero span {
   width: 50%;

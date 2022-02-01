@@ -119,7 +119,7 @@ export default {
 
 <style scoped>
 .features-hero {
-  padding: 75px 0 150px 0;
+  padding: 175px 0 150px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -130,10 +130,13 @@ export default {
   width: 50%;
 }
 .features-hero-content h1 {
-  font-weight: 700;
   margin: 0;
-  line-height: 1.5;
+  letter-spacing: -3px;
   padding: 5px 0 15px 0;
+  font-size: 65px;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #2E3540;
 }
 
 .features-hero-content p {
@@ -165,7 +168,9 @@ export default {
   background: #f3f6f9;
 }
 .features-journey h2 {
-  font-size: 40px;
+  font-size: 50px;
+  letter-spacing: -3px;
+  color: #2E3540;
   font-weight: 700;
   margin-bottom: 100px;
   text-align: center;
@@ -192,6 +197,7 @@ export default {
 .journey-step h3 {
   font-size: 20px;
   font-weight: 700;
+  letter-spacing: -.5px;
 }
 .journey-step p {
   font-size: 16px;
@@ -232,10 +238,12 @@ export default {
 
 .features-scripts-content h2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
   margin: 0;
   padding: 5px 0 20px 0;
-  line-height: 1.5;
+  line-height: 1.25;
+  letter-spacing: -2px;
+  color: #2E3540;
 }
 
 .features-scripts-content p {
@@ -283,10 +291,12 @@ export default {
 }
 
 .features-dashboard-content h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   margin: 0;
-  padding: 5px 0 20px 0;
+  padding: 10px 0 20px 0;
+  letter-spacing: -2px;
+  color: #2E3540;
 }
 
 .features-dashboard-content p {
@@ -326,9 +336,12 @@ export default {
   width: 50%;
 }
 .features-communication-content h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -2px;
   margin: 0;
+  color: #2E3540;
   padding: 5px 0 20px 0;
 }
 .features-communication-content p {

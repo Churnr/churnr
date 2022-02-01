@@ -46,7 +46,9 @@ export default {
 }
 .feature h2 {
   font-weight: 700;
-  font-size: 40px;
+  line-height: 1.25;
+  font-size: 50px;
+  letter-spacing: -3px;
   padding: 0px 0 15px 0;
 }
 .feature p {

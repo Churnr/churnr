@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 .team {
-  padding: 150px 0;
+  padding: 175px 0 150px 0;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -36,8 +36,10 @@ export default {
 }
 .team h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
+  letter-spacing: -2px;
   margin-bottom: 100px;
+  color: #2E3540;
 }
 .team-image {
   width: 1150px;

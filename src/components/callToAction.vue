@@ -47,7 +47,8 @@ export default {
   color: black;
   font-size: 18px;
   border: none;
-  padding: 10px 30px;
+  padding: 15px 30px;
+  border-radius: 0;
   font-weight: 500;
 }
 </style>

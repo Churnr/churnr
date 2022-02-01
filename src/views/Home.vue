@@ -60,7 +60,7 @@
           Vi er en gruppe passionerede iværksættere med en plan om at optimere
           churn og innovere customer outreach.
         </p>
-        <a class="btn" href="#">Mød teamet</a>
+        <a class="btn" href="/team">Mød teamet</a>
       </span>
     </div>
   </div>
@@ -90,7 +90,7 @@ export default {
   flex-direction: column;
   color: black;
   border: 1px solid #f2f2f2;
-  background: #6d7698;
+  background: #2B2C5D;
   color: white;
 }
 
@@ -140,9 +140,10 @@ export default {
 }
 .feature h2 {
   font-weight: 700;
-  font-size: 45px;
   padding: 0px 0 15px 0;
-  line-height: 1.5;
+  line-height: 1.25;
+  font-size: 50px;
+  letter-spacing: -3px;
 }
 .feature p {
   line-height: 1.75;
@@ -153,5 +154,6 @@ export default {
   outline: 1px solid black;
   padding: 15px 30px;
   margin-top: 20px;
+  border-radius: 0;
 }
 </style>
