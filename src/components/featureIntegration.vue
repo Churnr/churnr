@@ -36,10 +36,10 @@ export default {
 }
 .feature img {
   width: 35%;
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba( 173, 216, 230, .5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  border-radius: 5px;
 }
 .feature span {
   width: 50%;

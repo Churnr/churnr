@@ -1,0 +1,153 @@
+<template>
+  <!-- <div class="moneyRetained">
+    <h2>10.420,69 DKK</h2>
+    <p>har vi fastholdt for vores kunder indtil videre</p>
+  </div> -->
+  <div class="sinek">
+    <div class="why card">
+      <div class="card-header">
+        <div class="why-icon"></div>
+        <h3>Menneskecentreret</h3>
+      </div>
+      <div class="card-body">
+        <p>
+          Når kunderne støder på problemer, er det altid bedre at snakke med
+          mennesker fremfor robotter.
+        </p>
+      </div>
+    </div>
+    <div class="how card">
+      <div class="card-header">
+        <div class="how-icon"></div>
+        <h3>Minimer betalingsfejl</h3>
+      </div>
+      <div class="card-body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio minus
+          nemo officia aliquam.
+        </p>
+      </div>
+    </div>
+    <div class="what card">
+      <div class="card-header">
+        <div class="what-icon"></div>
+        <h3>Personlig outrach</h3>
+      </div>
+      <div class="card-body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio minus
+          nemo officia aliquam.
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "whyHowWhat",
+  props: {
+    msg: String,
+  },
+};
+</script>
+
+<style scoped>
+/* .moneyRetained {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #324574;
+  color: white;
+  padding: 150px 0;
+}
+
+.moneyRetained h2 {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100px;
+  margin: 0;
+}
+
+.moneyRetained p {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+} */
+.sinek {
+  width: 1150px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  padding-bottom: 125px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.sinek .card {
+  width: 100%;
+  padding: 30px;
+  border: none;
+  box-shadow: 0px 0px 15px 1px rgba(173, 216, 230, .35);
+  -webkit-box-shadow: 0px 0px 15px 1px rgba( 173, 216, 230, .35);
+  -moz-box-shadow: 0px 0px 15px 1px rgba(173, 216, 230, .35);
+  border-radius: 5px;
+  
+}
+.sinek .card:hover {
+  cursor:default;
+}
+.card-header {
+  background: white;
+  border: none;
+  display: flex;
+  padding: 0;
+}
+.card-header h3 {
+  font-weight: 700;
+  margin: 0 0 25px 0;
+  color: #2E3540;
+  font-size: 25px;
+  letter-spacing: -1.5px;
+}
+.card-body {
+  padding: 0;
+  margin: 0;
+}
+.card-body p{
+  padding: 0;
+  margin: 0;
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.75;
+}
+.how-icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+  background: url(../assets/decreasing.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.why-icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+  background: url(../assets/human.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.what-icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+  background: url(../assets/tailored.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+</style>

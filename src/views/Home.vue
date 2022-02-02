@@ -2,9 +2,24 @@
   <div class="home">
     <hero />
 
-    <moneyRetained />
+    <whyHowWhat />
 
     <div class="feature">
+      <img src="../assets/graphs.jpg" alt="" />
+      <span>
+        <p class="benefit">
+          Uddeleger de rigtige opgaver til de rigtige personer
+        </p>
+        <h2>En personlig løsning, der sparer tid og ressourcer</h2>
+        <p>
+          Læn jer tilbage, og se til imens vi sørger for en personlig
+          serviceoplevelse til jeres kunder, der samtidig vil øge deres LTV.
+        </p>
+      </span>
+      
+    </div>
+
+    <div class="feature humanize">
       <span>
         <p class="benefit">Sig farvel til autogenererede e-mails</p>
         <h2>Gør dialogen mere menneskelig</h2>
@@ -18,19 +33,7 @@
 
     <featureIntegration />
 
-    <div class="feature">
-      <span>
-        <p class="benefit">
-          Uddeleger de rigtige opgaver til de rigtige personer
-        </p>
-        <h2>En personlig løsning, der sparer tid og ressourcer</h2>
-        <p>
-          Læn jer tilbage, og se til imens vi sørger for en personlig
-          serviceoplevelse til jeres kunder, der samtidig vil øge deres LTV.
-        </p>
-      </span>
-      <img src="../assets/graphs.jpg" alt="" />
-    </div>
+    
 
     <div class="solution-stat">
       <div class="solution-content">
@@ -69,9 +72,9 @@
 <script>
 import featureIntegration from "../components/featureIntegration.vue";
 import hero from "../components/hero.vue";
-import moneyRetained from "../components/moneyRetained.vue";
+import whyHowWhat from "../components/whyHowWhat.vue";
 export default {
-  components: { hero, moneyRetained, featureIntegration },
+  components: { hero, whyHowWhat, featureIntegration },
   name: "home",
   props: {
     msg: String,
@@ -103,13 +106,14 @@ export default {
 }
 
 .solution-content h3 {
-  font-size: 75px;
+  font-size: 70px;
   font-weight: 700;
+  letter-spacing: -2px;
 }
 
 .solution-content p {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .stat {
@@ -120,7 +124,7 @@ export default {
 /* Front page features */
 
 .feature {
-  padding: 150px 0;
+  padding: 125px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -130,10 +134,10 @@ export default {
 }
 .feature img {
   width: 35%;
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba( 173, 216, 230, .5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  border-radius: 5px;
 }
 .feature span {
   width: 50%;
@@ -155,5 +159,8 @@ export default {
   padding: 15px 30px;
   margin-top: 20px;
   border-radius: 0;
+}
+ .humanize {
+  border-top: 1px solid #dcdcdc;
 }
 </style>

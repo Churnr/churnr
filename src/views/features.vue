@@ -6,8 +6,7 @@
         <h1>I got 99 problems<br>- but churn aint one</h1>
         <p>
           Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige
-          churn, der sker på grund af betalingsfejl. Vores løsning er
-          skræddersyet til jeres behov.
+          churn, der sker på grund af betalingsfejl.
         </p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
       </div>

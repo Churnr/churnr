@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .hero {
-  padding: 175px 0 150px 0;
+  padding: 150px 0 125px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -65,6 +65,10 @@ a {
 }
 .hero img {
   width: 35%;
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba( 173, 216, 230, .5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  border-radius: 5px;
 }
 .hero span {
   width: 50%;

@@ -70,7 +70,7 @@ export default {
   position: fixed;
   width: 100%;
   background: white;
-  
+  z-index: 999;
 }
 .navbar {
   width: 1150px !important;
