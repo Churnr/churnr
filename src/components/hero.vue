@@ -1,7 +1,7 @@
 <template>
-  <div class="hero">
+  <div class="hero" data-aos="fade-up" data-aos-duration="1000">
     <span>
-      <h1>Kundefastholdelse vha. personlig outreach</h1>
+      <h1>Kundefastholdelse med personlig outreach</h1>
       <p>
         Har I også oplevet betalingsfejl? Lad os hjælpe, med at maksimere jeres
         kundefastholdelse.

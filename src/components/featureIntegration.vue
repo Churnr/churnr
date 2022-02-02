@@ -1,5 +1,5 @@
 <template>
-  <div class="feature">
+  <div class="feature" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
     <img src="../assets/payment-methods.png" alt="" />
     <span>
       <p class="benefit">En nem, enkel og automatiseret løsning</p>

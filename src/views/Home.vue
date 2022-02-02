@@ -4,7 +4,7 @@
 
     <whyHowWhat />
 
-    <div class="feature">
+    <div class="feature" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-once="true">
       <img src="../assets/graphs.jpg" alt="" />
       <span>
         <p class="benefit">
@@ -19,7 +19,7 @@
       
     </div>
 
-    <div class="feature humanize">
+    <div class="feature humanize" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
       <span>
         <p class="benefit">Sig farvel til autogenererede e-mails</p>
         <h2>Gør dialogen mere menneskelig</h2>
@@ -55,16 +55,17 @@
     </div>
 
     <div class="feature">
-      <img src="../assets/twest.png" alt="" />
+      
       <span>
         <p class="benefit">Teamet der får tingene til at ske</p>
-        <h2>Din nye samarbejdspartner</h2>
+        <h2>Din nye engagerede samarbejdspartner</h2>
         <p>
           Vi er en gruppe passionerede iværksættere med en plan om at optimere
           churn og innovere customer outreach.
         </p>
         <a class="btn" href="/team">Mød teamet</a>
       </span>
+      <img src="../assets/partner.jpg" alt="" />
     </div>
   </div>
 </template>

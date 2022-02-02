@@ -43,6 +43,6 @@ export default {
 }
 .team-image {
   width: 1150px;
-  padding-bottom: 150px;
+  z-index: 1;
 }
 </style>

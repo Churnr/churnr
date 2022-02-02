@@ -105,8 +105,8 @@ export default {
   align-items: center;
 }
 .member img {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   margin-bottom: 25px;
 }
 .member p {

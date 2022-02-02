@@ -215,7 +215,7 @@ export default {
 .features-employee-image {
   height: 600px;
   width: 1150px;
-  background: url(../assets/squad.jpg);
+  background: url(../assets/recipe.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -224,7 +224,7 @@ export default {
 /* Feature scripts */
 
 .features-scripts {
-  padding: 150px 0;
+  padding: 150px 0 125px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -278,7 +278,7 @@ export default {
 /* Feature dashboard */
 
 .features-dashboard {
-  padding: 150px 0;
+  padding: 125px 0;
   border-top: 1px solid #dcdcdc;
   width: 1150px;
   margin: 0 auto;
@@ -323,7 +323,7 @@ export default {
 /* Feature communication */
 
 .features-communication {
-  padding: 150px 0;
+  padding: 125px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -362,6 +362,10 @@ export default {
 }
 .features-communication img {
   width: 35%;
+  box-shadow: 1px 0px 30px 1px rgba(173, 216, 230, .5);
+  -webkit-box-shadow: 1px 0px 30px 1px rgba( 173, 216, 230, .5);
+  -moz-box-shadow: 1px 0px 30px 1px rgba(173, 216, 230, .5);
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 728px) {

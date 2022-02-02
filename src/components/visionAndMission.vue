@@ -32,18 +32,18 @@ export default {
 
 <style scoped>
 .visionAndMission {
-  width: 1150px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  padding: 150px 0;
-  border-top: 1px solid #dcdcdc;
-  border-bottom: 1px solid #dcdcdc;
+  background: #F3F6F9;
+  margin-top: -125px;
+  padding-top: 250px;
+  padding-bottom: 125px;
 }
 .visionAndMission-header-content {
   text-align: left;
-  width: 100%;
+  width: 1150px;
   padding: 0 0 50px 0;
 }
 .visionAndMission-header-content h2 {
@@ -51,7 +51,7 @@ export default {
   font-weight: 700;
 }
 .visionAndMission-text-content {
-  width: 1150px;
+  width: 1150px !important;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
