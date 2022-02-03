@@ -7,18 +7,16 @@
     <visionAndMission />
 
     <teamMembers />
-    <culture/>
   </section>
 </template>
 
 <script>
 import visionAndMission from "../components/visionAndMission.vue";
 import teamMembers from "../components/teamMembers.vue";
-import culture from "../components/culture.vue"
 
 export default {
   name: "team",
-  components: { teamMembers, visionAndMission, culture },
+  components: { teamMembers, visionAndMission },
   props: {
     msg: String,
   },
@@ -39,10 +37,21 @@ export default {
   font-size: 50px;
   letter-spacing: -2px;
   margin-bottom: 100px;
-  color: #2E3540;
+  color: #2e3540;
 }
 .team-image {
   width: 1150px;
   z-index: 1;
+}
+
+/* Mobile media query */
+
+@media only screen and (max-width: 728px) {
+  .team {
+    padding: 200px 25px 150px 25px;
+  }
+  .team-image {
+    width: 100%;
+  }
 }
 </style>

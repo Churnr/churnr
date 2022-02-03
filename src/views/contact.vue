@@ -134,4 +134,41 @@ input[type="submit"] {
 input[type="submit"]:hover {
   opacity: 75%;
 }
+/* Mobile media query */
+
+@media only screen and (max-width: 728px) {
+  .contact {
+    padding: 200px 25px 150px 25px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+  }
+  .contact-content {
+    width: 100%;
+  }
+
+  .contact-content p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.75;
+    font-size: 20px;
+  }
+
+  .smaller {
+    padding-bottom: 15px !important;
+    font-size: 16px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .message {
+    width: 100%;
+    margin-top: 100px;
+    font-size: 20px;
+  }
+}
 </style>

@@ -34,7 +34,7 @@ export default {
   font-size: 65px;
   line-height: 1.15;
   font-weight: 700;
-  color: #2E3540;
+  color: #2e3540;
   letter-spacing: -3px;
   margin: 0;
 }
@@ -65,12 +65,64 @@ a {
 }
 .hero img {
   width: 35%;
-  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
-  -webkit-box-shadow: 0px 0px 30px 1px rgba( 173, 216, 230, .5);
-  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   border-radius: 5px;
 }
 .hero span {
   width: 50%;
+}
+
+/* Mobile media query */
+
+@media only screen and (max-width: 728px) {
+  .hero {
+    padding: 200px 25px 150px 25px;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 50px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #2e3540;
+    letter-spacing: -3px;
+    margin: 0;
+  }
+  .hero p {
+    font-size: 20px;
+    line-height: 1.75;
+    padding: 15px 0 30px 0;
+    margin: 0;
+  }
+  .hero .btn {
+    background: #0abf53;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 0;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+  }
+  a {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border-radius: 0;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .hero img {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .hero span {
+    width: 100%;
+  }
 }
 </style>

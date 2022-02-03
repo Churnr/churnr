@@ -4,7 +4,9 @@
 
     <whyHowWhat />
 
-    <div class="feature" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-once="true">
+    <div
+      class="feature"
+    >
       <img src="../assets/graphs.jpg" alt="" />
       <span>
         <p class="benefit">
@@ -16,10 +18,11 @@
           serviceoplevelse til jeres kunder, der samtidig vil øge deres LTV.
         </p>
       </span>
-      
     </div>
 
-    <div class="feature humanize" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+    <div
+      class="feature humanize"
+    >
       <span>
         <p class="benefit">Sig farvel til autogenererede e-mails</p>
         <h2>Gør dialogen mere menneskelig</h2>
@@ -32,8 +35,6 @@
     </div>
 
     <featureIntegration />
-
-    
 
     <div class="solution-stat">
       <div class="solution-content">
@@ -54,8 +55,7 @@
       </div>
     </div>
 
-    <div class="feature">
-      
+    <div class="feature partner">
       <span>
         <p class="benefit">Teamet der får tingene til at ske</p>
         <h2>Din nye engagerede samarbejdspartner</h2>
@@ -94,7 +94,7 @@ export default {
   flex-direction: column;
   color: black;
   border: 1px solid #f2f2f2;
-  background: #2B2C5D;
+  background: #2b2c5d;
   color: white;
 }
 
@@ -135,9 +135,9 @@ export default {
 }
 .feature img {
   width: 35%;
-  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
-  -webkit-box-shadow: 0px 0px 30px 1px rgba( 173, 216, 230, .5);
-  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, .5);
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   border-radius: 5px;
 }
 .feature span {
@@ -161,7 +161,90 @@ export default {
   margin-top: 20px;
   border-radius: 0;
 }
- .humanize {
+.humanize {
   border-top: 1px solid #dcdcdc;
+}
+
+/* Mobile media query */
+
+@media only screen and (max-width: 728px) {
+  .solution-stat {
+    padding: 150px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    border: 1px solid #f2f2f2;
+    background: #2b2c5d;
+    color: white;
+  }
+
+  .solution-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .solution-content h3 {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -2px;
+  }
+
+  .solution-content p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .stat {
+    width: 75%;
+    text-align: center;
+  }
+  .stat:nth-child(2) {
+    margin-top: 75px;
+  }
+  .stat:nth-child(3) {
+    margin-top: 75px;
+  }
+
+  /* Front page features */
+
+  .feature {
+    padding: 125px 25px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .feature img {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .feature span {
+    width: 100%;
+  }
+  .feature p {
+    line-height: 1.75;
+    font-size: 20px;
+    width: 100%;
+  }
+  .feature .btn {
+    outline: 1px solid black;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 0;
+  }
+  .humanize {
+    border-top: 1px solid #dcdcdc;
+    flex-direction: column !important;
+  }
+  .partner {
+    flex-direction: column !important;
+  }
 }
 </style>

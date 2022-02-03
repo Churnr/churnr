@@ -16,8 +16,8 @@
         <!-- Fiks den her fucking forbandede PDF link asap -->
 
         <a href="./brochure.pdf" target="_blank">Hvad er Churnr?</a>
-        <a href="#/privacyPolicy">Privatlivsvilkår</a>
-        <a href="#/cookies">Cookiepolitik</a>
+        <router-link to="/privacyPolicy">Privatlivsvilkår</router-link>
+        <router-link to="/cookies">Cookiepolitik</router-link>
       </div>
       <div class="footer-menu-column">
         <h6>Følg os</h6>
@@ -72,35 +72,22 @@ footer a {
   text-decoration: none;
 }
 
+/* Mobile media query */
+
 @media only screen and (max-width: 728px) {
   footer {
     padding: 100px 25px;
     width: 100%;
-    margin: 0 auto;
-  }
-  footer img {
-    width: 125px;
-    margin-bottom: 25px;
   }
   .footer-menu {
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 50px;
-    justify-content: space-between;
-  }
-  .footer-menu-column {
-    display: flex;
-    flex-direction: column;
   }
   footer h6 {
-    font-weight: 700;
-    margin-bottom: 15px;
+    font-size: 20px;
   }
   footer a {
-    line-height: 2.5;
-    opacity: 0.75;
-    color: black;
-    text-decoration: none;
+    font-size: 20px;
   }
 }
 </style>

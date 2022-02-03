@@ -36,7 +36,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #F3F6F9;
+  background: #f3f6f9;
   margin-top: -125px;
   padding-top: 250px;
   padding-bottom: 125px;
@@ -68,5 +68,49 @@ export default {
   font-size: 18px;
   line-height: 1.75;
   width: 100%;
+}
+
+/* Mobile media query */
+
+@media only screen and (max-width: 728px) {
+  .visionAndMission {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-top: -125px;
+    padding-top: 250px;
+    padding-bottom: 125px;
+  }
+  .visionAndMission-header-content {
+    text-align: left;
+    width: 100%;
+    padding: 0 0 50px 0;
+  }
+  .visionAndMission-header-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .visionAndMission-text-content {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .vision {
+    width: 100%;
+  }
+  .mission {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .visionAndMission-text-content,
+  .vision p,
+  .mission p {
+    font-size: 18px;
+    line-height: 1.75;
+    width: 100%;
+  }
 }
 </style>

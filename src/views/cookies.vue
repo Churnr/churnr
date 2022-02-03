@@ -134,4 +134,30 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+
+/* Mobile media query */
+
+@media only screen and (max-width: 728px) {
+  .cookies {
+    width: 100%;
+    margin: 0 auto;
+    padding: 200px 25px 150px 25px;
+  }
+
+  h1 {
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+  h2,
+  h3 {
+    margin-bottom: 25px;
+    font-weight: 700;
+  }
+  p {
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
 </style>

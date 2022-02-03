@@ -107,21 +107,18 @@ export default {
   padding: 30px;
 }
 
+/* Mobile media query */
+
 @media only screen and (max-width: 728px) {
   .faq {
-    padding: 150px 0;
+    padding: 150px 0px;
     width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    border-top: 1px solid #dcdcdc;
     text-align: center;
   }
   .faq h1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
   }
   .faq .accordion {
     margin-top: 100px;
@@ -149,6 +146,10 @@ export default {
     font-size: 16px;
     line-height: 1.75;
     padding: 30px;
+  }
+  .accordion {
+    width: 100% !important;
+    padding: 0 25px;
   }
 }
 </style>

@@ -51,4 +51,22 @@ export default {
   border-radius: 0;
   font-weight: 500;
 }
+
+/* Mobile media query */
+
+@media only screen and (max-width: 728px) {
+  .callToAction {
+    padding: 150px 25px;
+  }
+  .callToAction-content {
+    width: 100%;
+  }
+  .callToAction-content h1 {
+    font-size: 50px;
+  }
+  .callToAction-content p {
+    font-size: 20px;
+    line-height: 1.75;
+  }
+}
 </style>

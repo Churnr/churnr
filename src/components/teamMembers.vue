@@ -1,7 +1,9 @@
 <template>
   <div class="team-members">
     <h1>Meet the team</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, at?</p>
+    <p>
+      Passionerede ildsjæle der brænder for at komme betalingsfejl til livs
+    </p>
     <div class="team-members-content">
       <div class="member">
         <img src="../assets/team/anders.png" alt="" />
@@ -24,16 +26,7 @@
         <div class="member-content">
           <p class="employee-name">Jacob Stentoft-Nielsen</p>
           <p class="title">CMO & Co-founder</p>
-            <i class="fab fa-linkedin"></i>
-        </div>
-        
-      </div>
-      <div class="member">
-        <img src="../assets/team/jacob.png" alt="" />
-        <div class="member-content">
-          <p class="employee-name">Jens Ohlendorff Brønd</p>
-          <p class="title">Datamatiker praktikant</p>
-            <i class="fab fa-linkedin"></i>
+          <i class="fab fa-linkedin"></i>
         </div>
       </div>
     </div>
@@ -65,13 +58,12 @@ export default {
   font-size: 40px;
 }
 .team-members p {
-  
   margin-bottom: 75px;
   font-size: 18px;
 }
 .team-members-content {
   width: 1150px;
-    display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 40px;
@@ -119,5 +111,74 @@ export default {
 .member i {
   margin-top: 25px;
   font-size: 30px;
+}
+
+/* Mobile media query */
+
+@media only screen and (max-width: 728px) {
+  .team-members {
+    width: 100%;
+    padding: 150px 0px;
+    text-align: center;
+  }
+  .team-members h1 {
+    padding-bottom: 15px;
+    font-size: 50px;
+  }
+  .team-members p {
+    font-size: 20px;
+  }
+  .team-members-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .employee-name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 30px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  .member:nth-child(2) {
+    margin-top: 50px;
+  }
+  .member:nth-child(3) {
+    margin-top: 50px;
+  }
+  .member-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .member img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 25px;
+  }
+  .member p {
+    line-height: 1;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .member i {
+    margin-top: 25px;
+    font-size: 30px;
+  }
 }
 </style>
