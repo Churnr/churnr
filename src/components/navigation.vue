@@ -36,6 +36,15 @@ export default {
       scrolled: false,
     };
   },
+  watch: {
+    $route() {
+      const element = document.querySelector("#nav-collapse");
+      let isShown = element.classList.contains("show");
+      if (isShown) {
+        this.$root.$emit("bv::toggle::collapse", "nav-collapse");
+      }
+    },
+  },
   methods: {
     handleScroll() {
       this.scrolled = window.scrollY > 0;
@@ -89,6 +98,7 @@ export default {
   width: 100%;
 }
 
+
 /* Mobile media query */
 
 @media only screen and (max-width: 728px) {
@@ -98,7 +108,11 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: baseline;
     background: white;
+  }
+  .nav {
+    padding: 0 25px;
   }
 
   /* Reinstate and make a smoother toggle animation */
