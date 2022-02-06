@@ -7,10 +7,10 @@
     <div
       class="feature"
     >
-      <img src="../assets/graphs.jpg" alt="" />
+      <img src="../assets/graphs.jpg" alt="Visualisering af fordelene ved at vælge Churnrs ydelser." />
       <span>
         <p class="benefit">
-          Uddeleger de rigtige opgaver til de rigtige personer
+          Giv de rigtige opgaver til de rigtige personer
         </p>
         <h2>En personlig løsning, der sparer tid og ressourcer</h2>
         <p>
@@ -31,7 +31,7 @@
           rigtige mennesker — ikke med robotter
         </p>
       </span>
-      <img src="../assets/humanize.jpg" alt="" />
+      <img src="../assets/humanize.jpg" alt="Churnr medarbejder sidder og har menneskelig dialog med abonnementskunder" />
     </div>
 
     <featureIntegration />
@@ -58,14 +58,14 @@
     <div class="feature partner">
       <span>
         <p class="benefit">Teamet der får tingene til at ske</p>
-        <h2>Din nye engagerede samarbejdspartner</h2>
+        <h2>Din nye engagerede partner</h2>
         <p>
           Vi er en gruppe passionerede iværksættere med en plan om at optimere
           churn og innovere customer outreach.
         </p>
         <a class="btn" href="/team">Mød teamet</a>
       </span>
-      <img src="../assets/partner.jpg" alt="" />
+      <img src="../assets/partner.jpg" alt="Churnr medarbejder der står klar til at introducere resten af teamet til dig" />
     </div>
   </div>
 </template>
@@ -113,7 +113,7 @@ export default {
 }
 
 .solution-content p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -152,7 +152,7 @@ export default {
 }
 .feature p {
   line-height: 1.75;
-  font-size: 18px;
+  font-size: 20px;
   width: 80%;
 }
 .feature .btn {
@@ -227,6 +227,9 @@ export default {
   }
   .feature span {
     width: 100%;
+  }
+  .feature h2 {
+    font-size: 36px;
   }
   .feature p {
     line-height: 1.75;

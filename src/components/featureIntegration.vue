@@ -5,7 +5,7 @@
     data-aos-duration="1000"
     data-aos-once="true"
   >
-    <img src="../assets/payment-methods.png" alt="" />
+    <img src="../assets/payment-methods.png" alt="Visualisering af de betalingsplatforme som Churnr integrerer med" />
     <span>
       <p class="benefit">En nem, enkel og automatiseret løsning</p>
 
@@ -58,7 +58,7 @@ export default {
 }
 .feature p {
   line-height: 1.75;
-  font-size: 18px;
+  font-size: 20px;
   width: 80%;
 }
 
@@ -86,7 +86,7 @@ export default {
   .feature h2 {
     font-weight: 700;
     line-height: 1.25;
-    font-size: 50px;
+    font-size: 36px;
     letter-spacing: -3px;
     padding: 0px 0 15px 0;
   }

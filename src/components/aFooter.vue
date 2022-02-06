@@ -84,10 +84,10 @@ footer a {
     row-gap: 50px;
   }
   footer h6 {
-    font-size: 20px;
+    font-size: 18px;
   }
   footer a {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 </style>

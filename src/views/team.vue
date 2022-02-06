@@ -2,7 +2,7 @@
   <section class="team">
     <p class="benefit">Mød holdet der for tingene til at ske</p>
     <h1>Teamet bag Churnr</h1>
-    <img class="team-image" src="../assets/leteam1.jpg" alt="" />
+    <img class="team-image" src="../assets/leteam1.jpg" alt="Billede af Churnrs stiftere, Anders, Benjamin og Jacob" />
 
     <visionAndMission />
 
@@ -31,6 +31,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 .team h1 {
   font-weight: 700;
@@ -50,6 +51,13 @@ export default {
   .team {
     padding: 200px 25px 150px 25px;
   }
+  .team h1 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -2px;
+  margin-bottom: 100px;
+  color: #2e3540;
+}
   .team-image {
     width: 100%;
   }

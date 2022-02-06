@@ -149,7 +149,10 @@ input[type="submit"]:hover {
   .contact-content {
     width: 100%;
   }
-
+  .contact h1 {
+    font-size: 36px;
+    margin-bottom: 100px;
+  }
   .contact-content p {
     padding: 0;
     margin: 0;
@@ -169,6 +172,16 @@ input[type="submit"]:hover {
     width: 100%;
     margin-top: 100px;
     font-size: 20px;
+  }
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    float: left;
   }
 }
 </style>

@@ -62,7 +62,7 @@ export default {
     width: 100%;
   }
   .callToAction-content h1 {
-    font-size: 50px;
+    font-size: 36px;
   }
   .callToAction-content p {
     font-size: 20px;

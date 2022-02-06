@@ -2,7 +2,7 @@
   <div class="features">
     <section class="features-hero">
       <div class="features-hero-content">
-        <p class="benefit">Den enkle løsning til at optimere jeres omsætning</p>
+        <p class="benefit">En enkel løsning til at optimere jeres omsætning</p>
         <h1>I got 99 problems<br />- but churn aint one</h1>
         <p>
           Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige
@@ -10,7 +10,7 @@
         </p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
       </div>
-      <img src="../assets/dunning.jpg" alt="" />
+      <img src="../assets/dunning.jpg" alt="Churnr medarbejder sidder og bekæmper ufrivillige betalingsfejl" />
     </section>
 
     <section class="features-journey">
@@ -62,8 +62,8 @@
         <h2>Manuskript udarbejdet i fællesskab med jer</h2>
         <p>
           I samarbejde med jer udarbejder vi et manuskript, der bedst muligt
-          afspejler jeres identitet. Manuskriptet er vores hellige bog, og
-          fungerer som rettesnor i kontakten med jeres kunder.
+          afspejler jeres identitet. Manuskriptet er vores rettesnor i kontakten
+          med jeres kunder.
         </p>
         <ul>
           <li>Uarbejdet i fællesskab</li>
@@ -71,7 +71,7 @@
           <li>Menneskecentreret kommunikation</li>
         </ul>
       </div>
-      <img src="../assets/script.png" alt="" />
+      <img src="../assets/script.png" alt="Visualisering af et manuskript der bliver udformet af flere parter" />
     </div>
 
     <div class="features-dashboard">
@@ -97,7 +97,7 @@
         </p>
         <a href="/contact">Kontakt os nu</a>
       </div>
-      <img src="../assets/communication.jpg" alt="" />
+      <img src="../assets/communication.jpg" alt="Churnr medarbejdere sidder og har løbende kommunikation med virksomheder og abonnementskunder" />
     </section>
 
     <faq />
@@ -139,7 +139,7 @@ export default {
 }
 
 .features-hero-content p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.75;
   width: 80%;
   color: #333333;
@@ -246,7 +246,7 @@ export default {
 }
 
 .features-scripts-content p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.75;
   width: 90%;
   color: #333333;
@@ -299,7 +299,7 @@ export default {
 }
 
 .features-dashboard-content p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.75;
   width: 65%;
   margin: 0 auto;
@@ -344,9 +344,9 @@ export default {
   padding: 5px 0 20px 0;
 }
 .features-communication-content p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.75;
-  width: 75%;
+  width: 80%;
 }
 .features-communication-content a {
   background: transparent;
@@ -379,7 +379,7 @@ export default {
     text-align: center;
   }
   .features-hero-content h1 {
-    font-size: 50px;
+    font-size: 36px;
     line-height: 1.25;
   }
 
@@ -404,7 +404,7 @@ export default {
     background: #f3f6f9;
   }
   .features-journey h2 {
-    font-size: 50px;
+    font-size: 36px;
   }
   .features-journey-content {
     width: 100%;
@@ -423,7 +423,7 @@ export default {
     font-size: 20px;
   }
   .journey-step h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .journey-step p {
     font-size: 20px;
@@ -458,7 +458,7 @@ export default {
 
   .features-scripts-content h2 {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 36px;
     margin: 0;
     padding: 5px 0 20px 0;
     line-height: 1.25;
@@ -511,7 +511,7 @@ export default {
   }
 
   .features-dashboard-content h2 {
-    font-size: 50px;
+    font-size: 36px;
     font-weight: 700;
     margin: 0;
     padding: 5px 0 20px 0;
@@ -542,7 +542,7 @@ export default {
     width: 100%;
   }
   .features-communication-content h2 {
-    font-size: 50px;
+    font-size: 36px;
   }
   .features-communication-content p {
     font-size: 20px;

@@ -8,7 +8,7 @@
       </p>
       <router-link to="/features" class="btn">Se hvordan</router-link>
     </span>
-    <img src="../assets/retention.jpg" alt="" />
+    <img src="../assets/retention.jpg" alt="To mennesker sidder og snakker om kundefastholdelse" />
   </div>
 </template>
 
@@ -85,7 +85,7 @@ a {
     text-align: center;
   }
   .hero h1 {
-    font-size: 50px;
+    font-size: 36px;
     line-height: 1.25;
     font-weight: 700;
     color: #2e3540;

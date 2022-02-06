@@ -6,7 +6,7 @@
     </p>
     <div class="team-members-content">
       <div class="member">
-        <img src="../assets/team/anders.png" alt="" />
+        <img src="../assets/team/anders.png" alt="Profilbillede af Churnrs CEO, Anders Laurentiussen" />
         <div class="member-content">
           <p class="employee-name">Anders Laurentiussen</p>
           <p class="title">CEO & Co-founder</p>
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="member">
-        <img src="../assets/team/benjamin.png" alt="" />
+        <img src="../assets/team/benjamin.png" alt="Profilbillede af Churnrs CPO, Benjamin Treadwell" />
         <div class="member-content">
           <p class="employee-name">Benjamin Treadwell</p>
           <p class="title">CPO & Co-founder</p>
@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="member">
-        <img src="../assets/team/jacob.png" alt="" />
+        <img src="../assets/team/jacob.png" alt="Profilbillede af Churnrs CMO, Jacob Stentoft-Nielsen" />
         <div class="member-content">
           <p class="employee-name">Jacob Stentoft-Nielsen</p>
           <p class="title">CMO & Co-founder</p>
@@ -123,7 +123,7 @@ export default {
   }
   .team-members h1 {
     padding-bottom: 15px;
-    font-size: 50px;
+    font-size: 36px;
   }
   .team-members p {
     font-size: 20px;

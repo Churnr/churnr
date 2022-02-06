@@ -92,7 +92,7 @@ export default {
   border-color: transparent;
   padding: 30px !important;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -102,7 +102,7 @@ export default {
   box-shadow: none;
 }
 .card-text {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.75;
   padding: 30px;
 }
@@ -118,7 +118,7 @@ export default {
   }
   .faq h1 {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 36px;
   }
   .faq .accordion {
     margin-top: 100px;
@@ -143,7 +143,7 @@ export default {
     box-shadow: none;
   }
   .card-text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75;
     padding: 30px;
   }

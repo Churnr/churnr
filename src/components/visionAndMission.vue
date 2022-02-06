@@ -89,7 +89,7 @@ export default {
     padding: 0 0 50px 0;
   }
   .visionAndMission-header-content h2 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
   }
   .visionAndMission-text-content {

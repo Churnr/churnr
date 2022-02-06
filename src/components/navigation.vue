@@ -92,38 +92,41 @@ export default {
 /* Mobile media query */
 
 @media only screen and (max-width: 728px) {
-  .nav {
-    box-sizing: border-box;
-    position: fixed;
-    width: 100%;
+  #nav-collapse {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: white;
-    z-index: 999;
-    padding: 0 25px;
-  }
-  .navbar {
-    width: 100%;
-    height: 85px;
-    margin: 0 auto;
-    border-bottom: none;
   }
 
-  .navbar ul li,
-  .navbar a {
-    margin-right: 7.5px;
-    padding: 0;
-    color: #333333;
-    text-decoration: none;
+  /* Reinstate and make a smoother toggle animation */
+
+  .collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
   }
-  .navbar-brand img {
-    height: 25px;
+
+  .navbar-nav,
+  .navbar-nav .ml-auto .center-nav {
+    align-self: left;
+    margin-left: unset !important;
+  }
+
+  a {
+    font-size: 20px;
+    padding: 10px 0 !important;
   }
   .btn {
-    background: #0abf53;
+    display: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-toggler {
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
   }
   .scroll {
     box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
