@@ -19,7 +19,7 @@
             ><router-link to="/contact">Kontakt</router-link></b-nav-item
           >
         </b-navbar-nav>
-        <router-link to="/login" class="btn">Log ind</router-link>
+        <router-link to="/login" class="login-btn">Log ind</router-link>
       </b-collapse>
     </b-navbar>
   </div>
@@ -84,17 +84,17 @@ export default {
 .navbar-brand img {
   height: 25px;
 }
-.btn {
+.login-btn {
   background: #0abf53;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   font-size: 16px;
   font-weight: 500;
-  color: white;
+  color: white !important;
 }
 .btn:hover {
   color: white;
-  opacity: .75;
+  opacity: .75 !important;
 }
 .scroll {
   box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
