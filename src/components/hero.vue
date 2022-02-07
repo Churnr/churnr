@@ -3,8 +3,7 @@
     <span>
       <h1>Kundefastholdelse med personligt outreach</h1>
       <p>
-        Har I også oplevet betalingsfejl? Lad os hjælpe, med at maksimere jeres
-        kundefastholdelse.
+        Alle abonnementsvirksomheder mister kunder pga. betalingsfejl - lad os hjælpe med at fastholde jeres abonnementskunder.
       </p>
       <router-link to="/features" class="btn">Se hvordan</router-link>
     </span>

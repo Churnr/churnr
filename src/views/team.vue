@@ -1,6 +1,6 @@
 <template>
   <section class="team" data-aos="fade-up" data-aos-duration="1000">
-    <p class="benefit">Mød holdet der for tingene til at ske</p>
+    <p class="benefit">Mød holdet der får tingene til at ske</p>
     <h1>Teamet bag Churnr</h1>
     <img class="team-image" src="../assets/leteam1.jpg" alt="Billede af Churnrs stiftere, Anders, Benjamin og Jacob" />
 

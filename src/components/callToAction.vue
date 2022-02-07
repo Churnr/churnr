@@ -3,7 +3,7 @@
     <div class="callToAction-content">
       <h1>Lad os hjælpe hinanden</h1>
       <p>
-        Book et møde med os i dag, og hør hvad vi kan gøre for din virksomhed
+        Book et møde med os i dag, og hør hvad vi kan gøre for jeres virksomhed
       </p>
       <router-link to="/contact" class="btn">Book et møde</router-link>
     </div>

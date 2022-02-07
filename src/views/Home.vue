@@ -16,10 +16,10 @@
       />
       <span>
         <p class="benefit">Giv de rigtige opgaver til de rigtige personer</p>
-        <h2>En personlig løsning, der sparer tid og ressourcer</h2>
+        <h2>En skræddersyet løsning, der sparer tid og ressourcer</h2>
         <p>
-          Læn jer tilbage, og se til imens vi sørger for en personlig
-          serviceoplevelse til jeres kunder, der samtidig vil øge deres LTV.
+          Læn jer tilbage mens vi sørger for en personlig service oplevelse for
+          jeres kunder, der samtidig vil øge deres livstidsværdi.
         </p>
       </span>
     </div>
@@ -64,8 +64,8 @@
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <h3>+80%</h3>
-          <p>af kunder reagerer på Churnrs outreach</p>
+          <h3>63%</h3>
+          <p>af kunder har Churnr indtil videre fastholdt</p>
         </div>
 
         <div
@@ -74,8 +74,8 @@
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <h3>63%</h3>
-          <p>af kunder har Churnr indtil videre fastholdt</p>
+          <h3>+80%</h3>
+          <p>af kunder reagerer på Churnrs outreach</p>
         </div>
       </div>
     </div>
@@ -88,9 +88,9 @@
     >
       <span>
         <p class="benefit">Teamet der får tingene til at ske</p>
-        <h2>Din nye engagerede partner</h2>
+        <h2>Din nye engagerede samarbejdspartner</h2>
         <p>
-          Vi er en gruppe passionerede iværksættere med en plan om at optimere
+          Vi er en gruppe passionerede iværksættere med et mål om at minimere
           churn og innovere customer outreach.
         </p>
         <router-link to="/team" class="btn">Mød teamet</router-link>
@@ -127,12 +127,12 @@ export default {
   flex-direction: column;
   color: black;
   border: 1px solid #f2f2f2;
-  background: #2b2c5d;
+  background: #0abf53;
   color: white;
 }
 
 .solution-content {
-  width: 1150px;
+  width: 950px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -142,7 +142,7 @@ export default {
 .solution-content h3 {
   font-size: 70px;
   font-weight: 700;
-  letter-spacing: -2px;
+  letter-spacing: 1px;
 }
 
 .solution-content p {

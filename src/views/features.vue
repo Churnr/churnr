@@ -35,7 +35,7 @@
           </div>
           <div class="journey-step">
             <p class="number">2</p>
-            <h3>Problemfri data integrering</h3>
+            <h3>Problemfri dataintegrering</h3>
             <p>
               Vi integrerer og henter data, direkte fra jeres betalingsplatform
             </p>
