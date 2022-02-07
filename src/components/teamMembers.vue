@@ -10,7 +10,8 @@
         <div class="member-content">
           <p class="employee-name">Anders Laurentiussen</p>
           <p class="title">CEO & Co-founder</p>
-          <i class="fab fa-linkedin"></i>
+          
+          <a href="https://www.linkedin.com/in/anders-ottzen-laurentiussen-57670279/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
       <div class="member">
@@ -18,7 +19,7 @@
         <div class="member-content">
           <p class="employee-name">Benjamin Treadwell</p>
           <p class="title">CPO & Co-founder</p>
-          <i class="fab fa-github-square"></i>
+          <a href="https://github.com/bentreadwell" target="_blank"><i class="fab fa-github-square"></i></a>
         </div>
       </div>
       <div class="member">
@@ -26,7 +27,7 @@
         <div class="member-content">
           <p class="employee-name">Jacob Stentoft-Nielsen</p>
           <p class="title">CMO & Co-founder</p>
-          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/jacob-stentoft-nielsen-428a63142/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     </div>
@@ -45,7 +46,7 @@ export default {
 <style scoped>
 .team-members {
   width: 100%;
-  padding: 150px 0;
+  padding: 150px 0 0 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -64,7 +65,7 @@ export default {
 .team-members-content {
   width: 1150px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 40px;
   grid-template-areas:
@@ -110,6 +111,7 @@ export default {
 }
 .member i {
   margin-top: 25px;
+  color: black;
   font-size: 30px;
 }
 

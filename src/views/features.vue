@@ -1,16 +1,24 @@
 <template>
   <div class="features">
-    <section class="features-hero">
+    <section
+      class="features-hero"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
       <div class="features-hero-content">
         <p class="benefit">En enkel løsning til at optimere jeres omsætning</p>
-        <h1>I got 99 problems<br />- but churn aint one</h1>
+        <h1>I got 99 problems<br />- but churn ain't one</h1>
         <p>
           Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige
           churn, der sker på grund af betalingsfejl.
         </p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
       </div>
-      <img src="../assets/dunning.jpg" alt="Churnr medarbejder sidder og bekæmper ufrivillige betalingsfejl" />
+      <img
+        src="../assets/dunning.jpg"
+        alt="Churnr medarbejder sidder og bekæmper ufrivillige betalingsfejl"
+      />
     </section>
 
     <section class="features-journey">
@@ -56,7 +64,12 @@
       <div class="features-employee-image"></div>
     </div>
 
-    <div class="features-scripts">
+    <div
+      class="features-scripts"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
       <div class="features-scripts-content">
         <p class="benefit">Skræddersyet til jeres brand</p>
         <h2>Manuskript udarbejdet i fællesskab med jer</h2>
@@ -66,12 +79,15 @@
           med jeres kunder.
         </p>
         <ul>
-          <li>Uarbejdet i fællesskab</li>
+          <li>Udarbejdet i fællesskab</li>
           <li>Tilpasset din eksisterende branding</li>
           <li>Menneskecentreret kommunikation</li>
         </ul>
       </div>
-      <img src="../assets/script.png" alt="Visualisering af et manuskript der bliver udformet af flere parter" />
+      <img
+        src="../assets/script.png"
+        alt="Visualisering af et manuskript der bliver udformet af flere parter"
+      />
     </div>
 
     <div class="features-dashboard">
@@ -87,7 +103,12 @@
       </div>
     </div>
 
-    <section class="features-communication">
+    <section
+      class="features-communication"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
       <div class="features-communication-content">
         <p class="benefit">Let's stay in touch</p>
         <h2>Nem og hurtig kommunikation</h2>
@@ -97,7 +118,10 @@
         </p>
         <a href="/contact">Kontakt os nu</a>
       </div>
-      <img src="../assets/communication.jpg" alt="Churnr medarbejdere sidder og har løbende kommunikation med virksomheder og abonnementskunder" />
+      <img
+        src="../assets/communication.jpg"
+        alt="Churnr medarbejdere sidder og har løbende kommunikation med virksomheder og abonnementskunder"
+      />
     </section>
 
     <faq />
@@ -153,6 +177,9 @@ export default {
   font-weight: 600;
   font-size: 16px;
   border-radius: 0;
+}
+.features-hero-content .btn:hover {
+  opacity: .75;
 }
 
 .features-hero img {
@@ -265,6 +292,7 @@ export default {
   content: "✓";
   color: #0abf53;
   font-weight: 700;
+  padding-right: 15px;
 }
 
 .features-scripts img {

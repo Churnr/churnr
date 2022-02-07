@@ -146,6 +146,7 @@ export default {
     font-size: 18px;
     line-height: 1.75;
     padding: 30px;
+    text-align: left;
   }
   .accordion {
     width: 100% !important;

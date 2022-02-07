@@ -5,7 +5,7 @@
       <p>
         Book et møde med os i dag, og hør hvad vi kan gøre for din virksomhed
       </p>
-      <b-button href="#/contact">Book et møde</b-button>
+      <router-link to="/contact" class="btn">Book et møde</router-link>
     </div>
   </div>
 </template>
@@ -50,6 +50,10 @@ export default {
   padding: 15px 30px;
   border-radius: 0;
   font-weight: 500;
+}
+.callToAction-content .btn:hover {
+  background: black;
+  color: white;
 }
 
 /* Mobile media query */

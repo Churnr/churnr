@@ -19,7 +19,7 @@
             ><router-link to="/contact">Kontakt</router-link></b-nav-item
           >
         </b-navbar-nav>
-        <button href="#" class="btn">Log ind</button>
+        <router-link to="/login" class="btn">Log ind</router-link>
       </b-collapse>
     </b-navbar>
   </div>
@@ -92,6 +92,10 @@ export default {
   font-weight: 500;
   color: white;
 }
+.btn:hover {
+  color: white;
+  opacity: .75;
+}
 .scroll {
   box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
   box-sizing: border-box;
@@ -110,6 +114,7 @@ export default {
     justify-content: center;
     align-items: baseline;
     background: white;
+    animation: MobileFadeIn .25s ease-in;
   }
   .nav {
     padding: 0 25px;
@@ -147,5 +152,9 @@ export default {
     box-sizing: border-box;
     width: 100%;
   }
+  @keyframes MobileFadeIn {
+        0% {height: 0vh;}
+        100% {height: 100vh;}
+    }
 }
 </style>

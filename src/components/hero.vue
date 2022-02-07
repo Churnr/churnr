@@ -1,7 +1,7 @@
 <template>
   <div class="hero" data-aos="fade-up" data-aos-duration="1000">
     <span>
-      <h1>Kundefastholdelse med personlig outreach</h1>
+      <h1>Kundefastholdelse med personligt outreach</h1>
       <p>
         Har I også oplevet betalingsfejl? Lad os hjælpe, med at maksimere jeres
         kundefastholdelse.
@@ -52,6 +52,10 @@ export default {
   margin: 0;
   color: white;
   font-weight: 500;
+}
+.btn:hover {
+  color: white;
+  opacity: .75;
 }
 a {
   background: transparent;

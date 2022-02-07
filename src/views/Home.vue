@@ -6,12 +6,16 @@
 
     <div
       class="feature"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      data-aos-once="true"
     >
-      <img src="../assets/graphs.jpg" alt="Visualisering af fordelene ved at vælge Churnrs ydelser." />
+      <img
+        src="../assets/graphs.jpg"
+        alt="Visualisering af fordelene ved at vælge Churnrs ydelser."
+      />
       <span>
-        <p class="benefit">
-          Giv de rigtige opgaver til de rigtige personer
-        </p>
+        <p class="benefit">Giv de rigtige opgaver til de rigtige personer</p>
         <h2>En personlig løsning, der sparer tid og ressourcer</h2>
         <p>
           Læn jer tilbage, og se til imens vi sørger for en personlig
@@ -22,40 +26,66 @@
 
     <div
       class="feature humanize"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      data-aos-once="true"
     >
       <span>
         <p class="benefit">Sig farvel til autogenererede e-mails</p>
         <h2>Gør dialogen mere menneskelig</h2>
         <p>
-          Når der opstår udforudsete betalingsfejl, skal dine kunder snakke med
-          rigtige mennesker — ikke med robotter
+          Når der opstår uforudsete betalingsfejl, skal dine kunder snakke med
+          rigtige mennesker — ikke med robotter.
         </p>
       </span>
-      <img src="../assets/humanize.jpg" alt="Churnr medarbejder sidder og har menneskelig dialog med abonnementskunder" />
+      <img
+        src="../assets/humanize.jpg"
+        alt="Churnr medarbejder sidder og har menneskelig dialog med abonnementskunder"
+      />
     </div>
 
     <featureIntegration />
 
     <div class="solution-stat">
       <div class="solution-content">
-        <div class="stat">
+        <div
+          class="stat"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <h3>15%</h3>
           <p>af kunder fastholdes af autogenererede mails</p>
         </div>
 
-        <div class="stat">
+        <div
+          class="stat"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <h3>+80%</h3>
           <p>af kunder reagerer på Churnrs outreach</p>
         </div>
 
-        <div class="stat">
+        <div
+          class="stat"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <h3>63%</h3>
           <p>af kunder har Churnr indtil videre fastholdt</p>
         </div>
       </div>
     </div>
 
-    <div class="feature partner">
+    <div
+      class="feature partner"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
       <span>
         <p class="benefit">Teamet der får tingene til at ske</p>
         <h2>Din nye engagerede partner</h2>
@@ -63,9 +93,12 @@
           Vi er en gruppe passionerede iværksættere med en plan om at optimere
           churn og innovere customer outreach.
         </p>
-        <a class="btn" href="/team">Mød teamet</a>
+        <router-link to="/team" class="btn">Mød teamet</router-link>
       </span>
-      <img src="../assets/partner.jpg" alt="Churnr medarbejder der står klar til at introducere resten af teamet til dig" />
+      <img
+        src="../assets/partner.jpg"
+        alt="Churnr medarbejder der står klar til at introducere resten af teamet til dig"
+      />
     </div>
   </div>
 </template>
@@ -155,11 +188,12 @@ export default {
   font-size: 20px;
   width: 80%;
 }
-.feature .btn {
+.btn {
   outline: 1px solid black;
   padding: 15px 30px;
   margin-top: 20px;
   border-radius: 0;
+  color: black;
 }
 .humanize {
   border-top: 1px solid #dcdcdc;

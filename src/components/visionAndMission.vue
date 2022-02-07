@@ -13,7 +13,7 @@
       <div class="mission">
         <p>
           Missionen er, at redde abonnenter der går tabt, når en betaling
-          fejler. Det gør vi ved at lave personligt outrach som er med til at
+          fejler. Det gør vi ved at lave personligt outreach som er med til at
           minimere churn raten og giver en styrket bundlinje for virksomhederne.
         </p>
       </div>
@@ -42,7 +42,7 @@ export default {
   padding-bottom: 125px;
 }
 .visionAndMission-header-content {
-  text-align: left;
+  text-align: left !important;
   width: 1150px;
   padding: 0 0 50px 0;
 }
@@ -52,6 +52,7 @@ export default {
 }
 .visionAndMission-text-content {
   width: 1150px !important;
+  text-align: left !important;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

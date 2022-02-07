@@ -32,7 +32,7 @@
     >
       <div class="card-header">
         <div class="how-icon"></div>
-        <h3>Minimer betalingsfejl</h3>
+        <h3>Minimér betalingsfejl</h3>
       </div>
       <div class="card-body">
         <p>
@@ -51,7 +51,7 @@
     >
       <div class="card-header">
         <div class="what-icon"></div>
-        <h3>Personlig outrach</h3>
+        <h3>Personligt outreach</h3>
       </div>
       <div class="card-body">
         <p>
