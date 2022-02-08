@@ -7,7 +7,7 @@
       </p>
       <router-link to="/features" class="btn">Se hvordan</router-link>
     </span>
-    <img src="../assets/retention.jpg" alt="To mennesker sidder og snakker om kundefastholdelse" />
+    <img src="../assets/hero-image.png" alt="To mennesker sidder og snakker om kundefastholdelse" />
   </div>
 </template>
 
@@ -67,14 +67,10 @@ a {
   font-weight: 500;
 }
 .hero img {
-  width: 35%;
-  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  border-radius: 5px;
+  width: 50%;
 }
 .hero span {
-  width: 50%;
+  width: 45%;
 }
 
 /* Mobile media query */

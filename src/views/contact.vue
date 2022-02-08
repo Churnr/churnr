@@ -11,15 +11,13 @@
       <p class="smaller">10:00 - 16:00 alle hverdage.</p>
     </div>
     <div class="message">
-      <form>
-        <label>Navn</label>
-        <input type="text" v-model="name" name="name" />
-        <label>E-mail</label>
-        <input type="email" v-model="email" name="email" />
-        <label>Besked</label>
-        <textarea name="message" v-model="message" cols="30" rows="5">
-        </textarea>
-
+      <form ref="form" @submit.prevent="sendEmail">
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message"></textarea>
         <input type="submit" value="Send" />
       </form>
     </div>
@@ -38,26 +36,22 @@ export default {
     };
   },
   methods: {
-    sendEmail(e) {
-      try {
-        emailjs.sendForm(
+    sendEmail() {
+      emailjs
+        .sendForm(
           "service_w67cv5s",
           "template_5hcivpg",
-          e.target,
-          "user_PIRF4RHGQmCseZS9dsiQk",
-          {
-            name: this.name,
-            email: this.email,
-            message: this.message,
+          this.$refs.form,
+          "user_PIRF4RHGQmCseZS9dsiQk"
+        )
+        .then(
+          (result) => {
+            console.log("SUCCESS!", result.text);
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
           }
         );
-      } catch (error) {
-        console.log({ error });
-      }
-      // Reset form field
-      this.name = "";
-      this.email = "";
-      this.message = "";
     },
   },
 };
