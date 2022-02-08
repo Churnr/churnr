@@ -1,5 +1,6 @@
 <template>
-  <div class="hero" data-aos="fade-up" data-aos-duration="1000">
+  <div class="hero" >
+    <!-- AOS animation snippet: data-aos="fade-up" data-aos-duration="1000" -->
     <span>
       <h1>Kundefastholdelse med personligt outreach</h1>
       <p>

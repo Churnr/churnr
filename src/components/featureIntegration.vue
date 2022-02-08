@@ -5,7 +5,7 @@
     data-aos-duration="1000"
     data-aos-once="true"
   >
-    <img src="../assets/payment-methods.png" alt="Visualisering af de betalingsplatforme som Churnr integrerer med" />
+    <img src="../assets/payment-methods.jpg" alt="Visualisering af de betalingsplatforme som Churnr integrerer med" />
     <span>
       <p class="benefit">En nem, enkel og automatiseret løsning</p>
 

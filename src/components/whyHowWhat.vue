@@ -1,16 +1,7 @@
 <template>
-  <!-- <div class="moneyRetained">
-    <h2>10.420,69 DKK</h2>
-    <p>har vi fastholdt for vores kunder indtil videre</p>
-  </div> -->
+  <!-- AOS animation snippet: data-aos="fade-up" data-aos-duration="750" data-aos-once="true" data-aos-easing="ease-out" -->
   <div class="sinek">
-    <div
-      class="why card"
-      data-aos="fade-up"
-      data-aos-duration="750"
-      data-aos-once="true"
-      data-aos-easing="ease-out"
-    >
+    <div class="why card">
       <div class="card-header">
         <div class="why-icon"></div>
         <h3>Menneskecentreret</h3>
@@ -22,14 +13,7 @@
         </p>
       </div>
     </div>
-    <div
-      class="how card"
-      data-aos="fade-up"
-      data-aos-duration="750"
-      data-aos-delay="100"
-      data-aos-once="true"
-      data-aos-easing="ease-out"
-    >
+    <div class="how card">
       <div class="card-header">
         <div class="how-icon"></div>
         <h3>Minimér betalingsfejl</h3>
@@ -41,14 +25,7 @@
         </p>
       </div>
     </div>
-    <div
-      class="what card"
-      data-aos="fade-up"
-      data-aos-duration="750"
-      data-aos-delay="200"
-      data-aos-once="true"
-      data-aos-easing="ease-out"
-    >
+    <div class="what card">
       <div class="card-header">
         <div class="what-icon"></div>
         <h3>Personligt outreach</h3>
