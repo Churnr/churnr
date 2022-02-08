@@ -39,6 +39,7 @@ export default {
     sendEmail() {
       emailjs
         .sendForm(
+          this.$refs.form.reset(),
           "service_w67cv5s",
           "template_5hcivpg",
           this.$refs.form,
