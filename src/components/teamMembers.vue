@@ -6,28 +6,28 @@
     </p>
     <div class="team-members-content">
       <div class="member">
-        <img src="../assets/team/anders.png" alt="Profilbillede af Churnrs CEO, Anders Laurentiussen" />
+        <img src="../assets/team/anders-color.png" alt="Profilbillede af Churnrs CEO, Anders Laurentiussen" />
         <div class="member-content">
           <p class="employee-name">Anders Laurentiussen</p>
           <p class="title">CEO & Co-founder</p>
           
-          <a href="https://www.linkedin.com/in/anders-ottzen-laurentiussen-57670279/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <!-- <a href="https://www.linkedin.com/in/anders-ottzen-laurentiussen-57670279/" target="_blank"><i class="fab fa-linkedin"></i></a> -->
         </div>
       </div>
       <div class="member">
-        <img src="../assets/team/benjamin.png" alt="Profilbillede af Churnrs CPO, Benjamin Treadwell" />
+        <img src="../assets/team/benjamin-color.png" alt="Profilbillede af Churnrs CPO, Benjamin Treadwell" />
         <div class="member-content">
           <p class="employee-name">Benjamin Treadwell</p>
           <p class="title">CPO & Co-founder</p>
-          <a href="https://github.com/bentreadwell" target="_blank"><i class="fab fa-github-square"></i></a>
+          <!-- <a href="https://github.com/bentreadwell" target="_blank"><i class="fab fa-github-square"></i></a> -->
         </div>
       </div>
       <div class="member">
-        <img src="../assets/team/jacob.png" alt="Profilbillede af Churnrs CMO, Jacob Stentoft-Nielsen" />
+        <img src="../assets/team/jacob-color.png" alt="Profilbillede af Churnrs CMO, Jacob Stentoft-Nielsen" />
         <div class="member-content">
           <p class="employee-name">Jacob Stentoft-Nielsen</p>
           <p class="title">CMO & Co-founder</p>
-          <a href="https://www.linkedin.com/in/jacob-stentoft-nielsen-428a63142/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <!-- <a href="https://www.linkedin.com/in/jacob-stentoft-nielsen-428a63142/" target="_blank"><i class="fab fa-linkedin"></i></a> -->
         </div>
       </div>
     </div>
@@ -73,12 +73,13 @@ export default {
     ". .";
 }
 .employee-name {
-  font-size: 20px;
+  font-size: 25px !important;
   font-weight: 700;
   line-height: 20;
 }
 .title {
-  font-size: 20px;
+  font-size: 22px !important;
+  margin-top: 15px !important;
   font-weight: 400;
 }
 .member {
@@ -86,20 +87,18 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 30px;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  padding: 50px 10px;
   background: white;
 }
 .member-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: left !important;
 }
 .member img {
-  height: 100px;
-  width: 100px;
+  height: auto;
+  width: 100%;
   margin-bottom: 25px;
 }
 .member p {
