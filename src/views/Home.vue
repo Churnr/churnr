@@ -210,7 +210,6 @@ export default {
     flex-direction: column;
     color: black;
     border: 1px solid #f2f2f2;
-    background: #2b2c5d;
     color: white;
   }
 

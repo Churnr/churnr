@@ -10,7 +10,7 @@
         <p class="benefit">En enkel løsning til at optimere jeres omsætning</p>
         <h1>I got 99 problems<br />- but churn ain't one</h1>
         <p>
-          Hos Churnr har vi specialiseret os i, at bekæmpe den ufrivillige
+          Hos Churnr har vi specialiseret os i at bekæmpe den ufrivillige
           churn, der sker på grund af betalingsfejl.
         </p>
         <router-link to="/contact" class="btn">Kontakt os</router-link>
@@ -114,7 +114,7 @@
         <h2>Nem og hurtig kommunikation</h2>
         <p>
           For at skabe en løbende dialog, vil vi i onboarding processen få sat
-          en kommunikationskanal op, i jeres foretrukne kommunikations system.
+          en kommunikationskanal op, i jeres foretrukne kommunikationssystem.
         </p>
         <a href="/contact">Kontakt os nu</a>
       </div>
@@ -179,7 +179,7 @@ export default {
   border-radius: 0;
 }
 .features-hero-content .btn:hover {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .features-hero img {
@@ -471,6 +471,9 @@ export default {
     height: 600px;
     width: 100%;
     background-position: left;
+    background: url(../assets/anders-business.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   /* Feature scripts */
@@ -512,7 +515,6 @@ export default {
     content: "✓";
     color: #0abf53;
     font-weight: 700;
-    margin-right: 15px;
   }
 
   .features-scripts img {

@@ -6,7 +6,7 @@
     </p>
     <div class="team-members-content">
       <div class="member">
-        <img src="../assets/team/anders-color.png" alt="Profilbillede af Churnrs CEO, Anders Laurentiussen" />
+        <img src="../assets/team/anders.jpg" alt="Profilbillede af Churnrs CEO, Anders Laurentiussen" />
         <div class="member-content">
           <p class="employee-name">Anders Laurentiussen</p>
           <p class="title">CEO & Co-founder</p>
@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="member">
-        <img src="../assets/team/benjamin-color.png" alt="Profilbillede af Churnrs CPO, Benjamin Treadwell" />
+        <img src="../assets/team/benjamin.jpg" alt="Profilbillede af Churnrs CPO, Benjamin Treadwell" />
         <div class="member-content">
           <p class="employee-name">Benjamin Treadwell</p>
           <p class="title">CPO & Co-founder</p>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="member">
-        <img src="../assets/team/jacob-color.png" alt="Profilbillede af Churnrs CMO, Jacob Stentoft-Nielsen" />
+        <img src="../assets/team/jacob.jpg" alt="Profilbillede af Churnrs CMO, Jacob Stentoft-Nielsen" />
         <div class="member-content">
           <p class="employee-name">Jacob Stentoft-Nielsen</p>
           <p class="title">CMO & Co-founder</p>
@@ -73,27 +73,25 @@ export default {
     ". .";
 }
 .employee-name {
-  font-size: 25px !important;
+  font-size: 20px !important;
   font-weight: 700;
   line-height: 20;
 }
 .title {
-  font-size: 22px !important;
-  margin-top: 15px !important;
+  font-size: 20px !important;
+  margin-top: 5px !important;
   font-weight: 400;
 }
 .member {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding: 50px 10px;
   background: white;
 }
 .member-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: left !important;
 }
 .member img {
@@ -103,7 +101,6 @@ export default {
 }
 .member p {
   line-height: 1;
-  text-align: center;
   line-height: 30px;
   margin: 0;
   padding: 0;
@@ -119,7 +116,7 @@ export default {
 @media only screen and (max-width: 728px) {
   .team-members {
     width: 100%;
-    padding: 150px 0px;
+    padding: 0px;
     text-align: center;
   }
   .team-members h1 {
@@ -148,17 +145,14 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 75px 30px;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 50px 0px;
     background: white;
   }
   .member:nth-child(2) {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .member:nth-child(3) {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .member-content {
     display: flex;
@@ -166,8 +160,8 @@ export default {
     align-items: center;
   }
   .member img {
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 100%;
     margin-bottom: 25px;
   }
   .member p {

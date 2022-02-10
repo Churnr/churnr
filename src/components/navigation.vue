@@ -9,17 +9,16 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ms-auto">
-          <b-nav-item href="#"
+          <b-nav-item><router-link to="/">Forside</router-link></b-nav-item>
+          <b-nav-item
             ><router-link to="/features">Vores løsning</router-link></b-nav-item
           >
-          <b-nav-item href="#"
-            ><router-link to="/team">Om os</router-link></b-nav-item
-          >
-          <b-nav-item href="#"
+          <b-nav-item><router-link to="/team">Om os</router-link></b-nav-item>
+          <b-nav-item
             ><router-link to="/contact">Kontakt</router-link></b-nav-item
           >
         </b-navbar-nav>
-        <router-link to="/login" class="login-btn">Log ind</router-link>
+        <router-link to="" class="login-btn">Log ind</router-link>
       </b-collapse>
     </b-navbar>
   </div>
@@ -94,14 +93,13 @@ export default {
 }
 .btn:hover {
   color: white;
-  opacity: .75 !important;
+  opacity: 0.75 !important;
 }
 .scroll {
   box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
   box-sizing: border-box;
   width: 100%;
 }
-
 
 /* Mobile media query */
 
@@ -114,7 +112,7 @@ export default {
     justify-content: center;
     align-items: baseline;
     background: white;
-    animation: MobileFadeIn .25s ease-in;
+    animation: MobileFadeIn 0.25s ease-in;
   }
   .nav {
     padding: 0 25px;
@@ -147,14 +145,21 @@ export default {
   .navbar-toggler {
     border: none;
   }
+  .login-btn {
+    display: none;
+  }
   .scroll {
     box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
     box-sizing: border-box;
     width: 100%;
   }
   @keyframes MobileFadeIn {
-        0% {height: 0vh;}
-        100% {height: 100vh;}
+    0% {
+      height: 0vh;
     }
+    100% {
+      height: 100vh;
+    }
+  }
 }
 </style>
