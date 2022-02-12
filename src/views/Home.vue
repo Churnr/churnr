@@ -110,6 +110,9 @@ import whyHowWhat from "../components/whyHowWhat.vue";
 export default {
   components: { hero, whyHowWhat, featureIntegration },
   name: "home",
+  metaInfo: {
+    title: "Churnr får dine kunder til at blive",
+  },
   props: {
     msg: String,
   },

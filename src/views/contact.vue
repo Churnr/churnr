@@ -28,6 +28,9 @@
 import emailjs from "emailjs-com";
 export default {
   name: "contact",
+  metaInfo: {
+    title: "Kontakt | Churnr",
+  },
   data() {
     return {
       name: "",

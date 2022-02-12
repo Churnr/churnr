@@ -16,6 +16,9 @@ import teamMembers from "../components/teamMembers.vue";
 
 export default {
   name: "team",
+  metaInfo: {
+    title: "Om os | Churnr",
+  },
   components: { teamMembers, visionAndMission },
   props: {
     msg: String,

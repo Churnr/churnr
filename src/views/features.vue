@@ -133,6 +133,9 @@ import faq from "../components/faq.vue";
 
 export default {
   name: "features",
+  metaInfo: {
+    title: "Vores løsning | Churnr",
+  },
   components: { faq },
   props: {
     msg: String,

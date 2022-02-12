@@ -6,6 +6,9 @@ import team from '../views/team.vue';
 import features from '../views/features.vue';
 import cookies from '../views/cookies.vue';
 import privacyPolicy from '../views/privacyPolicy.vue'
+import VueMeta from 'vue-meta'
+
+Vue.use(VueMeta)
 
 Vue.use(VueRouter)
 

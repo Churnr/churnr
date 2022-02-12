@@ -76,6 +76,9 @@
 <script>
 export default {
   name: "privacyPolicy",
+  metaInfo: {
+    title: "Privatlivsvilkår | Churnr",
+  },
 };
 </script>
 

@@ -112,6 +112,9 @@
 <script>
 export default {
   name: "cookies",
+  metaInfo: {
+    title: "Cookiepolitik | Churnr",
+  },
 };
 </script>
 
