@@ -2,9 +2,6 @@
   <div class="features">
     <section
       class="features-hero"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-once="true"
     >
       <div class="features-hero-content">
         <p class="benefit">En enkel løsning til at optimere jeres omsætning</p>
@@ -13,7 +10,7 @@
           Hos Churnr har vi specialiseret os i at bekæmpe den ufrivillige
           churn, der sker på grund af betalingsfejl.
         </p>
-        <router-link to="/contact" class="btn">Kontakt os</router-link>
+        <router-link to="/team" class="btn">Mød teamet</router-link>
       </div>
       <img
         src="../assets/dunning.jpg"
@@ -21,7 +18,7 @@
       />
     </section>
 
-    <section class="features-journey">
+    <section id="journey" class="features-journey">
       <div class="features-journey-content">
         <h2>En nem opskrift til kundefastholdelse</h2>
         <div class="features-journey-steps">
@@ -135,6 +132,14 @@ export default {
   name: "features",
   metaInfo: {
     title: "Vores løsning | Churnr",
+    meta: [
+      {
+        vmid: "description",
+        name: "description",
+        content:
+          "Hos Churnr har vi specialiseret os i at bekæmpe den ufrivillige churn, der sker på grund af betalingsfejl - vi sikrer en skræddersyet serviceoplevelse til dine kunder.",
+      },
+    ],
   },
   components: { faq },
   props: {

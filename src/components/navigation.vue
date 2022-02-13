@@ -2,13 +2,14 @@
   <div class="nav" :class="scrolled ? 'scroll' : ''">
     <b-navbar toggleable="lg">
       <b-navbar-brand href="/"
-        ><img src="../assets/churnr-logo.png" alt=""
+        ><img src="../assets/churnr-logo.png" alt="Churnr logo"
       /></b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ms-auto">
+        <b-navbar-nav class="m-auto">
+          <b-nav-item><router-link to="/">Forside</router-link></b-nav-item>
           <b-nav-item
             ><router-link to="/features">Vores løsning</router-link></b-nav-item
           >
@@ -17,7 +18,7 @@
             ><router-link to="/contact">Kontakt</router-link></b-nav-item
           >
         </b-navbar-nav>
-        <router-link to="" class="login-btn">Log ind</router-link>
+        <router-link to="/contact" class="login-btn">Kontakt os</router-link>
       </b-collapse>
     </b-navbar>
   </div>
@@ -71,10 +72,12 @@ export default {
   margin: 0 auto;
   border-bottom: none;
 }
-
+a .navbar-brand {
+  margin-left: 0px !important;
+}
 .navbar ul li,
 .navbar a {
-  margin-right: 7.5px;
+  margin-left: 7.5px;
   padding: 0;
   color: #333333;
   text-decoration: none;

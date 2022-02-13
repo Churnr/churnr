@@ -112,6 +112,14 @@ export default {
   name: "home",
   metaInfo: {
     title: "Churnr får dine kunder til at blive",
+    meta: [
+      {
+        vmid: "description",
+        name: "description",
+        content:
+          "Churnr er en platform der hjælper abonnementsvirksomheder med at fastholde deres abonnementskunder.",
+      },
+    ],
   },
   props: {
     msg: String,

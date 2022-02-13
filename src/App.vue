@@ -24,7 +24,7 @@ export default {
   padding: 0;
 }
 body {
-  zoom: 90% !important;
+  zoom: 95% !important;
 }
 html {
   scroll-behavior: auto !important;

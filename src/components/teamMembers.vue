@@ -10,7 +10,7 @@
         <div class="member-content">
           <p class="employee-name">Anders Laurentiussen</p>
           <p class="title">CEO & Co-founder</p>
-          
+          <p><b>E-mail:</b> <a href="mailto:anders@churnr.dk">anders@churnr.dk</a></p>
           <!-- <a href="https://www.linkedin.com/in/anders-ottzen-laurentiussen-57670279/" target="_blank"><i class="fab fa-linkedin"></i></a> -->
         </div>
       </div>
@@ -19,6 +19,7 @@
         <div class="member-content">
           <p class="employee-name">Benjamin Treadwell</p>
           <p class="title">CPO & Co-founder</p>
+          <p><b>E-mail:</b> <a href="mailto:benjamin@churnr.dk">benjamin@churnr.dk</a></p>
           <!-- <a href="https://github.com/bentreadwell" target="_blank"><i class="fab fa-github-square"></i></a> -->
         </div>
       </div>
@@ -27,6 +28,7 @@
         <div class="member-content">
           <p class="employee-name">Jacob Stentoft-Nielsen</p>
           <p class="title">CMO & Co-founder</p>
+          <p><b>E-mail:</b> <a href="mailto:jacob@churnr.dk">jacob@churnr.dk</a></p>
           <!-- <a href="https://www.linkedin.com/in/jacob-stentoft-nielsen-428a63142/" target="_blank"><i class="fab fa-linkedin"></i></a> -->
         </div>
       </div>
@@ -59,6 +61,7 @@ export default {
   font-size: 40px;
 }
 .team-members p {
+  margin-top: 25px;
   margin-bottom: 75px;
   font-size: 18px;
 }
@@ -73,20 +76,28 @@ export default {
     ". .";
 }
 .employee-name {
-  font-size: 20px !important;
+  font-size: 24px !important;
   font-weight: 700;
   line-height: 20;
 }
 .title {
-  font-size: 20px !important;
+  font-size: 18px !important;
   margin-top: 5px !important;
   font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+  transition: .05s all ease-out;
+}
+a:hover {
+  color: blue;
 }
 .member {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 10px;
+  padding: 50px 0px;
   background: white;
 }
 .member-content {

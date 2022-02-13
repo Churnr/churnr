@@ -30,6 +30,14 @@ export default {
   name: "contact",
   metaInfo: {
     title: "Kontakt | Churnr",
+    meta: [
+      {
+        vmid: "description",
+        name: "description",
+        content:
+          "Har vi vækket din interesse, eller brænder du inde med et spørgsmål, så kontakt Churnr i dag og hør hvad vi kan gøre for jeres virksomhed!",
+      },
+    ],
   },
   data() {
     return {
