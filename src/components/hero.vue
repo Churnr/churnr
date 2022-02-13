@@ -24,7 +24,7 @@ export default {
 <style scoped>
 .hero {
   padding: 150px 0 125px 0;
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

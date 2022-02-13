@@ -43,7 +43,7 @@ export default {
 }
 .visionAndMission-header-content {
   text-align: left !important;
-  width: 1150px;
+  width: 1200px;
   padding: 0 0 50px 0;
 }
 .visionAndMission-header-content h2 {
@@ -51,7 +51,7 @@ export default {
   font-weight: 700;
 }
 .visionAndMission-text-content {
-  width: 1150px !important;
+  width: 1200px !important;
   text-align: left !important;
   display: flex;
   flex-direction: row;

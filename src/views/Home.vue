@@ -170,7 +170,7 @@ export default {
 
 .feature {
   padding: 125px 0;
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;

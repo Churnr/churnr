@@ -47,7 +47,7 @@ export default {
 
 <style scoped>
 .culture {
-  width: 1150px;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,7 @@ export default {
   text-align: center;
 }
 .culture-header-content {
-  width: 1150px;
+  width: 1200px;
 }
 .culture-header-content h2 {
   font-size: 40px;

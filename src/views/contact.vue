@@ -72,7 +72,7 @@ export default {
 <style scoped>
 .contact {
   padding: 175px 0 150px 0;
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

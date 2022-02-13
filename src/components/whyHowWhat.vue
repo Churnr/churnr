@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 .sinek {
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

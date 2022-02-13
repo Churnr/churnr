@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .feature {
-  width: 1150px;
+  width: 1200px;
   padding: 150px 0;
   margin: 0 auto;
   display: flex;

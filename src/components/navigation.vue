@@ -15,10 +15,10 @@
           >
           <b-nav-item><router-link to="/team">Om os</router-link></b-nav-item>
           <b-nav-item
-            ><router-link to="/contact">Kontakt</router-link></b-nav-item
+            ><router-link to="/contact">Kontakt os</router-link></b-nav-item
           >
         </b-navbar-nav>
-        <router-link to="/contact" class="login-btn">Kontakt os</router-link>
+        <router-link to="/contact" class="login-btn">Book et møde</router-link>
       </b-collapse>
     </b-navbar>
   </div>
@@ -67,20 +67,21 @@ export default {
   z-index: 999;
 }
 .navbar {
-  width: 1150px !important;
+  width: 1200px !important;
   height: 85px;
   margin: 0 auto;
   border-bottom: none;
 }
-a .navbar-brand {
-  margin-left: 0px !important;
+.navbar-brand {
+  margin: 0px !important;
+  padding: 0px !important;
 }
 .navbar ul li,
 .navbar a {
-  margin-left: 7.5px;
-  padding: 0;
+  padding: 0 5px;
   color: #333333;
   text-decoration: none;
+  font-weight: 500;
 }
 .navbar-brand img {
   height: 25px;

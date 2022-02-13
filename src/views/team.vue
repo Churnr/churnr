@@ -56,7 +56,7 @@ export default {
   color: #2e3540;
 }
 .team-image {
-  width: 1150px;
+  width: 1200px;
   z-index: 1;
 }
 

@@ -84,7 +84,7 @@ export default {
 
 <style scoped>
 .privacyPolicy {
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   padding: 150px 0;
 }

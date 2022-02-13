@@ -66,7 +66,7 @@ export default {
   font-size: 18px;
 }
 .team-members-content {
-  width: 1150px;
+  width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -91,7 +91,7 @@ a {
   transition: .05s all ease-out;
 }
 a:hover {
-  color: blue;
+  color: #0ABF53;
 }
 .member {
   display: flex;

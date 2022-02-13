@@ -151,7 +151,7 @@ export default {
 <style scoped>
 .features-hero {
   padding: 175px 0 150px 0;
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -210,7 +210,7 @@ export default {
   text-align: center;
 }
 .features-journey-content {
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
 }
 .features-journey-steps {
@@ -249,7 +249,7 @@ export default {
 }
 .features-employee-image {
   height: 600px;
-  width: 1150px;
+  width: 1200px;
   background: url(../assets/recipe.jpg);
   background-size: cover;
   background-position: center center;
@@ -260,7 +260,7 @@ export default {
 
 .features-scripts {
   padding: 150px 0 125px 0;
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -316,12 +316,12 @@ export default {
 .features-dashboard {
   padding: 125px 0;
   border-top: 1px solid #dcdcdc;
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .features-dashboard-content {
-  width: 1150px;
+  width: 1200px;
   text-align: center;
 }
 
@@ -344,7 +344,7 @@ export default {
 
 .features-dashboard-image {
   margin-top: 100px;
-  width: 1150px;
+  width: 1200px;
   height: 600px;
   background: url(../assets/dashboard.jpg);
   background-size: cover;
@@ -360,7 +360,7 @@ export default {
 
 .features-communication {
   padding: 125px 0;
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
