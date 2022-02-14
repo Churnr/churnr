@@ -472,14 +472,14 @@ export default {
     background: #f3f6f9;
     display: flex;
     justify-content: center;
-    margin-bottom: 300px;
+    margin-bottom: 0px;
     padding: 0 25px;
   }
   .features-employee-image {
-    height: 600px;
+    height: auto;
     width: 100%;
     background-position: left;
-    background: url(../assets/anders-business.jpeg);
+    background: url(../assets/recipe.jpg);
     background-size: contain;
     background-repeat: no-repeat;
   }
