@@ -113,7 +113,7 @@
           For at skabe en løbende dialog, vil vi i onboarding processen få sat
           en kommunikationskanal op, i jeres foretrukne kommunikationssystem.
         </p>
-        <a href="/contact">Kontakt os nu</a>
+        <router-link to="/contact">Kontakt os nu</router-link>
       </div>
       <img
         src="../assets/communication.jpg"

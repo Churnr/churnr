@@ -2,7 +2,7 @@
   <div class="team-members">
     <h1>Meet the team</h1>
     <p>
-      Passionerede ildsjæle der brænder for at komme betalingsfejl til livs
+      Jeres specialister inden for ufrivillig churn og kundefastholdelse
     </p>
     <div class="team-members-content">
       <div class="member">
