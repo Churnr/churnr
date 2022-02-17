@@ -67,7 +67,7 @@ export default {
   z-index: 999;
 }
 .navbar {
-  width: 1200px !important;
+  width: 1150px !important;
   height: 85px;
   margin: 0 auto;
   border-bottom: none;

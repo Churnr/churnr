@@ -29,7 +29,7 @@ export default {
   justify-content: center;
 }
 .callToAction-content {
-  width: 1200px;
+  width: 1150px;
   text-align: center;
 }
 .callToAction-content h1 {

@@ -45,7 +45,7 @@ export default {
 <style scoped>
 footer {
   padding: 100px 0;
-  width: 1200px;
+  width: 1150px;
   margin: 0 auto;
 }
 footer img {

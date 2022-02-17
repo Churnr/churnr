@@ -6,9 +6,9 @@
       <p>
         Alle abonnementsvirksomheder mister kunder pga. betalingsfejl - lad os hjælpe med at fastholde jeres abonnementskunder.
       </p>
-      <router-link to="/features" class="btn">Se hvordan</router-link>
+      <!-- <router-link to="/features" class="btn">Se hvordan</router-link> -->
     </span>
-    <img src="../assets/hero-image.png" alt="To mennesker sidder og snakker om kundefastholdelse" />
+      <iframe width="1150" height="646.88" src="https://www.youtube.com/embed/rfoLyfySsHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </template>
 
@@ -23,12 +23,14 @@ export default {
 
 <style scoped>
 .hero {
-  padding: 150px 0 125px 0;
-  width: 1200px;
+  padding: 250px 0 125px 0;
+  width: 1150px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 .hero h1 {
   font-size: 65px;
@@ -41,8 +43,10 @@ export default {
 .hero p {
   font-size: 20px;
   line-height: 1.75;
-  padding: 15px 0 30px 0;
-  margin: 0;
+  padding: 35px 0 100px 0;
+  margin: 0 auto;
+  width: 75%;
+
 }
 .hero .btn {
   background: #0abf53;
@@ -71,14 +75,21 @@ a {
   width: 50%;
 }
 .hero span {
-  width: 45%;
+  width: 75%;
+}
+
+iframe {
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  border-radius: 5px;
 }
 
 /* Mobile media query */
 
 @media only screen and (max-width: 728px) {
   .hero {
-    padding: 200px 25px 150px 25px;
+    padding: 200px 25px 0px 25px;
     width: 100% !important;
     display: flex;
     flex-direction: column;
@@ -95,8 +106,9 @@ a {
   .hero p {
     font-size: 20px;
     line-height: 1.75;
-    padding: 15px 0 30px 0;
+    padding: 35px 0 75px 0;
     margin: 0;
+    width: 100%;
   }
   .hero .btn {
     background: #0abf53;
@@ -123,6 +135,10 @@ a {
   }
   .hero span {
     width: 100%;
+  }
+  iframe {
+    width: 100%;
+    height: 250px;
   }
 }
 </style>

@@ -66,7 +66,7 @@ export default {
   font-size: 18px;
 }
 .team-members-content {
-  width: 1200px;
+  width: 1150px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;

@@ -1,7 +1,7 @@
 <template>
   <div
     class="feature"
-    data-aos="fade-right"
+    data-aos="fade-up"
     data-aos-duration="1000"
     data-aos-once="true"
   >
@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .feature {
-  width: 1200px;
+  width: 1150px;
   padding: 150px 0;
   margin: 0 auto;
   display: flex;

@@ -4,6 +4,7 @@ import home from '../views/home.vue';
 import contact from '../views/contact.vue';
 import team from '../views/team.vue';
 import features from '../views/features.vue';
+import pricing from '../views/pricing.vue';
 import cookies from '../views/cookies.vue';
 import privacyPolicy from '../views/privacyPolicy.vue'
 import VueMeta from 'vue-meta'
@@ -28,6 +29,10 @@ const routes = [{
     {
         path: '/features',
         component: features
+    },
+    {
+        path: '/pricing',
+        component: pricing
     },
     {
         path: '/cookies',

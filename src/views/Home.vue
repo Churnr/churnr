@@ -2,11 +2,9 @@
   <div class="home">
     <hero />
 
-    <whyHowWhat />
-
     <div
       class="feature"
-      data-aos="fade-right"
+      data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-once="true"
     >
@@ -26,7 +24,7 @@
 
     <div
       class="feature humanize"
-      data-aos="fade-left"
+      data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-once="true"
     >
@@ -48,32 +46,17 @@
 
     <div class="solution-stat">
       <div class="solution-content">
-        <div
-          class="stat"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div class="stat">
           <h3>15%</h3>
           <p>af kunder fastholdes af autogenererede mails</p>
         </div>
 
-        <div
-          class="stat"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div class="stat">
           <h3>63%</h3>
           <p>af kunder har Churnr indtil videre fastholdt</p>
         </div>
 
-        <div
-          class="stat"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div class="stat">
           <h3>+80%</h3>
           <p>af kunder reagerer på Churnrs outreach</p>
         </div>
@@ -82,7 +65,7 @@
 
     <div
       class="feature partner"
-      data-aos="fade-left"
+      data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-once="true"
     >
@@ -106,9 +89,8 @@
 <script>
 import featureIntegration from "../components/featureIntegration.vue";
 import hero from "../components/hero.vue";
-import whyHowWhat from "../components/whyHowWhat.vue";
 export default {
-  components: { hero, whyHowWhat, featureIntegration },
+  components: { hero, featureIntegration },
   name: "home",
   metaInfo: {
     title: "Churnr får dine kunder til at blive",
@@ -170,7 +152,7 @@ export default {
 
 .feature {
   padding: 125px 0;
-  width: 1200px;
+  width: 1150px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;

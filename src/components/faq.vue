@@ -67,7 +67,7 @@ export default {
 <style scoped>
 .faq {
   padding: 150px 0;
-  width: 1200px;
+  width: 1150px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -83,7 +83,7 @@ export default {
   margin-top: 100px;
 }
 .card-header {
-  width: 1200px;
+  width: 1150px;
 }
 .card-header .btn-info {
   width: 100%;
