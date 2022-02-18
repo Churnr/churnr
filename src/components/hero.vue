@@ -8,7 +8,7 @@
       </p>
       <!-- <router-link to="/features" class="btn">Se hvordan</router-link> -->
     </span>
-      <iframe width="1150" height="646.88" src="https://www.youtube.com/embed/rfoLyfySsHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="1150" height="646.88" src="https://www.youtube-nocookie.com/embed/rfoLyfySsHk?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </template>
 
