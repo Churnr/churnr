@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import navigation from "./components/navigation.vue";
-import callToAction from "./components/callToAction.vue";
-import aFooter from "./components/aFooter.vue";
+import navigation from "./components/global/navigation.vue";
+import callToAction from "./components/global/callToAction.vue";
+import aFooter from "./components/global/aFooter.vue";
 export default {
   components: { navigation, callToAction, aFooter },
   name: "app",
@@ -24,7 +24,7 @@ export default {
   padding: 0;
 }
 body {
-  zoom: 95% !important;
+  zoom: 90% !important;
 }
 html {
   scroll-behavior: auto !important;
@@ -39,28 +39,28 @@ p {
   font-size: 20px;
 }
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-weight: 300;
-  src: url('./fonts/Gilroy-Light.ttf');
+  src: url("./fonts/Gilroy-Light.ttf");
 }
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-weight: 400;
-  src: url('./fonts/Gilroy-Regular.ttf');
+  src: url("./fonts/Gilroy-Regular.ttf");
 }
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-weight: 500;
-  src: url('./fonts/Gilroy-Medium.ttf');
+  src: url("./fonts/Gilroy-Medium.ttf");
 }
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-weight: 600;
-  src: url('./fonts/Gilroy-SemiBold.ttf');
+  src: url("./fonts/Gilroy-SemiBold.ttf");
 }
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-weight: 700;
-  src: url('./fonts/Gilroy-Bold.ttf');
+  src: url("./fonts/Gilroy-Bold.ttf");
 }
 </style>

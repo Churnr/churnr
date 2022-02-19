@@ -2,30 +2,23 @@
   <footer>
     <div class="footer-menu">
       <div class="footer-menu-column">
-        <img src="../assets/churnr-logo.png" alt="" />
+        <img src="../../assets/churnr-logo.png" alt="" />
       </div>
       <div class="footer-menu-column">
         <h6>Oversigt</h6>
-        <router-link to="/features">Vores løsning</router-link>
-        <router-link to="/team">Om os</router-link>
+        <router-link to="/solution">Vores løsning</router-link>
+        <router-link to="/about">Om os</router-link>
         <router-link to="/contact">Kontakt</router-link>
       </div>
       <div class="footer-menu-column">
         <h6>Virksomhed</h6>
-
-        <!-- Fiks den her fucking forbandede PDF link asap -->
-
         <a href="./brochure.pdf" target="_blank">Hvad er Churnr?</a>
         <router-link to="/privacyPolicy">Privatlivsvilkår</router-link>
         <router-link to="/cookies">Cookiepolitik</router-link>
       </div>
       <div class="footer-menu-column">
         <h6>Følg os</h6>
-        <a
-          href="https://www.facebook.com/churnr-107508725081442"
-          target="_blank"
-          >Facebook</a
-        >
+        <a href="https://www.facebook.com/churnr-107508725081442" target="_blank">Facebook</a>
         <a href="https://twitter.com/hellochurnr" target="_blank">Twitter</a>
         <a href="https://www.linkedin.com/company/77019295/">LinkedIn</a>
       </div>

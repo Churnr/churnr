@@ -1,5 +1,5 @@
 <template>
-  <section class="team">
+  <section class="team" data-aos="fade-up" data-aos-duration="1000">
     <p class="benefit">Mød holdet der får tingene til at ske</p>
     <h1>Teamet bag Churnr</h1>
     <img
@@ -15,11 +15,11 @@
 </template>
 
 <script>
-import visionAndMission from "../components/visionAndMission.vue";
-import teamMembers from "../components/teamMembers.vue";
+import visionAndMission from "../components/about/visionAndMission.vue";
+import teamMembers from "../components/about/teamMembers.vue";
 
 export default {
-  name: "team",
+  name: "about",
   metaInfo: {
     title: "Om os | Churnr",
     meta: [
@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
 .team {
-  padding: 175px 0 150px 0;
+  padding: 250px 0 150px 0;
   margin: 0 auto;
   display: flex;
   justify-content: center;

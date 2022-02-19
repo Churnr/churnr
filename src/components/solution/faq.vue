@@ -6,9 +6,9 @@
     <div class="accordion" role="tablist">
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-0" role="tab">
-          <b-button block v-b-toggle.accordion-1 variant="info"
-            >Hvad er Churnr?</b-button
-          >
+          <b-button block v-b-toggle.accordion-1 variant="info">
+            Hvad er Churnr?
+          </b-button>
         </b-card-header>
         <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
           <b-card-body>
@@ -24,33 +24,33 @@
 
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-0" role="tab">
-          <b-button block v-b-toggle.accordion-2 variant="info"
-            >Hvem henvender Churnr sig til?</b-button
-          >
+          <b-button block v-b-toggle.accordion-2 variant="info">
+            Hvem henvender Churnr sig til?
+          </b-button>
         </b-card-header>
         <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text
-              >Churnr henvender sig på nuværende tidspunkt udelukkende til
-              abonnementsvirksomheder.</b-card-text
-            >
+            <b-card-text>
+              Churnr henvender sig på nuværende tidspunkt udelukkende til
+              abonnementsvirksomheder.
+            </b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>
 
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-0" role="tab">
-          <b-button block v-b-toggle.accordion-3 variant="info"
-            >Hvor meget koster Churnrs ydelser?</b-button
-          >
+          <b-button block v-b-toggle.accordion-3 variant="info">
+            Hvor meget koster Churnrs ydelser?
+          </b-button>
         </b-card-header>
         <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text
-              >Prisen for Churnrs ydelser er individuel for alle virksomheder.
+            <b-card-text>
+              Prisen for Churnrs ydelser er individuel for alle virksomheder.
               Det varierer på baggrund af antal kunder, churn rate, interne
-              behov mm.</b-card-text
-            >
+              behov mm.
+            </b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>

@@ -1,35 +1,42 @@
 <template>
   <div class="team-members">
     <h1>Meet the team</h1>
-    <p>
-      Jeres specialister inden for ufrivillig churn og kundefastholdelse
-    </p>
+    <p>Jeres specialister inden for ufrivillig churn og kundefastholdelse</p>
     <div class="team-members-content">
       <div class="member">
-        <img src="../assets/team/anders.jpg" alt="Profilbillede af Churnrs CEO, Anders Laurentiussen" />
+        <img src="../../assets/team/anders.jpg"
+          alt="Profilbillede af Churnrs CEO, Anders Laurentiussen"/>
         <div class="member-content">
           <p class="employee-name">Anders Laurentiussen</p>
           <p class="title">CEO & Co-founder</p>
-          <p><b>E-mail:</b> <a href="mailto:anders@churnr.dk">anders@churnr.dk</a></p>
-          <!-- <a href="https://www.linkedin.com/in/anders-ottzen-laurentiussen-57670279/" target="_blank"><i class="fab fa-linkedin"></i></a> -->
+          <p>
+            <b>E-mail:</b>
+            <a href="mailto:anders@churnr.dk">anders@churnr.dk</a>
+          </p>
         </div>
       </div>
       <div class="member">
-        <img src="../assets/team/benjamin.jpg" alt="Profilbillede af Churnrs CPO, Benjamin Treadwell" />
+        <img src="../../assets/team/benjamin.jpg"
+          alt="Profilbillede af Churnrs CPO, Benjamin Treadwell"/>
         <div class="member-content">
           <p class="employee-name">Benjamin Treadwell</p>
           <p class="title">CPO & Co-founder</p>
-          <p><b>E-mail:</b> <a href="mailto:benjamin@churnr.dk">benjamin@churnr.dk</a></p>
-          <!-- <a href="https://github.com/bentreadwell" target="_blank"><i class="fab fa-github-square"></i></a> -->
+          <p>
+            <b>E-mail:</b>
+            <a href="mailto:benjamin@churnr.dk">benjamin@churnr.dk</a>
+          </p>
         </div>
       </div>
       <div class="member">
-        <img src="../assets/team/jacob.jpg" alt="Profilbillede af Churnrs CMO, Jacob Stentoft-Nielsen" />
+        <img src="../../assets/team/jacob.jpg"
+          alt="Profilbillede af Churnrs CMO, Jacob Stentoft-Nielsen"/>
         <div class="member-content">
           <p class="employee-name">Jacob Stentoft-Nielsen</p>
           <p class="title">CMO & Co-founder</p>
-          <p><b>E-mail:</b> <a href="mailto:jacob@churnr.dk">jacob@churnr.dk</a></p>
-          <!-- <a href="https://www.linkedin.com/in/jacob-stentoft-nielsen-428a63142/" target="_blank"><i class="fab fa-linkedin"></i></a> -->
+          <p>
+            <b>E-mail:</b> 
+            <a href="mailto:jacob@churnr.dk">jacob@churnr.dk</a>
+          </p>
         </div>
       </div>
     </div>
@@ -53,8 +60,6 @@ export default {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* background: #6C6CFF;
-  color: white; */
 }
 .team-members h1 {
   font-weight: 700;
@@ -88,10 +93,10 @@ export default {
 a {
   text-decoration: none;
   color: #333333;
-  transition: .05s all ease-out;
+  transition: 0.05s all ease-out;
 }
 a:hover {
-  color: #0ABF53;
+  color: #0abf53;
 }
 .member {
   display: flex;

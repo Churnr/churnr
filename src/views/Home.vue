@@ -76,7 +76,7 @@
           Vi er en gruppe passionerede iværksættere med et mål om at minimere
           churn og innovere customer outreach.
         </p>
-        <router-link to="/team" class="btn">Mød teamet</router-link>
+        <router-link to="/about" class="btn">Mød teamet</router-link>
       </span>
       <img
         src="../assets/partner.jpg"
@@ -87,8 +87,8 @@
 </template>
 
 <script>
-import featureIntegration from "../components/featureIntegration.vue";
-import hero from "../components/hero.vue";
+import hero from "../components/home/hero.vue";
+import featureIntegration from "../components/home/featureIntegration.vue";
 export default {
   components: { hero, featureIntegration },
   name: "home",

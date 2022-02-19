@@ -1,14 +1,12 @@
 <template>
   <div class="hero" >
-    <!-- AOS animation snippet: data-aos="fade-up" data-aos-duration="1000" -->
-    <span>
-      <h1>Kundefastholdelse med personligt outreach</h1>
+    <span data-aos="fade-up" data-aos-duration="1000">
+      <h1>We got 99 problems, but churn aint one</h1>
       <p>
-        Alle abonnementsvirksomheder mister kunder pga. betalingsfejl - lad os hjælpe med at fastholde jeres abonnementskunder.
+        Alle abonnementsvirksomheder mister kunder pga. betalingsfejl. Lad os hjælpe med at fastholde jeres abonnementskunder.
       </p>
-      <!-- <router-link to="/features" class="btn">Se hvordan</router-link> -->
     </span>
-    <iframe width="1150" height="646.88" src="https://www.youtube-nocookie.com/embed/rfoLyfySsHk?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="1150" height="646.88" src="https://www.youtube-nocookie.com/embed/rfoLyfySsHk?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"></iframe>
   </div>
 </template>
 
@@ -37,15 +35,17 @@ export default {
   line-height: 1.15;
   font-weight: 700;
   color: #2e3540;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   margin: 0;
+  width: 75%;
+  margin: 0 auto;
 }
 .hero p {
   font-size: 20px;
   line-height: 1.75;
   padding: 35px 0 100px 0;
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
 
 }
 .hero .btn {

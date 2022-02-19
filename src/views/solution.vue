@@ -1,16 +1,14 @@
 <template>
   <div class="features">
-    <section
-      class="features-hero"
-    >
+    <section class="features-hero" data-aos="fade-up" data-aos-duration="1000">
       <div class="features-hero-content">
         <p class="benefit">En enkel løsning til at optimere jeres omsætning</p>
-        <h1>I got 99 problems<br />- but churn ain't one</h1>
+        <h1>Vi mindsker din churn rate markant</h1>
         <p>
-          Hos Churnr har vi specialiseret os i at bekæmpe den ufrivillige
-          churn, der sker på grund af betalingsfejl.
+          Hos Churnr har vi specialiseret os i at bekæmpe den ufrivillige churn,
+          der sker på grund af betalingsfejl.
         </p>
-        <router-link to="/team" class="btn">Mød teamet</router-link>
+        <router-link to="/about" class="btn">Mød teamet</router-link>
       </div>
       <img
         src="../assets/dunning.jpg"
@@ -126,10 +124,10 @@
 </template>
 
 <script>
-import faq from "../components/faq.vue";
+import faq from "../components/solution/faq.vue";
 
 export default {
-  name: "features",
+  name: "solution",
   metaInfo: {
     title: "Vores løsning | Churnr",
     meta: [
@@ -162,7 +160,7 @@ export default {
 }
 .features-hero-content h1 {
   margin: 0;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   padding: 5px 0 15px 0;
   font-size: 65px;
   line-height: 1.15;
@@ -254,6 +252,10 @@ export default {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  border-radius: 5px;
 }
 
 /* Feature scripts */

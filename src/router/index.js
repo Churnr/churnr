@@ -2,9 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import home from '../views/home.vue';
 import contact from '../views/contact.vue';
-import team from '../views/team.vue';
-import features from '../views/features.vue';
-import pricing from '../views/pricing.vue';
+import about from '../views/about.vue';
+import solution from '../views/solution.vue';
 import cookies from '../views/cookies.vue';
 import privacyPolicy from '../views/privacyPolicy.vue'
 import VueMeta from 'vue-meta'
@@ -23,16 +22,12 @@ const routes = [{
         component: contact
     },
     {
-        path: '/team',
-        component: team
+        path: '/about',
+        component: about
     },
     {
-        path: '/features',
-        component: features
-    },
-    {
-        path: '/pricing',
-        component: pricing
+        path: '/solution',
+        component: solution
     },
     {
         path: '/cookies',
@@ -45,7 +40,7 @@ const routes = [{
 ]
 
 const router = new VueRouter({
-    // mode: 'history',
+    mode: 'history',
     base: process.env.BASE_URL,
     routes,
     scrollBehavior(to, from, savedPosition) {
