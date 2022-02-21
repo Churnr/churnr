@@ -1,6 +1,7 @@
 <template>
   <section class="calculator">
     <h1>😍- simpel marketing platform til dit startup</h1>
+    <h2>Test test</h2>
     <form>
         <div class="calculator-variables">
           <span>
@@ -19,7 +20,7 @@
             <p>Ved mere end én abonnementspris, indtast gennemsnittet</p>
           </span>
           <span>
-            <label>Antal kunder</label>
+            <label>Antal kunder?</label>
             <output id="output">0</output>
             <input id="customerNumber" type="range" value="0" min="0" max="3000" step="100" oninput="CalculateEstimate(); sliderChange(this.value);">
             <div class="range">
