@@ -3,46 +3,71 @@
     <h1>😍- simpel marketing platform til dit startup</h1>
     <h2>Test test</h2>
     <form>
-        <div class="calculator-variables">
-          <span>
-            <label>Hvad er jeres samlede churn rate?</label>
-            <input type='text' min="0" max="100" id='churnRate' oninput="CalculateEstimate();" required />
-            <p>Procentandelen af tabte kunder / per md</p>
-          </span>
-          <span>
-            <label>Hvad er jeres ufrivillige churn rate?</label>
-            <input type='text' min="0" max="100" id='invoulentaryChurn' oninput="CalculateEstimate();" />
-            <p>Procentandelen af tabte kunder pga betalingsfejl / per md</p>
-          </span>
-          <span>
-            <label>Hvad er jeres dækningsbidrag?</label>
-            <input type='text' id='contributionMargin' oninput="CalculateEstimate();" />
-            <p>Ved mere end én abonnementspris, indtast gennemsnittet</p>
-          </span>
-          <span>
-            <label>Antal kunder?</label>
-            <output id="output">0</output>
-            <input id="customerNumber" type="range" value="0" min="0" max="3000" step="100" oninput="CalculateEstimate(); sliderChange(this.value);">
-            <div class="range">
-              <p>0 kunder</p>
-              <p>3000 kunder</p>
-            </div>
-          </span>
-        </div>
-      <div id='result'>hej</div>
+      <div class="calculator-variables">
+        <input
+          type="text"
+          min="0"
+          max="100"
+          id="churnRate"
+          v-on:input="CalculateEstimate()"
+        />
+        <input
+          type="text"
+          min="0"
+          max="100"
+          id="invoulentaryChurn"
+          v-on:input="CalculateEstimate()"
+        />
+        <input
+          type="text"
+          id="contributionMargin"
+          v-on:input="CalculateEstimate()"
+        />
+        <span>
+          <label>Antal kunder?</label>
+          <input
+            id="customerNumber"
+            type="text"
+            v-on:input="CalculateEstimate()"
+          />
+        </span>
+      </div>
+      <div id="result"></div>
     </form>
   </section>
 </template>
 
 <script>
+import $ from "jquery";
+
 export default {
   name: "calculator",
-  props: {
-    msg: String,
+  methods: {
+    // Savings estimate quote calculator.
+
+    CalculateEstimate: function () {
+      var b1 = parseInt(document.getElementById("churnRate").value);
+      var b2 = parseInt(document.getElementById("invoulentaryChurn").value);
+      var b3 = parseInt(document.getElementById("contributionMargin").value);
+      var b4 = parseInt(document.getElementById("customerNumber").value);
+
+      document.getElementById("result").innerHTML =
+        "Vi kan fastholde " +
+        (1 / (b1 / 100)) * b3 * (b4 * (b2 / 100)) * 12 * 0.5 +
+        " DKK";
+    },
   },
-  mounted () {
-    
-  }
+  mounted() {
+    $(function () {
+      $("input").change(function () {
+        $("#result").toggle(
+          $("input").filter(function () {
+            return this.value === "";
+          }).length === 0
+        );
+      });
+    });
+  },
 };
 </script>
 
@@ -72,33 +97,12 @@ export default {
   -moz-box-shadow: 0px 0px 20px 1px rgba(173, 216, 230, 0.5);
   border-radius: 5px;
 }
-.calculator-variables {
-  width: 50%;
-}
-.calculator-variables span {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 35px;
-}
 
-.calculator-variables label {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.calculator-variables input {
-  margin: 10px 0;
-  padding: 10px;
-}
-
-.calculator-variables p {
-  font-size: 14px;
-}
-
-.range {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+#result {
+  font-size: 20px;
+  color: red;
+  z-index: 999;
+  display: none;
 }
 
 /* Mobile media query */

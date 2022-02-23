@@ -1,12 +1,12 @@
 <template>
-  <div class="hero" >
-    <span data-aos="fade-up" data-aos-duration="1000">
+  <div class="hero" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+    <span>
       <h1>We got 99 problems, but churn aint one</h1>
       <p>
         Alle abonnementsvirksomheder mister kunder pga. betalingsfejl. Lad os hjælpe med at fastholde jeres abonnementskunder.
       </p>
     </span>
-    <iframe width="1150" height="646.88" src="https://www.youtube-nocookie.com/embed/rfoLyfySsHk?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"></iframe>
+    <iframe width="1150" height="646.88" src="https://www.youtube.com/embed/SOEyxPNE9gw?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </template>
 

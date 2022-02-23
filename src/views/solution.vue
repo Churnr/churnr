@@ -15,7 +15,7 @@
         alt="Churnr medarbejder sidder og bekæmper ufrivillige betalingsfejl"
       />
     </section>
-
+    
     <section id="journey" class="features-journey">
       <div class="features-journey-content">
         <h2>En nem opskrift til kundefastholdelse</h2>
