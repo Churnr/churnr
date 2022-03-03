@@ -2,12 +2,7 @@
   <div class="home">
     <hero />
 
-    <div
-      class="feature"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div class="feature">
       <img
         src="../assets/graphs.jpg"
         alt="Visualisering af fordelene ved at vælge Churnrs ydelser."
@@ -22,12 +17,7 @@
       </span>
     </div>
 
-    <div
-      class="feature humanize"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div class="feature humanize">
       <span>
         <p class="benefit">Sig farvel til autogenererede e-mails</p>
         <h2>Gør dialogen mere menneskelig</h2>
@@ -63,12 +53,7 @@
       </div>
     </div>
 
-    <div
-      class="feature partner"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div class="feature partner">
       <span>
         <p class="benefit">Teamet der får tingene til at ske</p>
         <h2>Din nye engagerede samarbejdspartner</h2>

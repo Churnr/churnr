@@ -15,7 +15,7 @@
         alt="Churnr medarbejder sidder og bekæmper ufrivillige betalingsfejl"
       />
     </section>
-    
+
     <section id="journey" class="features-journey">
       <div class="features-journey-content">
         <h2>En nem opskrift til kundefastholdelse</h2>
@@ -59,12 +59,7 @@
       <div class="features-employee-image"></div>
     </div>
 
-    <div
-      class="features-scripts"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div class="features-scripts">
       <div class="features-scripts-content">
         <p class="benefit">Skræddersyet til jeres brand</p>
         <h2>Manuskript udarbejdet i fællesskab med jer</h2>
@@ -98,12 +93,7 @@
       </div>
     </div>
 
-    <section
-      class="features-communication"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <section class="features-communication">
       <div class="features-communication-content">
         <p class="benefit">Let's stay in touch</p>
         <h2>Nem og hurtig kommunikation</h2>
