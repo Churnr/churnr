@@ -1,10 +1,5 @@
 <template>
-  <div
-    class="feature"
-    data-aos="fade-up"
-    data-aos-duration="1000"
-    data-aos-once="true"
-  >
+  <div class="feature">
     <img
       src="../../assets/payment-methods.jpg"
       alt="Visualisering af de betalingsplatforme som Churnr integrerer med"
@@ -40,7 +35,6 @@ export default {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #dcdcdc;
-  border-bottom: 1px solid #dcdcdc;
 }
 .feature img {
   width: 35%;

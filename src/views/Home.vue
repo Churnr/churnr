@@ -33,25 +33,7 @@
     </div>
 
     <featureIntegration />
-
-    <div class="solution-stat">
-      <div class="solution-content">
-        <div class="stat">
-          <h3>15%</h3>
-          <p>af kunder fastholdes af autogenererede mails</p>
-        </div>
-
-        <div class="stat">
-          <h3>63%</h3>
-          <p>af kunder har Churnr indtil videre fastholdt</p>
-        </div>
-
-        <div class="stat">
-          <h3>+80%</h3>
-          <p>af kunder reagerer på Churnrs outreach</p>
-        </div>
-      </div>
-    </div>
+    <customers />
 
     <div class="feature partner">
       <span>
@@ -74,8 +56,9 @@
 <script>
 import hero from "../components/home/hero.vue";
 import featureIntegration from "../components/home/featureIntegration.vue";
+import customers from "../components/home/customers.vue";
 export default {
-  components: { hero, featureIntegration },
+  components: { hero, featureIntegration, customers },
   name: "home",
   metaInfo: {
     title: "Churnr får dine kunder til at blive",
@@ -95,43 +78,6 @@ export default {
 </script>
 
 <style scoped>
-/* This div needs to be made into it's own component, and injected back into this site. */
-
-.solution-stat {
-  padding: 150px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: black;
-  border: 1px solid #f2f2f2;
-  background: #0abf53;
-  color: white;
-}
-
-.solution-content {
-  width: 950px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-}
-
-.solution-content h3 {
-  font-size: 70px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.solution-content p {
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-.stat {
-  width: 25%;
-  text-align: center;
-}
 
 /* Front page features */
 
@@ -180,47 +126,7 @@ export default {
 /* Mobile media query */
 
 @media only screen and (max-width: 728px) {
-  .solution-stat {
-    padding: 150px 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: black;
-    border: 1px solid #f2f2f2;
-    color: white;
-  }
-
-  .solution-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .solution-content h3 {
-    font-size: 70px;
-    font-weight: 700;
-    letter-spacing: -2px;
-  }
-
-  .solution-content p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
-  .stat {
-    width: 75%;
-    text-align: center;
-  }
-  .stat:nth-child(2) {
-    margin-top: 75px;
-  }
-  .stat:nth-child(3) {
-    margin-top: 75px;
-  }
-
+  
   /* Front page features */
 
   .feature {
