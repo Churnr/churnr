@@ -11,7 +11,7 @@
           <p class="title">CEO & Co-founder</p>
           <p>
             <b>E-mail:</b>
-            <a href="mailto:anders@churnr.dk">anders@churnr.dk</a>
+            <a href="mailto:anders@churnr.dk"> anders@churnr.dk</a>
           </p>
         </div>
       </div>
@@ -23,7 +23,7 @@
           <p class="title">CPO & Co-founder</p>
           <p>
             <b>E-mail:</b>
-            <a href="mailto:benjamin@churnr.dk">benjamin@churnr.dk</a>
+            <a href="mailto:benjamin@churnr.dk"> benjamin@churnr.dk</a>
           </p>
         </div>
       </div>
@@ -35,7 +35,19 @@
           <p class="title">CMO & Co-founder</p>
           <p>
             <b>E-mail:</b> 
-            <a href="mailto:jacob@churnr.dk">jacob@churnr.dk</a>
+            <a href="mailto:jacob@churnr.dk"> jacob@churnr.dk</a>
+          </p>
+        </div>
+      </div>
+      <div class="member">
+        <img src="../../assets/team/christian.jpg"
+          alt="Profilbillede af Churnrs CMO, Jacob Stentoft-Nielsen"/>
+        <div class="member-content">
+          <p class="employee-name">Christian Cunningham</p>
+          <p class="title">Multimediedesign praktikant</p>
+          <p>
+            <b>E-mail:</b> 
+            <a href="mailto:jacob@churnr.dk"> christian@churnr.dk</a>
           </p>
         </div>
       </div>
@@ -73,7 +85,7 @@ export default {
 .team-members-content {
   width: 1150px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 40px;
   grid-template-areas:
@@ -81,7 +93,7 @@ export default {
     ". .";
 }
 .employee-name {
-  font-size: 24px !important;
+  font-size: 20px !important;
   font-weight: 700;
   line-height: 20;
 }
