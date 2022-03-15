@@ -98,7 +98,7 @@ export default {
     width: 100%;
   }
   .customers h2 {
-    font-size: 32px;
+    font-size: 50px;
   }
 
   .customer-ribbon {

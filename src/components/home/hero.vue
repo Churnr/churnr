@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .hero {
-  padding: 250px 0 125px 0;
+  padding: 250px 0 150px 0;
   width: 1150px;
   margin: 0 auto;
   display: flex;
@@ -96,12 +96,13 @@ iframe {
     text-align: center;
   }
   .hero h1 {
-    font-size: 36px;
+    font-size: 50px;
     line-height: 1.25;
     font-weight: 700;
     color: #2e3540;
     letter-spacing: -3px;
     margin: 0;
+    width: 100% !important;
   }
   .hero p {
     font-size: 20px;

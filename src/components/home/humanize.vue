@@ -1,24 +1,23 @@
 <template>
-  <div class="feature">
-    <img
-      src="../../assets/payment-methods.jpg"
-      alt="Visualisering af de betalingsplatforme som Churnr integrerer med"
-    />
+  <div class="feature humanize">
+  
     <span>
       <p class="benefit">En nem, enkel og automatiseret løsning</p>
 
-      <h2>Problemfri dataintegrering med jeres betalingssystem</h2>
+      <h2>Gør dialogen mere menneskelig</h2>
       <p>
         Vi tager kontakten til jeres kunder på vegne af jer og genvinder fejlede
         abonnementsbetalinger, måned efter måned.
       </p>
+      <router-link to="/contact" class="btn">Book et møde</router-link>
     </span>
+    <img src="../../assets/humanize.jpg" alt="Churnr medarbejder sidder og giver god service til en abonnementskunde.">
   </div>
 </template>
 
 <script>
 export default {
-  name: "featureIntegration",
+  name: "humanize",
   props: {
     msg: String,
   },
@@ -32,19 +31,19 @@ export default {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between !important;
   align-items: center;
   border-top: 1px solid #dcdcdc;
 }
 .feature img {
-  width: 35%;
+  width: 40%;
   box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   border-radius: 5px;
 }
 .feature span {
-  width: 50%;
+  width: 42.5%;
 }
 .feature h2 {
   font-weight: 700;
@@ -56,7 +55,16 @@ export default {
 .feature p {
   line-height: 1.75;
   font-size: 20px;
-  width: 80%;
+  width: 100%;
+}
+
+.feature a {
+  outline: 1px solid black;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 0;
+  color: black;
+  text-decoration: none;
 }
 
 /* Mobile media query */
@@ -67,11 +75,12 @@ export default {
     padding: 150px 25px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column !important;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #dcdcdc;
     border-bottom: 1px solid #dcdcdc;
+    text-align: center;
   }
   .feature img {
     width: 100%;
@@ -83,14 +92,14 @@ export default {
   .feature h2 {
     font-weight: 700;
     line-height: 1.25;
-    font-size: 36px;
+    font-size: 50px;
     letter-spacing: -3px;
     padding: 0px 0 15px 0;
   }
   .feature p {
     line-height: 1.75;
     font-size: 18px;
-    width: 80%;
+    width: 100%;
   }
 }
 </style>

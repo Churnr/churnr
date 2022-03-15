@@ -2,7 +2,9 @@
   <div class="home">
     <hero />
 
-    <div class="feature">
+    <moneyRetained />
+
+    <!-- <div class="feature">
       <img
         src="../assets/graphs.jpg"
         alt="Visualisering af fordelene ved at vælge Churnrs ydelser."
@@ -15,24 +17,26 @@
           jeres kunder, der samtidig vil øge deres livstidsværdi.
         </p>
       </span>
-    </div>
+    </div> -->
 
-    <div class="feature humanize">
+    <div class="feature frustration">
       <span>
-        <p class="benefit">Sig farvel til autogenererede e-mails</p>
-        <h2>Gør dialogen mere menneskelig</h2>
+        <p class="benefit">Kan du genkendende frustrationen?</p>
+        <h2>Betalings problemer fjerner dit fokus</h2>
         <p>
-          Når der opstår uforudsete betalingsfejl, skal dine kunder snakke med
-          rigtige mennesker — ikke med robotter.
+          Der er mange facetter af, at drive en virksomhed - at svare på
+          kundespørgsmål dag efter dag skal ikke være en af dem.
         </p>
       </span>
       <img
-        src="../assets/humanize.jpg"
-        alt="Churnr medarbejder sidder og har menneskelig dialog med abonnementskunder"
+        src="../assets/questions.svg"
+        alt="Frustrerede kunder tager kontakt og stiller spørgsmål omrking betalingsfejl"
       />
     </div>
 
-    <featureIntegration />
+    <cuztomizedSolution />
+
+    <humanize />
     <customers />
 
     <div class="feature partner">
@@ -55,10 +59,18 @@
 
 <script>
 import hero from "../components/home/hero.vue";
-import featureIntegration from "../components/home/featureIntegration.vue";
+import moneyRetained from "../components/home/moneyRetained.vue";
+import cuztomizedSolution from "../components/home/cuztomizedSolution.vue";
+import humanize from "../components/home/humanize.vue";
 import customers from "../components/home/customers.vue";
 export default {
-  components: { hero, featureIntegration, customers },
+  components: {
+    hero,
+    humanize,
+    customers,
+    moneyRetained,
+    cuztomizedSolution,
+  },
   name: "home",
   metaInfo: {
     title: "Churnr får dine kunder til at blive",
@@ -78,7 +90,6 @@ export default {
 </script>
 
 <style scoped>
-
 /* Front page features */
 
 .feature {
@@ -91,14 +102,14 @@ export default {
   align-items: center;
 }
 .feature img {
-  width: 35%;
-  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  width: 55%;
+  /* box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  border-radius: 5px;
+  border-radius: 5px; */
 }
 .feature span {
-  width: 50%;
+  width: 45%;
 }
 .feature h2 {
   font-weight: 700;
@@ -123,10 +134,17 @@ export default {
   border-top: 1px solid #dcdcdc;
 }
 
+.partner img {
+  width: 40%;
+  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  border-radius: 5px;
+}
+
 /* Mobile media query */
 
 @media only screen and (max-width: 728px) {
-  
   /* Front page features */
 
   .feature {
@@ -137,6 +155,7 @@ export default {
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
   }
   .feature img {
     width: 100%;
@@ -146,7 +165,7 @@ export default {
     width: 100%;
   }
   .feature h2 {
-    font-size: 36px;
+    font-size: 50px;
   }
   .feature p {
     line-height: 1.75;
@@ -159,12 +178,18 @@ export default {
     margin-top: 20px;
     border-radius: 0;
   }
-  .humanize {
+  .feature .humanize {
     border-top: 1px solid #dcdcdc;
-    flex-direction: column !important;
+    flex-direction: column-reverse!important;
   }
   .partner {
     flex-direction: column !important;
+  }
+   .frustration {
+    flex-direction: column;
+  }
+   .frustration img{
+    margin-top: 25px;
   }
 }
 </style>
