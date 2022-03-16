@@ -4,7 +4,7 @@
       <p class="benefit">Heldigvis har vi den perfekte løsning</p>
       <h2>Skræddersyet fastholdelse</h2>
       <p>
-        Vi optimerer, rapporterer og kommunikerer løbende for 🤪 høj
+        Vi optimerer, rapporterer og kommunikerer løbende for at skabe højere
         kundefastholdelse.
       </p>
       <img
@@ -51,7 +51,7 @@ export default {
 
 @media only screen and (max-width: 728px) {
   .customizedsolution {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     padding: 125px 0 125px 0;

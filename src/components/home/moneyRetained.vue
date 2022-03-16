@@ -3,7 +3,7 @@
     <section class="retained">
       <p class="benefit">Indtil videre har vi fastholdt</p>
       <h2>11.237,45 DKK</h2>
-      <p>Og vi har en mission om at fastholde 100.000 inden 2023. Neeemt! 😉</p>
+      <p>og vi har en mission om at fastholde 100.000 DKK inden 2023... minimum! 😉</p>
     </section>
   </div>
 </template>
@@ -47,7 +47,7 @@ export default {
   }
 
   .retained {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     padding: 125px 0 125px 0;

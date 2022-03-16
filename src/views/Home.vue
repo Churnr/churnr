@@ -21,7 +21,7 @@
 
     <div class="feature frustration">
       <span>
-        <p class="benefit">Kan du genkendende frustrationen?</p>
+        <p class="benefit">Kan du genkende frustrationen?</p>
         <h2>Betalings problemer fjerner dit fokus</h2>
         <p>
           Der er mange facetter af, at drive en virksomhed - at svare på
@@ -41,8 +41,8 @@
 
     <div class="feature partner">
       <span>
-        <p class="benefit">Teamet der får tingene til at ske</p>
-        <h2>Din nye engagerede samarbejdspartner</h2>
+        <p class="benefit">Churnr får tingene til at ske</p>
+        <h2>Vi står klar til at hjælpe</h2>
         <p>
           Vi er en gruppe passionerede iværksættere med et mål om at minimere
           churn og innovere customer outreach.
