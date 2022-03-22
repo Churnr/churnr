@@ -6,6 +6,7 @@ import about from '../views/about.vue';
 import solution from '../views/solution.vue';
 import cookies from '../views/cookies.vue';
 import privacyPolicy from '../views/privacyPolicy.vue'
+import pricing from '../views/pricing.vue'
 import VueMeta from 'vue-meta'
 
 Vue.use(VueMeta)
@@ -28,6 +29,10 @@ const routes = [{
     {
         path: '/solution',
         component: solution
+    },
+    {
+        path: '/pricing',
+        component: pricing
     },
     {
         path: '/cookies',
