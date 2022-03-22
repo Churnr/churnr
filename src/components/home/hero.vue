@@ -31,13 +31,13 @@ export default {
   text-align: center;
 }
 .hero h1 {
-  font-size: 65px;
+  font-size: 75px;
   line-height: 1.15;
   font-weight: 700;
   color: #2e3540;
   letter-spacing: -2px;
   margin: 0;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 .hero p {

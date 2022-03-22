@@ -95,7 +95,7 @@ export default {
 
 @media only screen and (max-width: 728px) {
   .customers {
-    width: 100%;
+    width: 90%;
   }
   .customers h2 {
     font-size: 50px;
