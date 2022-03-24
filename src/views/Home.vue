@@ -73,7 +73,7 @@ export default {
   },
   name: "home",
   metaInfo: {
-    title: "Churnr får dine kunder til at blive",
+    title: "Churnr: Kundefastholdelse for abonnementsvirksomheder",
     meta: [
       {
         vmid: "description",
