@@ -1,14 +1,29 @@
 <template>
   <div class="nav" :class="scrolled ? 'scroll' : ''">
     <b-navbar toggleable="lg">
-      <b-navbar-brand href="/"><img src="../../assets/churnr-logo.png" alt="Churnr logo"/></b-navbar-brand>
+      <b-navbar-brand href="/"
+        ><img src="../../assets/churnr-logo.png" alt="Churnr logo"
+      /></b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="m-auto">
           <b-nav-item><router-link to="/">Forside</router-link></b-nav-item>
-          <b-nav-item><router-link to="/solution">Vores løsning</router-link></b-nav-item>
+          <b-nav-item-dropdown text="Features" toggle-class="sovs">
+            <b-dropdown-item
+              ><router-link to="/solution"
+                >Vores løsning</router-link
+              ></b-dropdown-item
+            >
+            <b-dropdown-item
+              ><router-link to="/onboarding"
+                >Onboarding</router-link
+              ></b-dropdown-item
+            >
+          </b-nav-item-dropdown>
           <b-nav-item><router-link to="/about">Om os</router-link></b-nav-item>
-          <b-nav-item><router-link to="/contact">Kontakt os</router-link></b-nav-item>
+          <b-nav-item
+            ><router-link to="/contact">Kontakt os</router-link></b-nav-item
+          >
         </b-navbar-nav>
         <router-link to="/contact" class="login-btn">Book et møde</router-link>
       </b-collapse>
@@ -70,7 +85,8 @@ export default {
 }
 .navbar ul li,
 .navbar a {
-  padding: 0 5px;
+  padding: 0;
+  margin: 0 5px;
   color: #333333;
   text-decoration: none;
   font-weight: 500;
@@ -94,6 +110,14 @@ export default {
   box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 5%);
   box-sizing: border-box;
   width: 100%;
+}
+::v-deep .nav-link {
+  opacity: 1;
+  display: inline;
+}
+
+::v-deep .nav-link span {
+  color: #333333;
 }
 
 /* Mobile media query */

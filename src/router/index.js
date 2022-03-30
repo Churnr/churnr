@@ -4,6 +4,7 @@ import home from '../views/home.vue';
 import contact from '../views/contact.vue';
 import about from '../views/about.vue';
 import solution from '../views/solution.vue';
+import onboarding from '../views/onboarding.vue'
 import cookies from '../views/cookies.vue';
 import privacyPolicy from '../views/privacyPolicy.vue'
 import pricing from '../views/pricing.vue'
@@ -29,6 +30,10 @@ const routes = [{
     {
         path: '/solution',
         component: solution
+    },
+    {
+        path: '/onboarding',
+        component: onboarding
     },
     {
         path: '/pricing',
