@@ -16,7 +16,7 @@
         <a href="./brochure.pdf" target="_blank">Hvad er Churnr?</a>
         <router-link to="/privacyPolicy">Privatlivsvilkår</router-link>
         <router-link to="/cookies">Cookiepolitik</router-link>
-        <router-link to="sitemap">Sitemap</router-link>
+        <a href="https://churnr.dk/sitemap">Sitemap</a>
       </div>
       <div class="footer-menu-column">
         <h6>Følg os</h6>

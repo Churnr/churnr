@@ -22,12 +22,11 @@
           Klik på knappen nedenunder og udfyld onboarding formularen<br />—
           herefter kan vi gå i gang med at fastholde kunder
         </p>
-        <router-link
-          to="https://docs.google.com/forms/d/1E9Rim4wz-QGNvfUkJXYeBl2zYoyxPBerey2YA7zYh-Q/edit"
+        <a href="https://docs.google.com/forms/d/1E9Rim4wz-QGNvfUkJXYeBl2zYoyxPBerey2YA7zYh-Q/edit"
           class="btn"
           target="_blank"
           >Udfyld formular<i class="fa-solid fa-arrow-up-right-from-square"></i
-        ></router-link>
+        ></a>
       </div>
     </section>
     <section class="faq">
