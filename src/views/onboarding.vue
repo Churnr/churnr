@@ -5,31 +5,35 @@
         <p class="benefit">Få onboardet din virksomhed uden problemer</p>
         <h1>Kom nemt og hurtigt i gang</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
-          tenetur!
+          Vi har lavet et onboarding flow, der gør det nemt for alle parter at
+          komme i gang
         </p>
       </div>
       <div class="header-images">
-        <img src="../assets/onboarding/onboarding-step-1.jpg" alt="" />
-        <img src="../assets/onboarding/onboarding-step-2.jpg" alt="" />
-        <img src="../assets/onboarding/onboarding-step-3.jpg" alt="" />
+        <img src="../assets/onboarding/onboarding-step-1.png" alt="Første step til at få din virksomhed onboardet med Churnr" />
+        <img src="../assets/onboarding/onboarding-step-2.png" alt="Andet step til at få din virksomhed onboardet med Churnr" />
+        <img src="../assets/onboarding/onboarding-step-3.png" alt="Tredje step til at få din virksomhed onboardet med Churnr" />
       </div>
     </section>
     <section class="call-to-action">
       <div class="call-to-action-inner">
         <h2>Onboard din virksomhed nu</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, saepe.</p>
-        <router-link to="/contact" class="btn">Book et møde <i class="fa-solid fa-up-right-from-square"></i></router-link>
+        <p>
+          Klik på knappen nedenunder og udfyld onboarding formularen<br />—
+          herefter kan vi gå i gang med at fastholde kunder
+        </p>
+        <router-link
+          to="https://docs.google.com/forms/d/1E9Rim4wz-QGNvfUkJXYeBl2zYoyxPBerey2YA7zYh-Q/edit"
+          class="btn"
+          target="_blank"
+          >Udfyld formular<i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></router-link>
       </div>
     </section>
     <section class="faq">
       <div class="faq-text">
-        <p class="benefit">Lorem ipsum dolor sit amet.</p>
-        <h2>Lorem ipsum dolor sit amet consectetur</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
-          sapiente?
-        </p>
+        <p class="benefit">Spørgsmål til formularen? Find svar her</p>
+        <h2>Oftest stillede spørgsmål</h2>
       </div>
 
       <!-- API questions accordions -->
@@ -40,7 +44,7 @@
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
               <b-button block v-b-toggle.accordion-1 variant="info">
-                Hvad er Churnr?
+                Hvad er en API nøgle?
               </b-button>
             </b-card-header>
             <b-collapse
@@ -50,10 +54,10 @@
             >
               <b-card-body>
                 <b-card-text>
-                  Churnr er en virksomhed, som beskæftiger sig med at mindske
-                  den ufrivillige churn rate, hos abonnementsvirksomheder. Det
-                  gør vi ved, at række personligt ud til hver enkelt kunde, og
-                  møde dem i øjenhøjde.
+                  En API-nøgle (Application Programming Interface) er en
+                  personlig kode, som kan bruges til at få to softwareprogrammer
+                  til at “snakke” sammen og udføre forskellige handlinger i
+                  hinandens systemer.
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -62,7 +66,7 @@
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
               <b-button block v-b-toggle.accordion-2 variant="info">
-                Hvem henvender Churnr sig til?
+                Hvorfor skal Churnr have adgang til min API nøgle?
               </b-button>
             </b-card-header>
             <b-collapse
@@ -72,8 +76,10 @@
             >
               <b-card-body>
                 <b-card-text>
-                  Churnr henvender sig på nuværende tidspunkt udelukkende til
-                  abonnementsvirksomheder.
+                  Med vores eget IT-system, kan vi med jeres API nøgle nemt og
+                  enkelt trække data ned over de kunder hvor der er opstået
+                  betalingsfejl. På den måde undgår vi spildtid ved hele tiden
+                  at skulle få genereret udtræk manuelt.
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -82,7 +88,7 @@
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
               <b-button block v-b-toggle.accordion-3 variant="info">
-                Hvor meget koster Churnrs ydelser?
+                Hvad kan Churnr få adgang til med min API nøgle?
               </b-button>
             </b-card-header>
             <b-collapse
@@ -92,9 +98,13 @@
             >
               <b-card-body>
                 <b-card-text>
-                  Prisen for Churnrs ydelser er individuel for alle
-                  virksomheder. Det varierer på baggrund af antal kunder, churn
-                  rate, interne behov mm.
+                  I teorien ville vi kunne få alt data fra jeres betalingssystem
+                  ned i vores eget system. Men ved det indledende onboarding
+                  møde, skriver vi under på et dokument fra Datatilsynet om, at
+                  vi kun trækker de data ud som vi behøver for at fastholde
+                  jeres kunder.<br /><br />Desuden er det kun muligt for os at
+                  læse jeres data. Vi har ikke mulighed for at kunne gå ind og
+                  manipulere med den.
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -109,21 +119,22 @@
         <div class="accordion" role="tablist">
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-1 variant="info">
-                Hvad er Churnr?
+              <b-button block v-b-toggle.accordion-4 variant="info">
+                Hvorfor skal Churnr have sin egen e-mail konto hos os?
               </b-button>
             </b-card-header>
             <b-collapse
-              id="accordion-1"
+              id="accordion-4"
               accordion="my-accordion"
               role="tabpanel"
             >
               <b-card-body>
                 <b-card-text>
-                  Churnr er en virksomhed, som beskæftiger sig med at mindske
-                  den ufrivillige churn rate, hos abonnementsvirksomheder. Det
-                  gør vi ved, at række personligt ud til hver enkelt kunde, og
-                  møde dem i øjenhøjde.
+                  Når du bliver kunde hos Churnr, garanterer vi for at lette
+                  arbejdsbyrden for dig. Derfor skal vi bruge vores egen e-mail
+                  konto fra jeres virksomhed for at kunne overtage
+                  kommunikationen og dialogen til de kunder der fejler på deres
+                  betalinger.
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -131,19 +142,23 @@
 
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-2 variant="info">
-                Hvem henvender Churnr sig til?
+              <b-button block v-b-toggle.accordion-5 variant="info">
+                Hvorfor vil Churnr se vores tidligere e-mail skabeloner?
               </b-button>
             </b-card-header>
             <b-collapse
-              id="accordion-2"
+              id="accordion-5"
               accordion="my-accordion"
               role="tabpanel"
             >
               <b-card-body>
                 <b-card-text>
-                  Churnr henvender sig på nuværende tidspunkt udelukkende til
-                  abonnementsvirksomheder.
+                  Da vi sender mails ud på vegne af jeres virksomhed, skal vi
+                  vide hvilken æstetik der tidligere er blevet brugt, så vi kan
+                  gå ind og matche den bedst muligt. Det handler alt sammen om
+                  at skabe den perfekte mail der reflekterer hvem I er, hvad I
+                  gerne vil afspejle og hvordan I normaltvis plejer at tale til
+                  jeres kunder.
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -151,20 +166,22 @@
 
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-3 variant="info">
-                Hvor meget koster Churnrs ydelser?
+              <b-button block v-b-toggle.accordion-6 variant="info">
+                Hvad skal jeg kalde Churnrs e-mail konto?
               </b-button>
             </b-card-header>
             <b-collapse
-              id="accordion-3"
+              id="accordion-6"
               accordion="my-accordion"
               role="tabpanel"
             >
               <b-card-body>
                 <b-card-text>
-                  Prisen for Churnrs ydelser er individuel for alle
-                  virksomheder. Det varierer på baggrund af antal kunder, churn
-                  rate, interne behov mm.
+                  Det er helt op til dig! Vi anbefaler at bruge navnet på den
+                  kontaktperson du har tilknyttet - eksempelvis
+                  jacob@dinvirksomhed.dk - men du kan også kalde mail kontoen
+                  for support@dinvirksomhed.dk, churn@dinvirksomhed.dk,
+                  dunning@dinvirksomhed.dk.
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -179,21 +196,23 @@
         <div class="accordion" role="tablist">
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-1 variant="info">
-                Hvad er Churnr?
+              <b-button block v-b-toggle.accordion-7 variant="info">
+                Hvorfor skal Churnr integrere med min kommunikationsplatform?
               </b-button>
             </b-card-header>
             <b-collapse
-              id="accordion-1"
+              id="accordion-7"
               accordion="my-accordion"
               role="tabpanel"
             >
               <b-card-body>
                 <b-card-text>
-                  Churnr er en virksomhed, som beskæftiger sig med at mindske
-                  den ufrivillige churn rate, hos abonnementsvirksomheder. Det
-                  gør vi ved, at række personligt ud til hver enkelt kunde, og
-                  møde dem i øjenhøjde.
+                  For at vi kan facilitere tæt og vedvarende kommunikation med
+                  jer, vil vi rigtig gerne blive en del af den
+                  kommunikationsplatform som i allerede benytter jer af. Vi ser
+                  relationen til dig som et partnerskab, så vores samarbejde
+                  skal være nemt, enkelt og tilgængeligt - ligesom hvis
+                  vi var en del af din virksomhed.
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -201,19 +220,24 @@
 
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-2 variant="info">
-                Hvem henvender Churnr sig til?
+              <b-button block v-b-toggle.accordion-8 variant="info">
+                Hvor ofte kan jeg regne med, at Churnr kontakter mig?
               </b-button>
             </b-card-header>
             <b-collapse
-              id="accordion-2"
+              id="accordion-8"
               accordion="my-accordion"
               role="tabpanel"
             >
               <b-card-body>
                 <b-card-text>
-                  Churnr henvender sig på nuværende tidspunkt udelukkende til
-                  abonnementsvirksomheder.
+                  Vi bestræber os på at ajourføre dig mindst en gang om ugen med
+                  en kort status for ugen. Undervejs kan der komme sporadiske
+                  spørgsmål hvis der er noget vi lige skal dobbelttjekke eller
+                  høre jeres mening om. Det er selvfølgelig også en mulighed for
+                  jer altid at kontakte os hvis der er behov, men da alting skal
+                  fungere nemt og smertefrit, bliver I altså ikke overdynget med
+                  beskeder i tide og utide. Det er en Churnr garanti!
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -221,20 +245,18 @@
 
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-3 variant="info">
-                Hvor meget koster Churnrs ydelser?
+              <b-button block v-b-toggle.accordion-9 variant="info">
+                Hvem fra virksomheden er bedst egnet til at være kontaktperson til Churnr?
               </b-button>
             </b-card-header>
             <b-collapse
-              id="accordion-3"
+              id="accordion-9"
               accordion="my-accordion"
               role="tabpanel"
             >
               <b-card-body>
                 <b-card-text>
-                  Prisen for Churnrs ydelser er individuel for alle
-                  virksomheder. Det varierer på baggrund af antal kunder, churn
-                  rate, interne behov mm.
+                  Det er helt op til jer, men vi anbefaler selvfølgelig den person som har bedst styr på virksomhedens churn tal.
                 </b-card-text>
               </b-card-body>
             </b-collapse>
@@ -249,7 +271,7 @@
 export default {
   name: "onboarding",
   metaInfo: {
-    title: "Om os | Churnr",
+    title: "Onboarding | Churnr",
     meta: [
       {
         vmid: "description",
@@ -273,6 +295,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .onboarding .header-text {
   text-align: center;
@@ -284,10 +307,15 @@ export default {
   margin: 15px 0px 25px 0px;
   letter-spacing: -2px;
 }
+.onboarding p {
+  font-size: 20px;
+}
 .onboarding .header-images {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
 }
 .call-to-action {
   width: 100%;
@@ -311,7 +339,9 @@ export default {
 }
 .call-to-action-inner p {
   font-size: 20px;
+  line-height: 1.75;
   margin: 0;
+  margin-bottom: 15px;
   padding: 0;
 }
 .faq {
@@ -338,7 +368,8 @@ export default {
 .accordions h3 {
   font-size: 28px;
   font-weight: 700;
-  padding: 50px 0px;
+  margin: 0;
+  padding: 50px 0px 50px 0px;
 }
 
 .card-header {
@@ -376,6 +407,11 @@ export default {
   font-weight: 500;
   margin-top: 25px !important;
   margin: 0 auto;
+  font-weight: 700;
+}
+.call-to-action-inner .btn i {
+  font-size: 20px;
+  margin-left: 10px;
 }
 .call-to-action-inner .btn:hover {
   background: black;
@@ -385,7 +421,7 @@ export default {
   transform: scale(0.9);
 }
 .header-images img:nth-child(2) {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .header-images img:nth-child(3) {
   transform: scale(0.9);
@@ -394,18 +430,63 @@ export default {
 /* Mobile media query */
 
 @media only screen and (max-width: 728px) {
-  .team {
-    padding: 200px 25px 150px 25px;
+  .onboarding {
+    padding: 225px 0px 150px 0px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .team h1 {
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: -2px;
-    margin-bottom: 100px;
-    color: #2e3540;
+  .onboarding h1 {
+    font-size: 50px;
   }
-  .team-image {
+  .onboarding p {
+    line-height: 1.75;
+  }
+  .onboarding .header-images {
+    grid-row-gap: 75px;
+    grid-template-columns: 1fr;
+  }
+  .onboarding .header-images img {
     width: 100%;
+  }
+  .call-to-action {
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .call-to-action-inner {
+    width: 90%;
+  }
+  .call-to-action-inner h2 {
+    font-size: 50px;
+  }
+  .faq {
+    width: 90%;
+    padding: 100px 0px;
+  }
+  .faq-text h2 {
+    font-size: 50px;
+  }
+
+  .accordions h3 {
+    font-size: 24px;
+  }
+
+  .card-header {
+    width: 100%;
+  }
+  .card-header .btn-info {
+    width: 100%;
+  }
+  .header-images img:nth-child(1) {
+    transform: scale(1);
+  }
+  .header-images img:nth-child(2) {
+    transform: scale(1);
+  }
+  .header-images img:nth-child(3) {
+    transform: scale(1);
   }
 }
 </style>

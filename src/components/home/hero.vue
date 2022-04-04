@@ -1,7 +1,7 @@
 <template>
   <div class="hero" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
     <span>
-      <h1>We got 99 problems, but churn aint one</h1>
+      <h1>We got 99 problems, but churn ain't one</h1>
       <p>
         Alle abonnementsvirksomheder mister kunder pga. betalingsfejl. Lad os hjælpe med at fastholde jeres abonnementskunder.
       </p>

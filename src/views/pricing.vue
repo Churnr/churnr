@@ -62,11 +62,11 @@
 export default {
   name: "pricing",
   metaInfo: {
-    title: "pricing",
+    title: "Priser | Churnr",
     meta: [
       {
         vmid: "description",
-        name: "churnr|pricing",
+        name: "pricing",
         content:
           "Hos Churnr skræddersyer vi en pris, som passer til jeres virksomhed samt respekterer vores arbejdskraft.",
       },

@@ -8,6 +8,13 @@
       </p>
       <div class="customer-ribbon">
         <div class="customer-card">
+          <a href="https://lalatoys.dk/" target="_blank"
+            ><img
+              src="../../assets/customers/lalatoys.png"
+              alt="Logo af samarbejdspartner til Churnr, LalaToys"
+          /></a>
+        </div>
+        <div class="customer-card">
           <a href="https://ideel-kaffe.dk/en/" target="_blank"
             ><img
               src="../../assets/customers/ideelcoffee.png"
@@ -66,7 +73,7 @@ export default {
 
 .customer-ribbon {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 35px;
   justify-items: center;
   align-items: center;
@@ -79,16 +86,13 @@ export default {
   -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 .customer-card img {
-  height: 100%;
+  max-width: 100%;
   padding: 25px 50px;
-}
-.customer-card:nth-of-type(2) {
-  padding: 30px;
-}
-.customer-card:nth-of-type(3) {
-  padding: 15px;
 }
 
 /* Mobile media query */

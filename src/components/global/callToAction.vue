@@ -34,11 +34,12 @@ export default {
 }
 .callToAction-content h1 {
   font-weight: 700;
+  font-size: 50px;
   margin: 0;
 }
 .callToAction-content p {
   padding: 25px 0 35px 0;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   margin: 0;
 }
@@ -49,7 +50,7 @@ export default {
   border: none;
   padding: 15px 30px;
   border-radius: 0;
-  font-weight: 500;
+  font-weight: 700;
 }
 .callToAction-content .btn:hover {
   background: black;

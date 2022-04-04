@@ -99,7 +99,7 @@ export default {
   border: none;
   padding: 10px 20px !important;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700 !important;
   color: white !important;
 }
 .btn:hover {

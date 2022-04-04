@@ -4,21 +4,6 @@
 
     <moneyRetained />
 
-    <!-- <div class="feature">
-      <img
-        src="../assets/graphs.jpg"
-        alt="Visualisering af fordelene ved at vælge Churnrs ydelser."
-      />
-      <span>
-        <p class="benefit">Giv de rigtige opgaver til de rigtige personer</p>
-        <h2>En skræddersyet løsning, der sparer tid og ressourcer</h2>
-        <p>
-          Læn jer tilbage mens vi sørger for en personlig service oplevelse for
-          jeres kunder, der samtidig vil øge deres livstidsværdi.
-        </p>
-      </span>
-    </div> -->
-
     <div class="feature frustration">
       <span>
         <p class="benefit">Kan du genkende frustrationen?</p>

@@ -77,7 +77,7 @@ export default {
 }
 .faq h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
 }
 .faq .accordion {
   margin-top: 100px;

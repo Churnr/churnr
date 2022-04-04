@@ -7,6 +7,7 @@
       <div class="footer-menu-column">
         <h6>Oversigt</h6>
         <router-link to="/solution">Vores løsning</router-link>
+        <router-link to="/onboarding">Onboarding</router-link>
         <router-link to="/about">Om os</router-link>
         <router-link to="/contact">Kontakt</router-link>
       </div>
@@ -15,6 +16,7 @@
         <a href="./brochure.pdf" target="_blank">Hvad er Churnr?</a>
         <router-link to="/privacyPolicy">Privatlivsvilkår</router-link>
         <router-link to="/cookies">Cookiepolitik</router-link>
+        <router-link to="sitemap">Sitemap</router-link>
       </div>
       <div class="footer-menu-column">
         <h6>Følg os</h6>
@@ -77,10 +79,10 @@ footer a {
     row-gap: 50px;
   }
   footer h6 {
-    font-size: 18px;
+    font-size: 20px;
   }
   footer a {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 </style>

@@ -8,29 +8,29 @@ const paths = [{
         changefreq: 'yearly'
     },
     {
-        path: '/#/solution',
+        path: '/solution',
         lastmod: '2022-03-24',
         priority: 0.9,
         changefreq: 'yearly'
     },
     {
-        path: '/#/about',
+        path: '/about',
         lastmod: '2022-03-24',
         priority: 0.9,
         changefreq: 'yearly'
     },
     {
-        path: '/#/contact',
+        path: '/contact',
         lastmod: '2022-03-24',
         priority: 0.9,
         changefreq: 'yearly'
     },{
-        path: '/#/privacyPolicy',
+        path: '/privacyPolicy',
         lastmod: '2022-03-24',
         priority: 0.8,
         changefreq: 'yearly'
     },{
-        path: '/#/cookies',
+        path: '/cookies',
         lastmod: '2022-03-24',
         priority: 0.8,
         changefreq: 'yearly'
@@ -46,7 +46,6 @@ module.exports = {
             })
         ]
     },
-    publicPath: '',
 
     pluginOptions: {
         i18n: {
