@@ -79,9 +79,9 @@ a {
 }
 
 iframe {
-  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
   border-radius: 5px;
 }
 

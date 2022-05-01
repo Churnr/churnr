@@ -75,7 +75,7 @@ export default {
 }
 .navbar {
   width: 1150px !important;
-  height: 85px;
+  height: 100px;
   margin: 0 auto;
   border-bottom: none;
 }
@@ -86,10 +86,11 @@ export default {
 .navbar ul li,
 .navbar a {
   padding: 0;
-  margin: 0 5px;
+  margin: 0 6px;
   color: #333333;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 18px;
 }
 .navbar-brand img {
   height: 25px;

@@ -82,9 +82,9 @@ export default {
   width: 100%;
   height: 200px;
   background: white;
-  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  box-shadow: 10px 10px 30px 0px rgb(17, 17, 17);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0);
   border-radius: 5px;
   display: flex;
   justify-content: center;
