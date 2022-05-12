@@ -1,25 +1,75 @@
 <template>
   <section class="pricing-whole">
-  <section class="pricing-top">
   <section class="pricing-header" data-aos="fade-up" data-aos-duration="1000">
     <div class="pricing-header-content">
       <p class="benefit">Sammensat efter jeres behov</p>
       <h1>Skræddersyet pris</h1>
     </div>
-      <img src="../assets/video-order66.gif" alt="">
   </section>
 
-  <section class="whatprice">
-    <div class="whatprice-text-content">
-      <div class="whatprice2">
-            
+  <section class="pricing-model" data-aos="fade-up" data-aos-duration="1000">
+    <div class="pricing-model-box">
+      <div class="pricing-model-boxleft">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatem corrupti mollitia sapiente quam? Debitis.</p>
+      </div>
+      <div class="pricing-model-boxright">
+        <div class="pricing-model-boxdrop">
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="pricing-model-boxdrop">
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="pricing-model-boxdrop">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
       </div>
     </div>
   </section>
+
+  <section class="pricing-tasks">
+    <div class="pricing-tasks-content">
+      <p class="benefit">Vi vil</p>
+      <h2>Churnr's opgaver</h2>
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+      </ul>
+    </div>
   </section>
 
+  <section class="pricing-benefit">
+    <div class="pricing-benefit-content">
+      <p class="benefit">I får</p>
+      <h2>Churnr's fordele</h2>
+    </div>
+    <div class="pricing-box">
+      <div class="pricing-box-content">
+        <img src="../assets/churnr_flueben.png" alt="">
+        <p>Fastholdt omsætning</p>
+      </div>
+      <div class="pricing-box-content">
+        <img src="../assets/churnr_flueben.png" alt="">
+        <p>Øget lifetime value</p>
+      </div>
+      <div class="pricing-box-content">
+        <img src="../assets/churnr_flueben.png" alt="">
+        <p>Mindsket Arbejdsbyrde</p>
+      </div>
+      <div class="pricing-box-content">
+        <img src="../assets/churnr_flueben.png" alt="">
+        <p>Brand værdi</p>
+      </div>
+    </div>
+  </section> 
+  
+  
+
   <section class=pricing-body>
-    <img src="../assets/fiddling.jpg" alt="">
+    <img src="../assets/churnrs_prismodel.png" alt="">
     <div class=pricing-body-content>
       <p class=benefit>Vi tager</p>
       <h2>Churnrs prismodel</h2>
@@ -31,21 +81,7 @@
   </section>
 
   <section class=pricing-body>
-    <div class=pricing-body-content>
-      <p class="benefit">I får</p>
-      <h2>Churnrs fordele</h2>
-      <ul>
-        <li>Fastholdt omsætning</li>
-        <li>Øget lifetime value</li>
-        <li>Mindsket arbejdsbyrde</li>
-        <li>Brand værdi</li>
-      </ul>
-    </div>
-    <img src="../assets/jyskedollars.jpg" alt="">
-  </section>
-
-  <section class=pricing-body>
-    <img src="../assets/nallerpaamobilen.jpg" alt="">
+    <img src="../assets/churnrs_uforpligtigende_samtale.png" alt="">
     <div class=pricing-body-content>
       <p class=benefit>Lad os tale sammen</p>
       <h2>Uforpligtigende samtale</h2>
@@ -100,33 +136,129 @@ export default {
   width: 1150px;
   z-index: 1;
 }
-  .whatprice {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #f3f6f9;
-  margin-top: -350px;
-  padding-top: 350px;
-  padding-bottom: -50px;
-}
-  .whatprice-text-content {
-  text-align: left !important;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.whatprice-text-content p{
-  width: 100% !important;
-} 
-.whatprice2 {
-  width: 45%;
-}
   
 .benefit{
     padding-top: 20px;
 }
-  
+
+.pricing-model{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-model-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 30px;
+  color: #2e3540;
+  border: 5px solid #2e3540;
+  border-radius: 40px;
+  margin: -150px 0px 150px 0px;
+  width: 1150px;
+}
+
+.pricing-model-boxright{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+}
+
+.pricing-model-boxdrop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #2e3540;
+  border-radius: 10px;
+  padding: 45px 30px;
+}
+
+.pricing-tasks{
+  padding: 125px 0;
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dcdcdc;
+}
+
+.pricing-tasks-content{
+  width: 50%;
+}
+
+.pricing-tasks-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -2px;
+  margin: 0;
+  color: #2e3540;
+  padding: 5px 0 20px 0;
+}
+
+.pricing-tasks-content li {
+  font-size: 20px;
+  line-height: 1.75;
+  width: 100%;
+}
+
+.pricing-benefit{
+  padding: 125px 0;
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dcdcdc;
+}
+
+.pricing-benefit-content{
+  width: 50%;
+  padding: 25px 0;
+}
+
+.pricing-benefit-content h2{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  color: #2e3540;
+  padding: 5px 0 20px 0
+}
+
+.pricing-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
+  width: 100%;
+}
+
+.pricing-box-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 30px;
+  color: #0abf53;
+  border: 3px solid #0abf53;
+  border-radius: 10px;
+}
+
+.pricing-box-content p {
+  margin: 0;
+}
+
+.pricing-box-content img {
+  max-width:25%;
+  margin-bottom: 15px;
+}
   .pricing-body {
   padding: 125px 0;
   width: 1150px;
@@ -156,9 +288,6 @@ export default {
 }
 .pricing-body img {
   width: 35%;
-  box-shadow: 1px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -webkit-box-shadow: 1px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -moz-box-shadow: 1px 0px 30px 1px rgba(173, 216, 230, 0.5);
   border-radius: 5px;
 }
 .pricing-body-content .btn {
