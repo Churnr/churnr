@@ -4,21 +4,6 @@
 
     <moneyRetained />
 
-    <!-- <div class="feature">
-      <img
-        src="../assets/graphs.jpg"
-        alt="Visualisering af fordelene ved at vælge Churnrs ydelser."
-      />
-      <span>
-        <p class="benefit">Giv de rigtige opgaver til de rigtige personer</p>
-        <h2>En skræddersyet løsning, der sparer tid og ressourcer</h2>
-        <p>
-          Læn jer tilbage mens vi sørger for en personlig service oplevelse for
-          jeres kunder, der samtidig vil øge deres livstidsværdi.
-        </p>
-      </span>
-    </div> -->
-
     <div class="feature frustration">
       <span>
         <p class="benefit">Kan du genkende frustrationen?</p>
@@ -136,9 +121,9 @@ export default {
 
 .partner img {
   width: 40%;
-  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
   border-radius: 5px;
 }
 

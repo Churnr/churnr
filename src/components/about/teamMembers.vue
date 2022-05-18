@@ -75,12 +75,14 @@ export default {
 }
 .team-members h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 65px;
+  color: #2E3540;
 }
 .team-members p {
   margin-top: 25px;
   margin-bottom: 75px;
   font-size: 18px;
+  font-size: 20px;
 }
 .team-members-content {
   width: 1150px;
@@ -132,11 +134,6 @@ a:hover {
   line-height: 30px;
   margin: 0;
   padding: 0;
-}
-.member i {
-  margin-top: 25px;
-  color: black;
-  font-size: 30px;
 }
 
 /* Mobile media query */

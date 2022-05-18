@@ -49,6 +49,7 @@ export default {
 .visionAndMission-header-content h2 {
   font-size: 40px;
   font-weight: 700;
+  color: #2E3540;
 }
 .visionAndMission-text-content {
   width: 1150px !important;

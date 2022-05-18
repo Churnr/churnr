@@ -1,7 +1,7 @@
 <template>
   <div class="hero" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
     <span>
-      <h1>We got 99 problems, but churn aint one</h1>
+      <h1>We got 99 problems, but churn ain't one</h1>
       <p>
         Alle abonnementsvirksomheder mister kunder pga. betalingsfejl. Lad os hjælpe med at fastholde jeres abonnementskunder.
       </p>
@@ -79,9 +79,9 @@ a {
 }
 
 iframe {
-  box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -webkit-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
-  -moz-box-shadow: 0px 0px 30px 1px rgba(173, 216, 230, 0.5);
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.15);
   border-radius: 5px;
 }
 
