@@ -17,8 +17,8 @@
     </section>
     <section class="call-to-action">
       <div class="call-to-action-inner">
-        <h2>Onboard din virksomhed nu</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, saepe.</p>
+        <h2>Onboard din virksomhed nu,</h2>
+        <p>og hør hvordan vi sammen kan bekæmpe din virksomheds churn.</p>
         <router-link to="/contact" class="btn">Book et møde <i class="fa-solid fa-up-right-from-square"></i></router-link>
       </div>
     </section>
@@ -292,7 +292,7 @@ export default {
 .call-to-action {
   width: 100%;
   padding: 150px 0px;
-  background-color: #f2f6f9;
+  background-color: #0abf53;
 }
 .call-to-action-inner {
   width: 1150px;
@@ -314,6 +314,7 @@ export default {
   margin: 0;
   padding: 0;
 }
+
 .faq {
   width: 1150px;
   margin: 0 auto;

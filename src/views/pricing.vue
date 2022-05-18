@@ -6,21 +6,23 @@
       <h1>Skræddersyet pris</h1>
     </div>
   </section>
+  
 
   <section class="pricing-model" data-aos="fade-up" data-aos-duration="1000">
     <div class="pricing-model-box">
       <div class="pricing-model-boxleft">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatem corrupti mollitia sapiente quam? Debitis.</p>
+        <p>Grunden til at du er nået hertil, er sikkert fordi du har mistet omsætning på grund af fejlslagne betalinger. Du har måske også mistet forstanden af det.</p>
+        <p>Med en garanteret effekt, som bevist med vores nuværende kunder, vedvi med sikkerhed hvordan vi skal hjælpe dig.</p>
       </div>
       <div class="pricing-model-boxright">
         <div class="pricing-model-boxdrop">
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Én pris, som vi finder sammen.</p>
         </div>
         <div class="pricing-model-boxdrop">
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p>Fuld transparenthed. Dvs. er der aldrig vil forekomme ekstra gebyrer, medmindre aftalt på forhånd.</p>
         </div>
         <div class="pricing-model-boxdrop">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <p>Vi tager den fulde risiko i den første måned.</p>
         </div>
       </div>
     </div>
@@ -247,7 +249,7 @@ export default {
   align-items: center;
   padding: 45px 30px;
   color: #0abf53;
-  border: 3px solid #0abf53;
+  border: 3px solid #2e3540;
   border-radius: 10px;
 }
 
